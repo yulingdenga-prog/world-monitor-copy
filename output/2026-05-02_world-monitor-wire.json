@@ -1,5 +1,5 @@
 ﻿{
-    "generatedAt":  "2026-05-02T07:36:33.5611021Z",
+    "generatedAt":  "2026-05-02T10:08:39.1830732Z",
     "timezone":  "Asia/Shanghai",
     "sources":  [
                     {
@@ -506,44 +506,14 @@
                                     ]
                   },
                   {
-                      "id":  "lgit3v9dkymzkjo",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "马六甲海峡：美军舰艇通过关键能源通道",
-                      "description":  "马六甲海峡是中国和东亚能源运输的关键通道。WIRE 信息显示，两艘美国海军舰艇通过该水道，而该区域也被视为伊朗影子船队油品运输的通道之一。对中国周边观察来说，马六甲的军事存在变化始终值得关注。",
-                      "rawSummary":  "Two U.S. Navy warships transit Malacca Strait, a known corridor for Iran shadow fleet oil smuggling",
-                      "analysis":  "Two U.S. Navy warships were tracked moving west through the Malacca Strait. The strait is a known route for Iran\u0027s shadow fleet oil smuggling operations. The transit underscores U.S. naval presence in a strategic chokepoint for global trade and illicit shipping.",
-                      "link":  "",
-                      "pubDate":  "2026-05-01T08:47:42.2080000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Malacca Strait",
-                      "country":  "Malaysia/Indonesia",
-                      "categoryId":  "china-neighborhood",
-                      "categoryName":  "中国及周边观察",
-                      "intensity":  1,
-                      "mentionCount":  1,
-                      "firstSeenAt":  "2026-05-01T08:47:42.208Z",
-                      "lastMentionedAt":  "2026-05-01T08:47:42.208Z",
-                      "processedAt":  "2026-05-01 08:47:42.235Z",
-                      "lastChangeType":  "created",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 1, morning",
-                                            "point":  "Two U.S. Navy warships moved west through the Malacca Strait, a known corridor for Iran\u0027s shadow fleet oil smuggling.",
-                                            "timestamp":  "2026-05-01T08:05:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
                       "id":  "a5umodhco65h6be",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "霍尔木兹海峡：封锁僵局继续推高能源与航运压力",
                       "description":  "美国海上封锁仍在持续，伊朗方面拒绝把核谈判与重新开放通道直接绑定。WIRE 信息显示，英国海军确认战争爆发以来相关船舶通行量已大幅下降，布伦特原油价格仍处在高位。能源、航运和外交谈判正在相互牵动，这是今天最值得关注的全球风险点。",
-                      "rawSummary":  "Iran claims the Strait of Hormuz as its right and not an international waterway, while the U.S. blockade has reduced maritime traffic by over 90% and Washington warns shippers that paying Iranian tolls risks sanctions, amid soaring oil prices and international pressure.",
-                      "analysis":  "Iran has officially claimed that the Strait of Hormuz is not an international waterway but an Iranian right, rejecting the longstanding international legal framework that treats it as a vital global passage. This assertion follows weeks of Iranian-imposed transit tolls, vessel seizures, and mining operations that have brought maritime traffic to less than 10% of pre-war levels, as reported by MarineTraffic.com. The U.S. blockade continues to interdict vessels traveling to and from Iranian ports, with 42 vessels turned back so far, but has not yet forced Iran to change its negotiating position. The U.S. has also begun warning shippers that paying Iran\u0027s transit tolls for passage through the strait risks sanctions, adding a new layer of economic pressure. Tensions have escalated further as President Trump rejected an Iranian proposal to reopen the strait, while European allies signal readiness for military intervention if conditions are met, and economic consequences remain severe, with Brent crude surging above $119 per barrel and warnings of global food inflation due to disrupted fertilizer shipments.",
+                      "rawSummary":  "Amid Iran\u0027s claim that the Strait of Hormuz is not an international waterway, President Trump accused adversaries of attempting to disrupt global trade by threatening closure, while the U.S. blockade keeps maritime traffic to less than 10% of pre-war levels and economic impacts escalate.",
+                      "analysis":  "Iran has officially claimed that the Strait of Hormuz is not an international waterway but an Iranian right, rejecting the longstanding international legal framework that treats it as a vital global passage. President Trump accused adversaries of attempting to disrupt global trade by threatening closure of the strait, as Iran continues to impose transit tolls and seize vessels, and daily traffic remains below 10% of pre-war levels according to MarineTraffic.com and the British Navy\u0027s report of a 90% drop. The U.S. blockade has turned back 42 vessels traveling to and from Iranian ports, and Trump has rejected an Iranian proposal to reopen the strait, instead warning shippers that paying Iranian tolls risks sanctions. European allies, including Germany, have signaled readiness for military intervention to restore freedom of navigation if conditions are met. Economic pressure has intensified, with Brent crude above $119 per barrel and disruptions to fertilizer shipments raising global food inflation concerns.",
                       "link":  "",
-                      "pubDate":  "2026-05-01T15:48:09.1670000Z",
+                      "pubDate":  "2026-05-02T09:16:36.1800000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
@@ -552,10 +522,10 @@
                       "categoryId":  "middle-east",
                       "categoryName":  "中东局势与能源冲击",
                       "intensity":  5,
-                      "mentionCount":  1279,
+                      "mentionCount":  1280,
                       "firstSeenAt":  "2026-02-25T17:01:14.544Z",
-                      "lastMentionedAt":  "2026-05-01T15:48:09.167Z",
-                      "processedAt":  "2026-05-01 15:52:07.649Z",
+                      "lastMentionedAt":  "2026-05-02T09:16:36.180Z",
+                      "processedAt":  "2026-05-02 09:20:32.492Z",
                       "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
@@ -927,6 +897,11 @@
                                             "date":  "May 1, afternoon",
                                             "point":  "The U.S. warns shippers that paying tolls for passage through the Strait of Hormuz risks sanctions.",
                                             "timestamp":  "2026-05-01T15:18:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, morning",
+                                            "point":  "President Trump accused adversaries of attempting to disrupt global trade by threatening closure of the Strait of Hormuz.",
+                                            "timestamp":  "2026-05-02T09:02:00.000Z"
                                         }
                                     ]
                   },
@@ -935,10 +910,10 @@
                       "sourceKind":  "world-monitor-wire",
                       "title":  "伊朗战局：美方宣称敌对行动终止，但军事压力并未消失",
                       "description":  "尽管美国以战争权力程序为由声称敌对状态已经结束，WIRE 信息显示，海上封锁仍在继续冲击伊朗经济，美方也仍在讨论潜在的进一步军事选项。与此同时，伊朗内部路线分歧和强硬表态交织，使局势离真正降温仍有距离。",
-                      "rawSummary":  "Amid a deadlocked U.S.-Iran confrontation, the naval blockade is devastating Iran\u0027s economy while military planning continues and ripple effects now threaten U.S. industries including aviation.",
-                      "analysis":  "The U.S. naval blockade has devastated Iran\u0027s economy, with oil storage nearing capacity, the rial at record lows, and the UAE issuing an urgent travel ban. President Trump, briefed on military options including a potential \"final blow\" strike package, has repeatedly expressed dissatisfaction with Iran\u0027s negotiating stance, and the White House confirmed that a fresh proposal on May 2 was still unsatisfactory. Iranian leaders remain defiant, with Supreme Leader Mojtaba Khamenei vowing to sink American ships and Parliament Speaker Ghalibaf mocking the blockade, while the Washington Post reported that the security establishment rejects compromise on enrichment, and Iran exploits the ceasefire to recover hidden missile launchers and drones. The war\u0027s economic toll extends to the U.S., with surging jet fuel prices derailing Spirit Airlines\u0027 attempt to emerge from bankruptcy and costing the airline millions weekly. A Washington Post-ABC-Ipsos poll found 61% of Americans now see the war as a mistake, even as the administration claims hostilities have terminated for War Powers Resolution purposes, though the blockade continues and military options remain open.",
+                      "rawSummary":  "The U.S. naval blockade continues to devastate Iran\u0027s economy, while diplomatic talks remain deadlocked and both sides weigh military options; strikes have also reportedly disrupted IRGC-linked cryptocurrency mining, temporarily easing Iran\u0027s power shortages.",
+                      "analysis":  "The U.S. naval blockade has devastated Iran\u0027s economy, with oil storage nearing capacity, the rial at record lows, and the UAE issuing an urgent travel ban. President Trump, briefed on military options including a potential \"final blow\" strike package, has repeatedly expressed dissatisfaction with Iran\u0027s negotiating stance, and the White House confirmed that a fresh proposal on May 2 was still unsatisfactory. Iranian leaders remain defiant, with Supreme Leader Mojtaba Khamenei vowing to sink American ships and Parliament Speaker Ghalibaf mocking the blockade, while the Washington Post reported that the security establishment rejects compromise on enrichment, and Iran exploits the ceasefire to recover hidden missile launchers and drones. The war\u0027s economic toll extends to the U.S., with surging jet fuel prices derailing Spirit Airlines\u0027 attempt to emerge from bankruptcy and costing the airline millions weekly. A Washington Post-ABC-Ipsos poll found 61% of Americans now see the war as a mistake, even as the administration claims hostilities have terminated for War Powers Resolution purposes, though the blockade continues and military options remain open. Separately, the IRGC-linked cryptocurrency mining operations that had been draining Iran\u0027s power grid and causing blackouts were disrupted by strikes, leading to a temporary stabilization of electricity supply and even surplus power.",
                       "link":  "",
-                      "pubDate":  "2026-05-02T03:45:57.9550000Z",
+                      "pubDate":  "2026-05-02T08:01:35.1440000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
@@ -947,10 +922,10 @@
                       "categoryId":  "middle-east",
                       "categoryName":  "中东局势与能源冲击",
                       "intensity":  5,
-                      "mentionCount":  1221,
+                      "mentionCount":  1222,
                       "firstSeenAt":  "2026-02-24T22:08:39.965Z",
-                      "lastMentionedAt":  "2026-05-02T03:45:57.955Z",
-                      "processedAt":  "2026-05-02 03:50:28.618Z",
+                      "lastMentionedAt":  "2026-05-02T08:01:35.144Z",
+                      "processedAt":  "2026-05-02 08:06:57.235Z",
                       "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
@@ -1502,6 +1477,11 @@
                                             "date":  "May 2, morning",
                                             "point":  "Surging jet fuel prices amid the Iran conflict have derailed Spirit Airlines\u0027 attempt to emerge from bankruptcy, costing the airline an additional $10–15 million per week in fuel expenses.",
                                             "timestamp":  "2026-05-02T03:28:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, late morning",
+                                            "point":  "Strikes disrupted IRGC-linked cryptocurrency mining operations, which had been a major driver of Iran\u0027s power blackouts; the reduction in mining demand led to temporary stabilization of the electricity grid and surplus power.",
+                                            "timestamp":  "2026-05-02T07:51:00.000Z"
                                         }
                                     ]
                   },
@@ -3141,211 +3121,6 @@
                                     ]
                   },
                   {
-                      "id":  "thjm8iyj0vtaalw",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "乌克兰：俄军大规模无人机袭击凸显战场消耗升级",
-                      "description":  "俄军夜间发动大规模无人机袭击，WIRE 信息显示单次出动规模达到 206 架。与此同时，地面战斗和外部军援继续推进，乌方获得包括 F-16 模拟器和资金释放在内的新支持。战场正在继续向远程打击和防空消耗倾斜。",
-                      "rawSummary":  "Russian drone attacks surged to 409 drones overnight as Ukraine continued long-range strikes on Russian oil infrastructure and aircraft, with no confirmed frontline advances and diplomatic efforts showing no immediate breakthrough.",
-                      "analysis":  "Russian drone attacks on Ukraine intensified sharply overnight with 409 drones launched, a dramatic escalation from previous waves, while Ukrainian forces persisted with long-range strikes against Russian oil infrastructure, hitting the Tuapse refinery for the fourth time since April 1 and striking several Russian aircraft up to 1,676 kilometers from the border. The Ukrainian General Staff reported that these strikes have driven Russian refinery output to its lowest average since December 2009. No confirmed frontline advances were recorded by either side in the latest period, following earlier Ukrainian gains in multiple directions. On the diplomatic track, Dmitry Medvedev reiterated Moscow’s commitment to maximalist war aims shortly after Trump’s outreach, underscoring the gap between diplomacy and conflict, even as the U.S. released $400 million in aid and Ukraine received its first mobile F-16 simulators.",
-                      "link":  "",
-                      "pubDate":  "2026-05-02T02:17:32.8420000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Ukraine (nationwide drone attack)",
-                      "country":  "Ukraine",
-                      "categoryId":  "europe-security",
-                      "categoryName":  "俄乌战争与欧洲安全",
-                      "intensity":  5,
-                      "mentionCount":  62,
-                      "firstSeenAt":  "2026-04-07T12:31:08.697Z",
-                      "lastMentionedAt":  "2026-05-02T02:17:32.842Z",
-                      "processedAt":  "2026-05-02 02:20:21.233Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "Apr 25, morning",
-                                            "point":  "Footage shows a Ukrainian air defense gunner shooting down a Russian Shahed attack drone at near point-blank range using an M2 Browning .50 caliber heavy machine gun.",
-                                            "timestamp":  "2026-04-25T08:39:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25, morning",
-                                            "point":  "Seven killed in a major Russian attack on Ukraine; British RAF Typhoons were scrambled from Romania after drones were detected near the border, but the UK Ministry of Defence stated they did not engage any drones or enter Ukrainian airspace.",
-                                            "timestamp":  "2026-04-25T10:35:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25, afternoon",
-                                            "point":  "Updated reports confirmed 6 dead and 30 injured in the major Russian attack on Ukraine, revising earlier initial reports of 7 fatalities.",
-                                            "timestamp":  "2026-04-25T15:50:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, afternoon",
-                                            "point":  "President Trump held two calls with Russia\u0027s Putin and Ukraine\u0027s Zelensky, working on settling the Ukraine conflict.",
-                                            "timestamp":  "2026-04-26T16:33:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, evening",
-                                            "point":  "Russian forces launched 144 drones toward Ukraine overnight, causing casualties and infrastructure damage, while Ukrainian long-range strikes continued to damage Russian oil infrastructure and military assets.",
-                                            "timestamp":  "2026-04-26T22:43:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, evening",
-                                            "point":  "Russian forces recently advanced in the Oleksandrivka direction.",
-                                            "timestamp":  "2026-04-26T22:43:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, night",
-                                            "point":  "Finnish President Stubb stated that Ukraine has killed or wounded 30,000–35,000 Russian soldiers per month in the past four months, 95% with drones, at a ratio of one Ukrainian dead to five Russians dead.",
-                                            "timestamp":  "2026-04-26T23:41:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27",
-                                            "point":  "Iranian Foreign Minister Abbas Araghchi met with Russian President Putin in St. Petersburg, emphasizing the importance of Russian-Iranian strategic relations.",
-                                            "timestamp":  "2026-04-28T00:47:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, early morning",
-                                            "point":  "The Russian Ministry of Defense issued a response to concerns about recruitment for the Unmanned Systems Forces, which reportedly attempted to fill quotas using Russian university students.",
-                                            "timestamp":  "2026-04-28T00:47:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, early morning",
-                                            "point":  "Senior Russian officials reiterated territorial goals in Ukraine beyond demands for withdrawal from Donetsk Oblast.",
-                                            "timestamp":  "2026-04-28T00:47:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, early morning",
-                                            "point":  "Russian forces launched 94 drones toward Ukraine overnight.",
-                                            "timestamp":  "2026-04-28T00:47:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, early morning",
-                                            "point":  "Ukrainian forces struck the Tuapse Oil Refinery, marking the third strike on this facility in April; the Kremlin acknowledged the impacts of the strikes.",
-                                            "timestamp":  "2026-04-28T22:36:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, early morning",
-                                            "point":  "Ukrainian forces recently advanced in the Kharkiv and Orikhiv directions.",
-                                            "timestamp":  "2026-04-28T22:36:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, early morning",
-                                            "point":  "Russian forces launched 123 drones toward Ukraine overnight, according to a later assessment.",
-                                            "timestamp":  "2026-04-28T22:36:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "A Ukrainian long-range ISR drone struck Russian helicopters that had landed in a vulnerable position, hitting them quickly.",
-                                            "timestamp":  "2026-04-29T17:51:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "Trump stated he suggested a ceasefire to Putin and believes Putin might accept it.",
-                                            "timestamp":  "2026-04-29T18:22:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "Trump claimed that Putin was ready to make a deal on Ukraine a while ago but \u0027some people\u0027 made it difficult for him.",
-                                            "timestamp":  "2026-04-29T18:24:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "Trump said he had a \u0027very good conversation\u0027 with Putin about both Iran and Ukraine, with Putin expressing interest in helping with Iran\u0027s uranium enrichment, but Trump replied he would prefer Putin focus on ending the Ukraine war.",
-                                            "timestamp":  "2026-04-29T18:43:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "Trump stated he believes Putin will soon announce a ceasefire with Ukraine.",
-                                            "timestamp":  "2026-04-29T18:47:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "Russian forces launched 171 drones toward Ukraine overnight, continuing large-scale aerial attacks.",
-                                            "timestamp":  "2026-04-30T00:39:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "Putin used the April 29 phone call with Trump to reiterate his commitment to original war aims and falsely present Ukraine\u0027s defenses as collapsing.",
-                                            "timestamp":  "2026-04-30T00:39:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "The Kremlin reportedly used the Trump-Putin call to criticize US-Israeli operations against Iran.",
-                                            "timestamp":  "2026-04-30T00:39:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "Russia downgraded the festivities for its annual May 9 Victory Day parade for another year amid war strain.",
-                                            "timestamp":  "2026-04-30T00:39:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "Ukrainian forces advanced in the Kostyantynivka-Druzhkivka tactical area, western Zaporizhia Oblast, and in the Pokrovsk, Oleksandrivka, and Hulyaipole directions.",
-                                            "timestamp":  "2026-04-30T00:39:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, afternoon",
-                                            "point":  "Footage showed a Ukrainian loitering munition striking a minibus possibly used by Russian soldiers at a road checkpoint.",
-                                            "timestamp":  "2026-04-30T17:31:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1",
-                                            "point":  "Russian Security Council Deputy Chairperson Dmitry Medvedev emphasized Russia’s commitment to its war aims and claimed an existential conflict with the West immediately after Trump\u0027s call with Putin.",
-                                            "timestamp":  "2026-05-01T00:05:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1",
-                                            "point":  "The United States released a previously authorized $400 million in funds for Ukraine.",
-                                            "timestamp":  "2026-05-01T00:05:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1",
-                                            "point":  "Ukraine received its first mobile F-16 fighter jet flight simulators.",
-                                            "timestamp":  "2026-05-01T00:05:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1",
-                                            "point":  "Ukrainian forces recently advanced in the Slovyansk and Kostyantynivka directions.",
-                                            "timestamp":  "2026-05-01T00:05:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1",
-                                            "point":  "Russian forces launched 206 drones toward Ukraine overnight.",
-                                            "timestamp":  "2026-05-01T00:05:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, early morning",
-                                            "point":  "Footage showed a Ukrainian sniper firing and hitting two Russian soldiers in the field.",
-                                            "timestamp":  "2026-05-01T02:06:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, early morning",
-                                            "point":  "Russian forces launched 409 drones toward Ukraine overnight.",
-                                            "timestamp":  "2026-05-02T02:12:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, early morning",
-                                            "point":  "Ukrainian forces struck Russian oil infrastructure in Krasnodar and Perm krais and Orenburg Oblast between April 29 and May 1, including a fourth strike on the Tuapse Oil Refinery since April 1.",
-                                            "timestamp":  "2026-05-02T02:12:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, early morning",
-                                            "point":  "The Ukrainian General Staff confirmed that Ukrainian forces recently struck several Russian aircraft up to 1,676 kilometers from the international border.",
-                                            "timestamp":  "2026-05-02T02:12:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, early morning",
-                                            "point":  "Ukrainian strikes on Russian oil infrastructure degraded the average output of Russian oil refineries to their lowest level since December 2009.",
-                                            "timestamp":  "2026-05-02T02:12:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, early morning",
-                                            "point":  "Neither Russian nor Ukrainian forces made confirmed advances on the frontline.",
-                                            "timestamp":  "2026-05-02T02:12:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
                       "id":  "i0649llzogfk4r8",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "加沙：海上拦截与陆上限制并行，人道空间继续收缩",
@@ -3526,6 +3301,261 @@
                                     ]
                   },
                   {
+                      "id":  "0axkqd97q0r5g4y",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "马里首都巴马科：安全压力、物资短缺和通胀风险叠加",
+                      "description":  "马里安全形势继续恶化。WIRE 信息显示，近期袭击造成高层伤亡后，巴马科面临围困压力和国际撤离提醒；与此同时，能源和物资紧张可能进一步加剧停电、短缺与通胀问题。",
+                      "rawSummary":  "Following the April 25 coordinated attacks, Bamako remains under JNIM’s declared siege amid Russian military withdrawal and Malian accusations of betrayal, while Foreign Minister Abdoulaye Diop on May 2 asserted government strength and labeled the offensive a foreign-backed proxy war.",
+                      "analysis":  "The April 25 coordinated assault by JNIM and the FLA struck Bamako, Kati, Gao, and Sévaré, and the assassination of Defense Minister General Sadio Camara via a VBIED that also killed civilians removed a key junta military figure. Malian officials subsequently accused Russian mercenary forces of betrayal, alleging they made deals with rebels and withdrew from urban centers despite security-for-mining promises, while Russia’s Defense Ministry countered that its Africa Corps helped stop the attack, claiming about 2,500 attackers killed and alleging Ukrainian and European training. International aviation warnings, a U.S. embassy shelter-in-place, and France’s urgent evacuation advisory underscored the security vacuum, while JNIM declared a “total siege” of Bamako and consolidated control in the north with Tuareg allies, contrasting sharply with Russian claims of having repelled the offensive. The siege is unfolding alongside the Iran war, expected to deepen Bamako’s shortages, blackouts, and inflation reminiscent of the 2025 blockade, as security forces remain paralyzed and the junta’s authority erodes. On May 2, Mali’s Foreign Minister Abdoulaye Diop rejected comparisons to Syria or Afghanistan, asserted that the armed forces “are not trembling,” and attributed the attacks to a “proxy war” involving external drones and resources, a statement that reflects the junta’s effort to control the narrative amid the contested crisis.",
+                      "link":  "",
+                      "pubDate":  "2026-05-02T07:31:36.7250000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Bamako",
+                      "country":  "Mali",
+                      "categoryId":  "africa-security",
+                      "categoryName":  "非洲安全与政局风险",
+                      "intensity":  5,
+                      "mentionCount":  23,
+                      "firstSeenAt":  "2026-04-25T10:15:56.370Z",
+                      "lastMentionedAt":  "2026-05-02T07:31:36.725Z",
+                      "processedAt":  "2026-05-02 07:33:21.687Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "Apr 25, early morning",
+                                            "point":  "JNIM and FLA launch coordinated attacks on multiple military positions across Mali, including Bamako, Kati, Gao, and Sévaré.",
+                                            "timestamp":  "2026-04-25T09:35:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, morning",
+                                            "point":  "Heavy gunfire reported near Bamako\u0027s international airport and in Gao and Kati as armed groups advance.",
+                                            "timestamp":  "2026-04-25T09:41:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, morning",
+                                            "point":  "Militants enter Kati without opposition, threatening the northwest approach to Bamako.",
+                                            "timestamp":  "2026-04-25T10:01:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, morning",
+                                            "point":  "Large numbers of militants observed entering Bamako, with reports of Malian Army and Africa Corps defensive collapse.",
+                                            "timestamp":  "2026-04-25T09:46:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, late morning",
+                                            "point":  "U.S. Embassy issues shelter-in-place warning for American citizens in Mali amid escalating violence.",
+                                            "timestamp":  "2026-04-25T10:24:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, late morning",
+                                            "point":  "Jihadist militants capture checkpoints and other positions of the Malian Army and Russia\u0027s Africa Corps north of Bamako.",
+                                            "timestamp":  "2026-04-25T10:31:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, late morning",
+                                            "point":  "A JNIM convoy is observed moving south through Kati, with small-scale clashes reported against Malian and Russian forces in the area.",
+                                            "timestamp":  "2026-04-25T11:24:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, late morning",
+                                            "point":  "A major car bomb detonates in front of the residence of Mali\u0027s Defense Minister General Sadio Camara in Kati.",
+                                            "timestamp":  "2026-04-25T11:41:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, afternoon",
+                                            "point":  "Malian Army releases communiqués asserting the situation is under control, and national TV urges citizens to stay calm and not record or share incidents.",
+                                            "timestamp":  "2026-04-25T14:33:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, late afternoon",
+                                            "point":  "French aviation authority issues NOTAM banning French airlines from landing at Bamako airport and requiring high-altitude overflights until 27 April.",
+                                            "timestamp":  "2026-04-25T15:12:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, evening",
+                                            "point":  "JNIM releases a statement claiming the capture of key urban centers and warns Russia that if it withdraws Africa Corps, Russian positions will not be targeted.",
+                                            "timestamp":  "2026-04-25T18:38:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, morning",
+                                            "point":  "Mali\u0027s Defence Minister Sadio Camara is confirmed killed following the previous day\u0027s VBIED attack on his residence.",
+                                            "timestamp":  "2026-04-26T11:26:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, evening",
+                                            "point":  "Malian government officially confirms the death of Defense Minister General Sadio Camara in the VBIED attack, removing any ambiguity about the junta\u0027s leadership loss.",
+                                            "timestamp":  "2026-04-26T20:37:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, evening",
+                                            "point":  "Reports confirm that civilians were killed in the jihadist car bomb attack on the residence of Defense Minister Camara, escalating the human cost of the offensive.",
+                                            "timestamp":  "2026-04-26T21:13:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, night",
+                                            "point":  "Reports emerge that the Russian Africa Corps has begun abandoning its Malian allies, withdrawing from the conflict amid the ongoing offensive.",
+                                            "timestamp":  "2026-04-26T21:40:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 27, evening",
+                                            "point":  "Malian officials accuse Russian mercenary forces of betrayal, alleging they made deals with rebel forces and withdrew from key cities and towns, reneging on security guarantees for mining rights.",
+                                            "timestamp":  "2026-04-27T21:44:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28, morning",
+                                            "point":  "Kremlin spokesman Dmitry Peskov, asked by AFP about the whereabouts of Mali\u0027s president, responds \u0027That\u0027s something you need to ask in Mali.\u0027",
+                                            "timestamp":  "2026-04-28T09:37:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28, late morning",
+                                            "point":  "Russia\u0027s Defense Ministry claims that the Africa Corps helped stop the April 25 attack, with around 2,500 attackers killed, and alleges the fighters were trained by Ukrainian and European instructors.",
+                                            "timestamp":  "2026-04-28T11:31:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28, afternoon",
+                                            "point":  "JNIM claims responsibility for killing Defense Minister Sadio Camara and destroying military infrastructure around Bamako, and its spokesman announces the start of a \u0027total siege\u0027 of the capital.",
+                                            "timestamp":  "2026-04-28T14:38:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29, morning",
+                                            "point":  "France urges its citizens to leave Mali immediately, calling the situation \u0027extremely volatile\u0027 in the wake of the April 25 coordinated attacks.",
+                                            "timestamp":  "2026-04-29T09:27:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1",
+                                            "point":  "JNIM and Tuareg rebel allies are consolidating control over northern Mali and maintaining a siege on Bamako as part of efforts to topple the junta.",
+                                            "timestamp":  "2026-05-01T12:39:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, morning",
+                                            "point":  "Mali’s Foreign Minister Abdoulaye Diop dismisses comparisons to Syria or Afghanistan, asserts the armed forces are not trembling, and calls the attacks a \u0027proxy war\u0027 involving external drones and resources.",
+                                            "timestamp":  "2026-05-02T06:57:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "ge7l6nbxmy4uzqx",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "英国伦敦：犹太机构安全警戒升高",
+                      "description":  "伦敦犹太机构仍处于较高威胁环境中。WIRE 信息显示，此前纵火未遂和 Golders Green 袭击事件后，相关嫌疑人已被起诉，英国恐怖主义威胁级别也被上调。宗教场所安全正在成为英国国内安全议题。",
+                      "rawSummary":  "Following an attempted arson at Kenton United Synagogue in April, a broader series of attacks on Jewish targets in London has unfolded, prompting multiple arrests, a severe terror threat level, and a U.S. Embassy alert advising Americans to remain vigilant.",
+                      "analysis":  "The attempted arson at Kenton United Synagogue in April led to two arrests and a broader counter-terrorism sweep of eight suspects over alleged Iran-linked plots. A knife attack in Golders Green on April 29 left two Jewish men wounded, and Harakat Ashab al-Yamin al-Islamia claimed responsibility; the group has previously targeted Jewish communities across Western Europe. The attacker, Essa Suleiman, a 45-year-old British national born in Somalia, was already known to the Prevent radicalisation programme, and on May 1 he was charged with two counts of attempted murder. The UK raised its terrorism threat level to \u0027severe\u0027 on April 30, with officials warning further attacks are highly likely; the U.S. Embassy in London subsequently stated that the increase is driven by a rise in both Islamist and extreme right-wing terrorist threats, and on May 1 the embassy released an alert warning Americans to stay alert, reiterating the high likelihood of an attack. Separately, Abdullah Albadri, who arrived in the UK by small boat 16 days earlier, was found guilty of preparing an attack on the Israeli Embassy after being caught with two knives attempting to climb into the embassy; he had previously been deported from the UK. This sequence of events underscores an ongoing acute risk to Jewish institutions in London, including the previously targeted synagogue and diplomatic premises.",
+                      "link":  "",
+                      "pubDate":  "2026-05-01T22:47:08.8040000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Kenton United Synagogue, London",
+                      "country":  "United Kingdom",
+                      "categoryId":  "domestic-security",
+                      "categoryName":  "社会安全与国内政治",
+                      "intensity":  4,
+                      "mentionCount":  36,
+                      "firstSeenAt":  "2026-04-20T11:31:37.154Z",
+                      "lastMentionedAt":  "2026-05-01T22:47:08.804Z",
+                      "processedAt":  "2026-05-01 22:48:34.063Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "Apr 20",
+                                            "point":  "British police arrested a 17-year-old boy and a 19-year-old man over an attempted arson attack on the Kenton United Synagogue in northwest London.",
+                                            "timestamp":  "2026-04-20T11:11:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 21, afternoon",
+                                            "point":  "British counter-terrorism police arrested eight individuals linked to a series of targeted attacks on Jewish sites across London, with potential links to Iran under investigation.",
+                                            "timestamp":  "2026-04-21T14:43:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29, morning",
+                                            "point":  "At least two Jewish men were stabbed in an attack in Golders Green; the suspect was arrested and one victim was left in critical condition.",
+                                            "timestamp":  "2026-04-29T11:16:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29, late afternoon",
+                                            "point":  "Harakat Ashab al-Yamin al-Islamia claimed responsibility for the London stabbing; the group has previously targeted Jewish communities across Western Europe.",
+                                            "timestamp":  "2026-04-29T16:13:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29, evening",
+                                            "point":  "Prime Minister Keir Starmer chaired an emergency COBR meeting in response to the Golders Green stabbing attack on the Jewish community.",
+                                            "timestamp":  "2026-04-29T19:19:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29, night",
+                                            "point":  "The Golders Green attacker was identified as a 45-year-old British national born in Somalia.",
+                                            "timestamp":  "2026-04-29T21:38:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, afternoon",
+                                            "point":  "British counter-terrorism police confirmed the Golders Green attacker was already known to the government\u0027s Prevent radicalisation programme.",
+                                            "timestamp":  "2026-04-30T12:40:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, evening",
+                                            "point":  "The UK raised its terrorism threat level to \u0027severe\u0027, warning that further attacks are highly likely following the London attack.",
+                                            "timestamp":  "2026-04-30T17:02:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "The Golders Green attacker, Essa Suleiman, a British national born in Somalia, was charged with two counts of attempted murder.",
+                                            "timestamp":  "2026-05-01T05:49:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, afternoon",
+                                            "point":  "Abdullah Albadri, who arrived in the UK by small boat 16 days earlier, was found guilty of preparing an attack on the Israeli Embassy in London after being caught with two knives attempting to climb into the embassy; he had previously been deported from the UK.",
+                                            "timestamp":  "2026-05-01T13:36:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, evening",
+                                            "point":  "The U.S. Embassy in London stated that the raised UK terrorism threat level was driven by a rise in Islamist and extreme right-wing terrorist threats.",
+                                            "timestamp":  "2026-05-01T20:32:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, night",
+                                            "point":  "The U.S. Embassy in London warned U.S. citizens in the UK to stay alert after Britain raised its terrorism threat level to \u0027severe\u0027 (second-highest).",
+                                            "timestamp":  "2026-05-01T22:28:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "zywvmb1jost20fm",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "英国伯明翰：体育馆因可疑包裹疏散",
+                      "description":  "英国伯明翰出现一起低热度但值得注意的安全事件。WIRE 信息显示，Utilita Arena Birmingham 因可疑包裹进行疏散，拆弹小组到场处置。此类事件未必会演变为重大新闻，但能反映欧洲城市公共空间的安保敏感度。",
+                      "rawSummary":  "A suspicious package at the Utilita Arena in Birmingham prompted an evacuation during a Peter Kay comedy show, and a 19-year-old was subsequently arrested on suspicion of a bomb hoax.",
+                      "analysis":  "The Utilita Arena in Birmingham was evacuated during a Peter Kay show after a suspicious package was discovered. A bomb squad arrived at the scene as a precaution. The day after the evacuation, a 19-year-old was arrested on suspicion of a bomb hoax offence. The incident occurred amid a heightened terrorism threat level in the UK following a recent attack in London, though the arrest was specifically for a suspected hoax.",
+                      "link":  "",
+                      "pubDate":  "2026-05-02T09:16:36.1800000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Birmingham",
+                      "country":  "United Kingdom",
+                      "categoryId":  "low-heat",
+                      "categoryName":  "低热度地区简报",
+                      "intensity":  2,
+                      "mentionCount":  2,
+                      "firstSeenAt":  "2026-05-01T21:01:42.175Z",
+                      "lastMentionedAt":  "2026-05-02T09:16:36.180Z",
+                      "processedAt":  "2026-05-02 09:17:30.674Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "May 1, evening",
+                                            "point":  "Utilita Arena in Birmingham evacuated and bomb squad dispatched after a suspicious package was found during a comedy show.",
+                                            "timestamp":  "2026-05-01T20:48:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, morning",
+                                            "point":  "A 19-year-old was arrested on suspicion of a bomb hoax offence following the evacuation.",
+                                            "timestamp":  "2026-05-02T09:05:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
                       "id":  "uomqxqrkyi5ulv1",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "美国佛州：特朗普基层动员仍有热度",
@@ -3587,36 +3617,6 @@
                                             "date":  "May 1, evening",
                                             "point":  "SNAP blocks soda, candy, and energy drinks; Florida shoppers reported EBT declines.",
                                             "timestamp":  "2026-05-01T22:04:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "zywvmb1jost20fm",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "英国伯明翰：体育馆因可疑包裹疏散",
-                      "description":  "英国伯明翰出现一起低热度但值得注意的安全事件。WIRE 信息显示，Utilita Arena Birmingham 因可疑包裹进行疏散，拆弹小组到场处置。此类事件未必会演变为重大新闻，但能反映欧洲城市公共空间的安保敏感度。",
-                      "rawSummary":  "Evacuation of Utilita Arena Birmingham over suspicious package; bomb squad deployed",
-                      "analysis":  "The Utilita Arena in Birmingham was evacuated during a Peter Kay show after a suspicious package was discovered. A bomb squad arrived at the scene as a precaution. No further details on the nature of the package or any arrests were immediately available. The incident occurred amid a heightened terrorism threat level in the UK following a recent attack in London.",
-                      "link":  "",
-                      "pubDate":  "2026-05-01T21:01:42.1750000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Birmingham",
-                      "country":  "United Kingdom",
-                      "categoryId":  "low-heat",
-                      "categoryName":  "低热度地区简报",
-                      "intensity":  2,
-                      "mentionCount":  1,
-                      "firstSeenAt":  "2026-05-01T21:01:42.175Z",
-                      "lastMentionedAt":  "2026-05-01T21:01:42.175Z",
-                      "processedAt":  "2026-05-01 21:01:42.201Z",
-                      "lastChangeType":  "created",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 1, evening",
-                                            "point":  "Utilita Arena in Birmingham evacuated and bomb squad dispatched after a suspicious package was found during a comedy show.",
-                                            "timestamp":  "2026-05-01T20:48:00.000Z"
                                         }
                                     ]
                   },
