@@ -75,3 +75,16 @@ schtasks /Create /SC DAILY /TN "WorldMonitorWireDaily" /TR "powershell -Executio
 说明：本地运行时仍会输出到桌面 `文案输出` 文件夹；GitHub Actions 上没有你的桌面环境，所以使用 `copy-output/` 作为仓库内的 TXT 输出目录。
 
 GitHub Actions 使用 UTC 时间，配置里的 `0 4 * * *` 对应北京时间中午 12:00。
+
+## 邮件发送
+
+Workflow 会在生成 TXT 后尝试把当天文案作为附件发送到邮箱。需要在 GitHub 仓库中配置这些 Secrets：
+
+- `SMTP_SERVER`
+- `SMTP_PORT`
+- `SMTP_USERNAME`
+- `SMTP_PASSWORD`
+- `EMAIL_FROM`
+- `EMAIL_TO`
+
+如果这些 Secrets 没配置，邮件步骤会自动跳过，不影响文件生成。
