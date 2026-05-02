@@ -60,7 +60,7 @@ schtasks /Create /SC DAILY /TN "WorldMonitorWireDaily" /TR "powershell -Executio
 
 仓库已包含 `.github/workflows/daily-world-monitor.yml`。
 
-它会在每天北京时间 12:00 自动运行，也可以在 GitHub 页面手动触发：
+它会在每天北京时间 22:00 自动运行，也可以在 GitHub 页面手动触发：
 
 1. 把本项目推送到 GitHub 仓库。
 2. 打开仓库的 `Actions` 页面。
@@ -74,7 +74,7 @@ schtasks /Create /SC DAILY /TN "WorldMonitorWireDaily" /TR "powershell -Executio
 
 说明：本地运行时仍会输出到桌面 `文案输出` 文件夹；GitHub Actions 上没有你的桌面环境，所以使用 `copy-output/` 作为仓库内的 TXT 输出目录。
 
-GitHub Actions 使用 UTC 时间，配置里的 `0 4 * * *` 对应北京时间中午 12:00。
+GitHub Actions 使用 UTC 时间，配置里的 `0 14 * * *` 对应北京时间晚上 22:00。
 
 ## 邮件发送
 
