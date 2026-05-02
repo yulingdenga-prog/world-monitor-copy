@@ -1,0 +1,14 @@
+{
+  "name": "daily-news-rss",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fetch RSS news sources and generate a daily WeChat-ready Markdown draft.",
+  "scripts": {
+    "start": "node src/daily-news.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

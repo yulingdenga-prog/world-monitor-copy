@@ -1,0 +1,327 @@
+{
+  "timezone": "Asia/Shanghai",
+  "defaultSource": "world-monitor-wire",
+  "daysBack": 1,
+  "limit": 20,
+  "outputDir": "output",
+  "textOutputDir": "{Desktop}\\文案输出",
+  "sources": [
+    {
+      "id": "world-monitor-wire",
+      "name": "World Monitor WIRE",
+      "type": "world-monitor-wire",
+      "url": "https://world-monitor.com/api/signal-markers",
+      "allowApiAccess": true,
+      "minIntensity": 1,
+      "enabled": true,
+      "article": {
+        "titleTemplate": "今天全球有什么事：先看中国周边，再看中东和俄乌",
+        "intro": "今天的全球风险图谱里，最热的火点依旧在中东和俄乌，但真正值得中文读者优先看的，是中国周边正在同步出现的几条暗线：台海防务预算、南海附近军演、日韩金融与军事动向，以及巴基斯坦、缅甸等周边国家的安全变化。",
+        "sourceNote": "数据来源：World Monitor。",
+        "closing": "放在一起看，今天的重点不是某一条新闻本身，而是风险正在分层扩散：中东牵动能源和谈判，俄乌继续把战线推向后方基础设施，而中国周边则同时出现外交、军事、金融和海上通道信号。对中文读者来说，接下来最值得盯住三件事：南海和台海周边军事活动是否升温，日本金融波动是否继续外溢，以及巴基斯坦、缅甸等周边国家的安全变量是否会影响地区稳定。",
+        "showMeta": false,
+        "focus": {
+          "minItems": 8,
+          "patterns": "China|Taiwan|Beijing|Hong Kong|Japan|Tokyo|Korea|South Korea|North Korea|Pyongyang|Seoul|Philippines|Manila|South China Sea|East China Sea|India|Pakistan|Islamabad|Karachi|Myanmar|Naypyidaw|Vietnam|Thailand|Malaysia|Indonesia|Malacca|Singapore|Mongolia|Bangladesh|Nepal|Bhutan"
+        },
+        "longTail": {
+          "minItems": 5,
+          "maxIntensity": 2
+        },
+        "labels": {
+          "generatedAt": "生成时间",
+          "window": "观察窗口",
+          "eventCount": "纳入事件",
+          "lastDays": "最近 {days} 天",
+          "eventUnit": "条",
+          "closingTitle": "结语",
+          "intensity": "强度",
+          "mentions": "WIRE 提及",
+          "mentionUnit": "次",
+          "location": "地点",
+          "updatedAt": "最近更新"
+        },
+        "categoryOrder": [
+          "china-neighborhood",
+          "middle-east",
+          "europe-security",
+          "africa-security",
+          "asia-pacific",
+          "domestic-security",
+          "low-heat",
+          "other"
+        ],
+        "categories": [
+          {
+            "id": "china-neighborhood",
+            "name": "中国及周边观察",
+            "patterns": "China|Taiwan|Beijing|Hong Kong|Japan|Tokyo|Korea|South Korea|North Korea|Pyongyang|Seoul|Philippines|Manila|South China Sea|East China Sea|India|Pakistan|Islamabad|Karachi|Myanmar|Naypyidaw|Vietnam|Thailand|Malaysia|Indonesia|Malacca|Singapore|Mongolia|Bangladesh|Nepal|Bhutan"
+          },
+          {
+            "id": "middle-east",
+            "name": "中东局势与能源冲击",
+            "patterns": "Iran|Hormuz|Lebanon|Hezbollah|Israel|Gaza|Palestinian|Pakistan|Islamabad"
+          },
+          {
+            "id": "europe-security",
+            "name": "俄乌战争与欧洲安全",
+            "patterns": "Ukraine|Russia|Russian|NATO|Europe"
+          },
+          {
+            "id": "africa-security",
+            "name": "非洲安全与政局风险",
+            "patterns": "Mali|Bamako|Kidal|Gao|Sudan|Congo|Somalia|JNIM|Tuareg"
+          },
+          {
+            "id": "asia-pacific",
+            "name": "亚太安全与大国竞争",
+            "patterns": "China|Taiwan|North Korea|South Korea|Japan|Philippines|Beijing|Pyongyang"
+          },
+          {
+            "id": "domestic-security",
+            "name": "社会安全与国内政治",
+            "patterns": "London|United Kingdom|United States|synagogue|terrorism|protest|shooting"
+          },
+          {
+            "id": "low-heat",
+            "name": "低热度地区简报",
+            "patterns": "Florida|Birmingham|Malmö|Spanish beach|Spain|Gulf of Aden|Yemen|Beirut|Damascus|Syria|Istanbul|Turkey|Qatar|Scotland|Los Angeles|Narmada|Nevada|Georgia|Chicago|Sweden|International Waters|Indo-Pacific"
+          },
+          {
+            "id": "other",
+            "name": "其他重要动态",
+            "patterns": ".*"
+          }
+        ],
+        "rewriteRules": [
+          {
+            "pattern": "Beijing|China's zero-tariff|Taiwan|Japan over military rhetoric|Cuba sanctions",
+            "category": "china-neighborhood",
+            "title": "北京外交：零关税、台湾议题与对日摩擦同时推进",
+            "summary": "中国相关动态今天集中在外交和经贸层面。WIRE 信息显示，中国对 53 个非洲国家的进口零关税政策生效，同时因台湾承认问题将斯威士兰排除在外；中美围绕技术和古巴制裁的摩擦仍在延续，中日之间关于军事言论的交锋也没有降温。这说明北京正在同时处理经贸拉拢、台湾议题和大国竞争三条线。"
+          },
+          {
+            "pattern": "Taiwan|Cross-strait|defense budget|unification dialogue",
+            "category": "china-neighborhood",
+            "title": "台海：防务预算受阻，区域军事布局仍在推进",
+            "summary": "台海相关信号仍值得关注。WIRE 信息显示，台湾防务预算推进不顺，但两岸外交和军事博弈并未停下来；与此同时，美国也在探索把韩国作为区域支援节点。换句话说，台海风险不只发生在海峡两岸，也越来越嵌入美日韩的区域军事网络。"
+          },
+          {
+            "pattern": "Philippines|South China Sea|Balikatan|Chinese naval",
+            "category": "china-neighborhood",
+            "title": "南海：菲律宾周边军演与中国海军活动叠加",
+            "summary": "南海方向出现新的军事活动信号。WIRE 信息显示，在“肩并肩”联合军演背景下，中国海军在菲律宾附近海域的部署受到关注。对中国周边安全来说，这类动态的敏感点不在单次行动，而在军事存在、演训频率和外部力量介入是否持续上升。"
+          },
+          {
+            "pattern": "Tokyo|Japan|bond yield|yen-buying|military expansion",
+            "category": "china-neighborhood",
+            "title": "日本：债市、汇率和反军事扩张抗议同时出现",
+            "summary": "日本今天的信号不只是一条财经新闻。WIRE 信息显示，日本 10 年期国债收益率升至 1997 年以来高位，政府进行了买入日元干预；与此同时，东京出现反对军事扩张和反对首相的示威。金融压力和安全政策争议同时出现，可能影响日本后续对外政策空间。"
+          },
+          {
+            "pattern": "South Korea|USFK|regional sustainment hub",
+            "category": "china-neighborhood",
+            "title": "韩国：美军考虑把韩国打造为区域支援枢纽",
+            "summary": "韩国方向的重点在美军区域部署。WIRE 信息显示，驻韩美军司令提出把韩国作为区域支援枢纽。这个表述意味着韩国的角色可能从半岛防务进一步外溢到更广泛的印太行动支撑，对中国周边安全结构有长期影响。"
+          },
+          {
+            "pattern": "Pakistan has recently conducted|Fateh-II|Chinese submarines|Hangor|Karachi",
+            "category": "china-neighborhood",
+            "title": "巴基斯坦：火箭试射与中国潜艇交付提升军力存在感",
+            "summary": "巴基斯坦近期军事活动密集。WIRE 信息显示，巴方进行了 Fateh-II 火箭测试，并据称接收中国潜艇；其中 Hangor 级潜艇项目将提升其水下作战能力。对中国周边来说，巴基斯坦的军力建设既有地区威慑含义，也会影响印度洋安全格局。"
+          },
+          {
+            "pattern": "Islamabad|U.S.-Iran negotiations|Pakistani|land routes with Iran",
+            "category": "china-neighborhood",
+            "title": "巴基斯坦斡旋：伊朗通道与美伊谈判给周边带来变量",
+            "summary": "巴基斯坦不仅是南亚安全变量，也正成为中东外交通道的一部分。WIRE 信息显示，美伊间接谈判继续在伊斯兰堡推进，巴基斯坦还开放了通往伊朗的陆路通道。对中国周边来说，巴基斯坦的角色正在从传统安全延伸到能源通道和地区斡旋。"
+          },
+          {
+            "pattern": "Naypyidaw|Myanmar|Aung San Suu Kyi",
+            "category": "china-neighborhood",
+            "title": "缅甸：昂山素季相关动向再次牵动外部关注",
+            "summary": "缅甸政局仍处在外部关注之中。WIRE 信息显示，美国呼吁释放昂山素季，背景是其被转为软禁相关安排。缅甸局势长期影响中国西南周边安全、边境贸易和地区通道稳定，这类政治信号仍需持续观察。"
+          },
+          {
+            "pattern": "India|aviation industry",
+            "category": "china-neighborhood",
+            "title": "印度：航空业潜在停摆风险暴露经济压力",
+            "summary": "印度方向出现航空业风险信号。WIRE 信息显示，有关印度航空业可能停摆的警告受到关注。航空业牵动出行、供应链和服务业信心，如果风险继续发酵，可能成为印度经济运行中的一个压力点。"
+          },
+          {
+            "pattern": "Malacca Strait|Malaysia/Indonesia|U.S. Navy warships",
+            "category": "china-neighborhood",
+            "title": "马六甲海峡：美军舰艇通过关键能源通道",
+            "summary": "马六甲海峡是中国和东亚能源运输的关键通道。WIRE 信息显示，两艘美国海军舰艇通过该水道，而该区域也被视为伊朗影子船队油品运输的通道之一。对中国周边观察来说，马六甲的军事存在变化始终值得关注。"
+          },
+          {
+            "pattern": "Birmingham|suspicious package|bomb squad",
+            "category": "low-heat",
+            "title": "英国伯明翰：体育馆因可疑包裹疏散",
+            "summary": "英国伯明翰出现一起低热度但值得注意的安全事件。WIRE 信息显示，Utilita Arena Birmingham 因可疑包裹进行疏散，拆弹小组到场处置。此类事件未必会演变为重大新闻，但能反映欧洲城市公共空间的安保敏感度。"
+          },
+          {
+            "pattern": "Malmö|hand grenade|Controlled explosion",
+            "category": "low-heat",
+            "title": "瑞典马尔默：市中心发现手榴弹并实施控制爆破",
+            "summary": "瑞典马尔默市中心发现手榴弹，警方随后实施控制爆破。事件热度不高，但对观察北欧城市治安和爆炸物犯罪趋势有参考价值。"
+          },
+          {
+            "pattern": "Spanish beach|Migrants came ashore",
+            "category": "low-heat",
+            "title": "西班牙海滩：移民登陆后迅速分散",
+            "summary": "西班牙一处海滩出现移民登陆事件，WIRE 信息显示，人员在当局介入前已经分散。单次事件规模有限，但反映地中海移民流动和边境管理压力仍在持续。"
+          },
+          {
+            "pattern": "Gulf of Aden|armed skiff|bulk carrier|Southwest of Yemen",
+            "category": "low-heat",
+            "title": "亚丁湾：商船遭武装小艇接近",
+            "summary": "亚丁湾方向出现航运安全信号。WIRE 信息显示，商船附近出现武装小艇接近报告。虽然事件热度不高，但该水域连接红海、印度洋和能源运输线，任何袭扰都可能影响航运风险定价。"
+          },
+          {
+            "pattern": "Narmada River|Cruise boat capsizes",
+            "category": "low-heat",
+            "title": "印度中部：游船倾覆造成伤亡风险",
+            "summary": "印度纳尔默达河附近发生游船倾覆事件，约 30 人在船上，出现死亡和失踪风险。该事件不属于地缘政治热点，但对关注南亚公共安全和旅游交通风险仍有意义。"
+          },
+          {
+            "pattern": "Florida EBT|SNAP restricts|soda|candy|energy drinks",
+            "category": "low-heat",
+            "title": "美国佛州：食品补助限制引发民生信号",
+            "summary": "美国佛州出现与 SNAP 食品补助相关的消费限制和 EBT 拒付报告。事件热度不高，却能反映美国地方层面的福利政策调整和低收入群体消费压力。"
+          },
+          {
+            "pattern": "The Villages|large crowd of supporters",
+            "category": "low-heat",
+            "title": "美国佛州：特朗普基层动员仍有热度",
+            "summary": "美国佛州 The Villages 出现特朗普支持者大规模集会，部分人提前排队等候。单看热度并不高，但它能反映美国地方政治动员仍然活跃，尤其是在保守派基本盘地区。"
+          },
+          {
+            "pattern": "Chicago mayor|May Day march|abolish ICE",
+            "category": "low-heat",
+            "title": "芝加哥：五一游行聚焦移民执法争议",
+            "summary": "芝加哥市长参与五一游行，现场诉求涉及废除 ICE。该事件属于美国国内政治低热度信号，但反映移民执法议题仍然能够动员地方政治和街头行动。"
+          },
+          {
+            "pattern": "War Powers|final blow|Nearby Iranian positions",
+            "category": "middle-east",
+            "title": "伊朗战局：美方宣称敌对行动终止，但军事压力并未消失",
+            "summary": "尽管美国以战争权力程序为由声称敌对状态已经结束，WIRE 信息显示，海上封锁仍在继续冲击伊朗经济，美方也仍在讨论潜在的进一步军事选项。与此同时，伊朗内部路线分歧和强硬表态交织，使局势离真正降温仍有距离。"
+          },
+          {
+            "pattern": "IRGC|Vahidi|air defenses|nuclear deal|governmental centers",
+            "category": "middle-east",
+            "title": "伊朗内部：强硬派主导谈判立场，核协议预期降温",
+            "summary": "伊朗政权内部的强硬路线仍占上风，围绕防空能力、核谈判和外交让步的信号相互矛盾。市场此前对核协议的乐观预期正在减弱，说明外部压力并未换来清晰的妥协路径。"
+          },
+          {
+            "pattern": "Strait of Hormuz|Iranian coastline",
+            "category": "middle-east",
+            "title": "霍尔木兹海峡：封锁僵局继续推高能源与航运压力",
+            "summary": "美国海上封锁仍在持续，伊朗方面拒绝把核谈判与重新开放通道直接绑定。WIRE 信息显示，英国海军确认战争爆发以来相关船舶通行量已大幅下降，布伦特原油价格仍处在高位。能源、航运和外交谈判正在相互牵动，这是今天最值得关注的全球风险点。"
+          },
+          {
+            "pattern": "United States \\(Diplomatic focus on Iran\\)|war costs|new Iran strike",
+            "category": "middle-east",
+            "title": "美国侧面：油价与战争成本正在倒逼政策选择",
+            "summary": "美国国内也在承受中东战事外溢压力。WIRE 信息显示，油价高位运行、战争成本估算上升，同时白宫仍在听取新的对伊朗打击和地面行动选项。对华盛顿而言，军事压力、国内成本和外交回旋空间正在同时收紧。"
+          },
+          {
+            "pattern": "Southern Lebanon|Hezbollah|Lebanon",
+            "category": "middle-east",
+            "title": "黎巴嫩南部：无人机袭击与以军空袭交织，边境紧张持续",
+            "summary": "黎以边境仍处在高强度对抗中。WIRE 信息显示，真主党无人机袭击造成以军伤亡，以军则称打击了黎巴嫩南部多个真主党目标及隧道设施。北以色列边境社区也面临新的民防限制，说明冲突正在继续影响平民生活。"
+          },
+          {
+            "pattern": "Islamabad|U.S.-Iran negotiations|Pakistani",
+            "category": "middle-east",
+            "title": "巴基斯坦斡旋：美伊间接谈判仍在拉锯",
+            "summary": "美伊间接谈判仍通过巴基斯坦渠道延续。WIRE 信息显示，在特朗普拒绝伊朗先前方案后，巴方预计伊朗将提交修订提案。谈判仍有窗口，但海上封锁、核议题和国内强硬派压力让妥协难度很高。"
+          },
+          {
+            "pattern": "Ukraine|206 drones|F-16|Moscow",
+            "category": "europe-security",
+            "title": "乌克兰：俄军大规模无人机袭击凸显战场消耗升级",
+            "summary": "俄军夜间发动大规模无人机袭击，WIRE 信息显示单次出动规模达到 206 架。与此同时，地面战斗和外部军援继续推进，乌方获得包括 F-16 模拟器和资金释放在内的新支持。战场正在继续向远程打击和防空消耗倾斜。"
+          },
+          {
+            "pattern": "Tuapse oil refinery|export terminal|oil refinery",
+            "category": "europe-security",
+            "title": "俄罗斯能源设施：炼油厂与出口终端安全压力上升",
+            "summary": "俄罗斯能源基础设施继续处在战争外溢风险之中。WIRE 信息显示，炼油厂和出口终端相关事件受到关注，说明乌克兰远程打击与俄罗斯后方防护之间的攻防仍在持续。能源设施一旦反复受袭，可能进一步影响区域燃料供应和市场预期。"
+          },
+          {
+            "pattern": "Perm|Perm Krai",
+            "category": "europe-security",
+            "title": "俄罗斯纵深地区：后方安全风险继续显现",
+            "summary": "俄罗斯本土纵深地区也被纳入 WIRE 风险监测。相关事件说明，当前冲突已不再局限于前线附近，后方工业、交通或安全设施都可能受到远程袭扰影响。对俄罗斯而言，防空和本土安全压力仍在增加。"
+          },
+          {
+            "pattern": "Gaza|flotilla|restricted zone|Hamas",
+            "category": "middle-east",
+            "title": "加沙：海上拦截与陆上限制并行，人道空间继续收缩",
+            "summary": "以色列拦截了驶向加沙的船只，同时加沙陆上限制区域继续扩大。WIRE 信息显示，军事行动、内部武装冲突传闻和对伊朗局势的讨论交织在一起，使加沙的人道和安全环境继续承压。"
+          },
+          {
+            "pattern": "Bamako|Mali|JNIM|siege",
+            "category": "africa-security",
+            "title": "马里首都巴马科：安全压力、物资短缺和通胀风险叠加",
+            "summary": "马里安全形势继续恶化。WIRE 信息显示，近期袭击造成高层伤亡后，巴马科面临围困压力和国际撤离提醒；与此同时，能源和物资紧张可能进一步加剧停电、短缺与通胀问题。"
+          },
+          {
+            "pattern": "Kidal|Gao|Tuareg|Russian withdrawal",
+            "category": "africa-security",
+            "title": "马里北部：武装组织推进，俄方撤出信号增加不确定性",
+            "summary": "马里北部 Kidal、Gao 等地的局势继续紧张。WIRE 信息显示，JNIM 及图阿雷格相关武装在多地推进，俄方出现撤出迹象，马里军政府则宣称将继续清剿。当地冲突有进一步扩散和长期化风险。"
+          },
+          {
+            "pattern": "Kenton United Synagogue|Golders Green|terrorism threat",
+            "category": "domestic-security",
+            "title": "英国伦敦：犹太机构安全警戒升高",
+            "summary": "伦敦犹太机构仍处于较高威胁环境中。WIRE 信息显示，此前纵火未遂和 Golders Green 袭击事件后，相关嫌疑人已被起诉，英国恐怖主义威胁级别也被上调。宗教场所安全正在成为英国国内安全议题。"
+          }
+        ],
+        "fallbackTitleTemplate": "一处海外风险点：WIRE 监测到新的重要变化",
+        "fallbackSummaryTemplate": "WIRE 将该事件标记为强度 {intensity}/5，累计提及 {mentionCount} 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。"
+      }
+    },
+    {
+      "id": "world-monitor-gdelt",
+      "name": "World Monitor style feed via GDELT",
+      "type": "gdelt-doc",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+      "query": "conflict",
+      "timespan": "1d",
+      "sort": "datedesc",
+      "maxRecords": 10,
+      "languageFilter": [
+        "English",
+        "Chinese"
+      ],
+      "summaryTemplate": "来源域名：{domain}；来源国家：{sourceCountry}；语言：{language}。发布前请打开原文核对。",
+      "enabled": false
+    }
+  ],
+  "wechat": {
+    "titleTemplate": "每日全球动态 {date}",
+    "intro": "以下内容根据 World Monitor 所声明使用的 GDELT 公开数据源自动整理。发布前请人工核对事实、来源和版权风险。",
+    "includeOriginalLinks": true,
+    "windowTemplate": "最近 {days} 天",
+    "labels": {
+      "generatedAt": "生成时间",
+      "sources": "来源",
+      "window": "范围",
+      "topStories": "今日重点",
+      "summary": "摘要",
+      "time": "时间",
+      "original": "原文",
+      "checklistTitle": "发布前检查",
+      "noItems": "今天没有抓取到符合条件的新闻。"
+    },
+    "checklist": [
+      "核对标题、时间和事实。",
+      "不要直接转载全文，必要时改写为自己的短评或摘要。",
+      "保留原文链接或来源说明。"
+    ]
+  }
+}
