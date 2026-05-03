@@ -3,8 +3,7 @@ name: Daily World Monitor Copy
 on:
   workflow_dispatch:
   schedule:
-    # 22:00 Asia/Shanghai = 14:00 UTC
-    - cron: "0 14 * * *"
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
@@ -77,5 +76,6 @@ jobs:
             Write-Host "No generated changes to commit."
           } else {
             git commit -m "Generate daily World Monitor copy"
+            git pull --rebase
             git push
           }
