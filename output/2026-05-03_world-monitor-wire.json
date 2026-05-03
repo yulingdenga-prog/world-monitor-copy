@@ -1,5 +1,5 @@
 ﻿{
-    "generatedAt":  "2026-05-03T08:12:39.6085623Z",
+    "generatedAt":  "2026-05-03T08:28:45.8089105Z",
     "timezone":  "Asia/Shanghai",
     "sources":  [
                     {
@@ -2251,6 +2251,56 @@
                                     ]
                   },
                   {
+                      "id":  "crz81bt22qgz43o",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "一处海外风险点：WIRE 监测到新的重要变化",
+                      "description":  "WIRE 将该事件标记为强度 4/5，累计提及 4 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。",
+                      "rawSummary":  "Israel is expanding its air force with new F-35 squadrons and planned fighter jet purchases while receiving continued U.S. military resupply, as the country\u0027s economy outpaces G7 nations and tensions rise over a potential U.S. strike on Iran.",
+                      "analysis":  "The United States conducted a large-scale resupply operation to Israel, delivering about 6,500 tons of weapons and equipment within 24 hours via ships and aircraft, including munitions, military trucks, and JLTV armored vehicles. CNBC reported that Israel is on track to outgrow every G7 economy this year, with unemployment at 3.2%, inflation below 2%, and significant gains in the Tel Aviv Stock Exchange and the shekel, driven by a dominant tech sector and surging foreign investment. In a further expansion of military capabilities, Israel has approved a fourth F-35 squadron, expanding its stealth fighter fleet to approximately 100 aircraft, while the defense ministry announced plans to purchase additional F-35 and F-15 jets from the United States. Channel 12 reported that large shipments of ammunition and military equipment have arrived recently, as Israel prepares for the possibility of a U.S. attack on Iran and the risk of an Iranian preemptive strike.",
+                      "link":  "",
+                      "pubDate":  "2026-05-03T08:16:29.2060000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Tel Aviv",
+                      "country":  "Israel",
+                      "categoryId":  "middle-east",
+                      "categoryName":  "中东局势与能源冲击",
+                      "intensity":  4,
+                      "mentionCount":  4,
+                      "firstSeenAt":  "2026-04-30T21:32:39.257Z",
+                      "lastMentionedAt":  "2026-05-03T08:16:29.206Z",
+                      "processedAt":  "2026-05-03 08:17:28.010Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "Apr 30",
+                                            "point":  "Approximately 6,500 tons of U.S. weapons and equipment, including munitions and armored vehicles, arrived in Israel within 24 hours via ships and aircraft.",
+                                            "timestamp":  "2026-04-30T21:12:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, night",
+                                            "point":  "CNBC reported that Israel\u0027s economy is growing faster than every G7 economy, with unemployment at 3.2%, inflation below 2%, and significant stock market and currency gains.",
+                                            "timestamp":  "2026-04-30T23:19:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2",
+                                            "point":  "Channel 12 reported that large shipments of ammunition and military equipment have arrived in recent days, as Israel prepares for the possibility of a U.S. attack on Iran and the risk of an Iranian preemptive strike.",
+                                            "timestamp":  "2026-05-02T17:46:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, morning",
+                                            "point":  "Israel approved a fourth F-35 squadron, expanding its fleet to approximately 100 aircraft.",
+                                            "timestamp":  "2026-05-03T07:38:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, morning",
+                                            "point":  "Israel\u0027s defense ministry announced approval of a plan to purchase new F-35 and F-15 fighter jets from the United States.",
+                                            "timestamp":  "2026-05-03T08:14:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
                       "id":  "7pqdntold382sgx",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "俄罗斯能源设施：炼油厂与出口终端安全压力上升",
@@ -2362,41 +2412,6 @@
                                             "date":  "May 3, morning",
                                             "point":  "Israel approved buying two new fighter jet squadrons—F-35 Lightning II and F-15IA—for tens of billions of shekels.",
                                             "timestamp":  "2026-05-03T06:52:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "4ylqsz9j5pwdlha",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "一处海外风险点：WIRE 监测到新的重要变化",
-                      "description":  "WIRE 将该事件标记为强度 3/5，累计提及 2 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。",
-                      "rawSummary":  "A reported influx of ammunition and military equipment into Israel in recent days has been followed by the approval of a major purchase of two new squadrons of F-35 and F-15 fighter jets.",
-                      "analysis":  "In recent days, Israeli sources reported a significant influx of ammunition and military equipment into the country. Separately, approval was given for the purchase of two new squadrons of F-35 and F-15 fighter jets, a multibillion-shekel deal aimed at bolstering airpower. The deliveries and procurement may be connected to broader military preparations, though specific threats or operations have not been disclosed. The moves occur amid elevated regional tensions.",
-                      "link":  "",
-                      "pubDate":  "2026-05-03T07:31:12.5950000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Israel",
-                      "country":  "Israel",
-                      "categoryId":  "middle-east",
-                      "categoryName":  "中东局势与能源冲击",
-                      "intensity":  3,
-                      "mentionCount":  2,
-                      "firstSeenAt":  "2026-05-02T19:33:21.648Z",
-                      "lastMentionedAt":  "2026-05-03T07:31:12.595Z",
-                      "processedAt":  "2026-05-03 07:31:51.788Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 2, evening",
-                                            "point":  "Israeli sources said significant ammunition and equipment were brought into the country in recent days.",
-                                            "timestamp":  "2026-05-02T18:49:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, morning",
-                                            "point":  "Israel approved the purchase of two new squadrons of F-35 and F-15 fighter jets, worth tens of billions of shekels.",
-                                            "timestamp":  "2026-05-03T07:17:00.000Z"
                                         }
                                     ]
                   },
