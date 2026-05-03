@@ -76,5 +76,6 @@ jobs:
             Write-Host "No generated changes to commit."
           } else {
             git commit -m "Generate daily World Monitor copy"
+            git pull --rebase
             git push
           }
