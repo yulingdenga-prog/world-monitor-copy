@@ -3,8 +3,8 @@ name: Daily World Monitor Copy
 on:
   workflow_dispatch:
   schedule:
-   # 22:00 Asia/Shanghai = 14:00 UTC
-   - cron: "0 14 * * *"
+    # 12:20 Asia/Shanghai = 04:20 UTC
+    - cron: "20 4 * * *"
 
 permissions:
   contents: write
