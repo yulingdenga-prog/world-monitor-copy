@@ -1,0 +1,85 @@
+name: Scheduled World Monitor Copy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "*/5 * * * *"
+
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate daily copy
+        shell: powershell
+        run: |
+          powershell -ExecutionPolicy Bypass -File .\scripts\daily-news.ps1 -Out output -TextOut copy-output
+
+      - name: Upload generated files
+        uses: actions/upload-artifact@v4
+        with:
+          name: world-monitor-copy
+          path: |
+            output/*
+            copy-output/*
+
+      - name: Email TXT copy
+        shell: powershell
+        env:
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: |
+          $required = @("SMTP_SERVER", "SMTP_PORT", "SMTP_USERNAME", "SMTP_PASSWORD", "EMAIL_FROM", "EMAIL_TO")
+          foreach ($name in $required) {
+            if ([string]::IsNullOrWhiteSpace([Environment]::GetEnvironmentVariable($name))) {
+              Write-Host "Email secret $name is not configured. Skipping email."
+              exit 0
+            }
+          }
+
+          $txt = Get-ChildItem -Path copy-output -Filter *.txt | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+          if (-not $txt) {
+            throw "No TXT file found in copy-output."
+          }
+
+          $message = New-Object System.Net.Mail.MailMessage
+          $message.From = $env:EMAIL_FROM
+          $message.To.Add($env:EMAIL_TO)
+          $message.Subject = "Daily World Monitor Copy - " + (Get-Date -Format "yyyy-MM-dd")
+          $message.Body = "The daily TXT copy has been generated. See the attached file."
+          $message.Attachments.Add((New-Object System.Net.Mail.Attachment($txt.FullName)))
+
+          $client = New-Object System.Net.Mail.SmtpClient($env:SMTP_SERVER, [int]$env:SMTP_PORT)
+          $client.EnableSsl = $true
+          $client.Credentials = New-Object System.Net.NetworkCredential($env:SMTP_USERNAME, $env:SMTP_PASSWORD)
+          $client.Send($message)
+          $message.Dispose()
+          $client.Dispose()
+
+      - name: Commit generated files
+        shell: powershell
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f output copy-output
+          if (git diff --cached --quiet) {
+            Write-Host "No generated changes to commit."
+          } else {
+            git commit -m "Generate daily World Monitor copy"
+            git pull --rebase
+            git push
+          }
