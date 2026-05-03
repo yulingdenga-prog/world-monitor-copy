@@ -1,5 +1,5 @@
 ﻿{
-    "generatedAt":  "2026-05-03T07:25:55.1946539Z",
+    "generatedAt":  "2026-05-03T07:44:13.2095637Z",
     "timezone":  "Asia/Shanghai",
     "sources":  [
                     {
@@ -2521,46 +2521,6 @@
                                     ]
                   },
                   {
-                      "id":  "zkqoazwn78bekxw",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "一处海外风险点：WIRE 监测到新的重要变化",
-                      "description":  "WIRE 将该事件标记为强度 4/5，累计提及 2 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。",
-                      "rawSummary":  "Ukrainian forces used uncrewed surface vessels to strike two oil tankers at the entrance to Novorossiysk port, with one vessel identified as the ORION A, in what President Zelensky described as sanctions enforcement against Russia\u0027s shadow fleet.",
-                      "analysis":  "Overnight, Ukrainian uncrewed surface vessels struck two oil tankers awaiting loading at the entrance to Novorossiysk port. One tanker was later identified as the ORION A, seen surrounded by tugboats, indicating it may have been disabled. President Zelensky stated that the strike targeted Russia\u0027s shadow oil fleet used to circumvent sanctions. The operation underscores continued Ukrainian efforts to enforce sanctions on Russia\u0027s energy exports.",
-                      "link":  "",
-                      "pubDate":  "2026-05-03T07:17:06.4790000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Novorossiysk port entrance",
-                      "country":  "Russia",
-                      "categoryId":  "europe-security",
-                      "categoryName":  "俄乌战争与欧洲安全",
-                      "intensity":  4,
-                      "mentionCount":  2,
-                      "firstSeenAt":  "2026-05-03T07:01:33.544Z",
-                      "lastMentionedAt":  "2026-05-03T07:17:06.479Z",
-                      "processedAt":  "2026-05-03 07:18:41.599Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 3, morning",
-                                            "point":  "Ukrainian forces struck two shadow fleet oil tankers at the entrance to Novorossiysk port, President Zelensky said, describing the action as sanctions enforcement.",
-                                            "timestamp":  "2026-05-03T06:26:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, morning",
-                                            "point":  "Overnight, Ukrainian uncrewed surface vessels struck two oil tankers awaiting loading at the port entrance.",
-                                            "timestamp":  "2026-05-03T06:37:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, morning",
-                                            "point":  "One of the struck tankers was identified as the ORION A, which was surrounded by tugboats outside the port.",
-                                            "timestamp":  "2026-05-03T06:41:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
                       "id":  "7pqdntold382sgx",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "俄罗斯能源设施：炼油厂与出口终端安全压力上升",
@@ -2672,6 +2632,41 @@
                                             "date":  "May 3, morning",
                                             "point":  "Israel approved buying two new fighter jet squadrons—F-35 Lightning II and F-15IA—for tens of billions of shekels.",
                                             "timestamp":  "2026-05-03T06:52:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "4ylqsz9j5pwdlha",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "一处海外风险点：WIRE 监测到新的重要变化",
+                      "description":  "WIRE 将该事件标记为强度 3/5，累计提及 2 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。",
+                      "rawSummary":  "A reported influx of ammunition and military equipment into Israel in recent days has been followed by the approval of a major purchase of two new squadrons of F-35 and F-15 fighter jets.",
+                      "analysis":  "In recent days, Israeli sources reported a significant influx of ammunition and military equipment into the country. Separately, approval was given for the purchase of two new squadrons of F-35 and F-15 fighter jets, a multibillion-shekel deal aimed at bolstering airpower. The deliveries and procurement may be connected to broader military preparations, though specific threats or operations have not been disclosed. The moves occur amid elevated regional tensions.",
+                      "link":  "",
+                      "pubDate":  "2026-05-03T07:31:12.5950000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Israel",
+                      "country":  "Israel",
+                      "categoryId":  "middle-east",
+                      "categoryName":  "中东局势与能源冲击",
+                      "intensity":  3,
+                      "mentionCount":  2,
+                      "firstSeenAt":  "2026-05-02T19:33:21.648Z",
+                      "lastMentionedAt":  "2026-05-03T07:31:12.595Z",
+                      "processedAt":  "2026-05-03 07:31:51.788Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "May 2, evening",
+                                            "point":  "Israeli sources said significant ammunition and equipment were brought into the country in recent days.",
+                                            "timestamp":  "2026-05-02T18:49:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, morning",
+                                            "point":  "Israel approved the purchase of two new squadrons of F-35 and F-15 fighter jets, worth tens of billions of shekels.",
+                                            "timestamp":  "2026-05-03T07:17:00.000Z"
                                         }
                                     ]
                   },
