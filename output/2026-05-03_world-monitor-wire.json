@@ -1,5 +1,5 @@
 ﻿{
-    "generatedAt":  "2026-05-03T08:30:59.5295206Z",
+    "generatedAt":  "2026-05-03T10:22:50.2889973Z",
     "timezone":  "Asia/Shanghai",
     "sources":  [
                     {
@@ -8,7 +8,7 @@
                         "url":  "https://world-monitor.com/api/signal-markers"
                     }
                 ],
-    "count":  15,
+    "count":  14,
     "items":  [
                   {
                       "id":  "bqi3p0ofbr567ll",
@@ -115,10 +115,10 @@
                       "sourceKind":  "world-monitor-wire",
                       "title":  "伊朗战局：美方宣称敌对行动终止，但军事压力并未消失",
                       "description":  "尽管美国以战争权力程序为由声称敌对状态已经结束，WIRE 信息显示，海上封锁仍在继续冲击伊朗经济，美方也仍在讨论潜在的进一步军事选项。与此同时，伊朗内部路线分歧和强硬表态交织，使局势离真正降温仍有距离。",
-                      "rawSummary":  "Iran has submitted a new 14-point two-stage peace proposal to the U.S., while economic devastation from the naval blockade deepens, diplomatic deadlock persists, and President Trump remains dissatisfied, threatening further military action.",
+                      "rawSummary":  "The U.S. naval blockade is strangling Iran\u0027s economy as oil storage nears capacity and the rial plummets, while diplomatic negotiations remain deadlocked despite Iran\u0027s new 14-point two-stage proposal; President Trump maintains a hardline military stance, and Israeli-U.S. coordination on potential strikes intensifies.",
                       "analysis":  "The U.S. naval blockade continues to devastate Iran\u0027s economy, with oil storage approaching capacity and the rial at record lows, prompting Iran to reduce production to avoid field damage. Diplomatic efforts remain deadlocked: President Trump, briefed on \u0027final blow\u0027 strike options and dissatisfied with Iran\u0027s latest proposal, has acknowledged a \u0027possibility\u0027 of resuming strikes, and wants to eliminate the remaining 15% of Iran\u0027s missile-making capabilities. Channel 12 reported that Israeli Chief of Staff Eyal Zamir is intensifying contacts with CENTCOM commander Brad Cooper on potential military action, signaling growing Israeli coordination. Iranian leaders remain defiant, with Supreme Leader Khamenei vowing to sink American ships and Parliament Speaker Ghalibaf mocking the blockade, while the Washington Post reported that the security establishment rejects compromise on enrichment and Iran exploits the ceasefire to recover hidden weapons. Axios reported on May 3 that Iran submitted a 14-point proposal outlining a two-stage plan: first, negotiate a deal to reopen the Strait of Hormuz, lift the blockade, and end wars in Iran and Lebanon; then, begin separate talks on the nuclear program, indicating a more structured diplomatic approach even as the U.S. maintains maximum pressure. The war\u0027s toll extends to the U.S., where surging jet fuel prices derailed Spirit Airlines\u0027 bankruptcy exit, and a new Washington Post–ABC–Ipsos poll shows 61% of Americans now view the conflict as a mistake. Strikes disrupted IRGC-linked cryptocurrency mining, temporarily stabilizing electricity, and Hezbollah\u0027s footage of domestic drone production adds a regional dimension to the conflict.",
                       "link":  "",
-                      "pubDate":  "2026-05-03T06:31:48.1680000Z",
+                      "pubDate":  "2026-05-03T08:31:42.0270000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
@@ -127,10 +127,10 @@
                       "categoryId":  "middle-east",
                       "categoryName":  "中东局势与能源冲击",
                       "intensity":  5,
-                      "mentionCount":  1228,
+                      "mentionCount":  1229,
                       "firstSeenAt":  "2026-02-24T22:08:39.965Z",
-                      "lastMentionedAt":  "2026-05-03T06:31:48.168Z",
-                      "processedAt":  "2026-05-03 06:42:23.530Z",
+                      "lastMentionedAt":  "2026-05-03T08:31:42.027Z",
+                      "processedAt":  "2026-05-03 08:37:06.732Z",
                       "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
@@ -735,10 +735,10 @@
                       "sourceKind":  "world-monitor-wire",
                       "title":  "伊朗内部：强硬派主导谈判立场，核协议预期降温",
                       "description":  "伊朗政权内部的强硬路线仍占上风，围绕防空能力、核谈判和外交让步的信号相互矛盾。市场此前对核协议的乐观预期正在减弱，说明外部压力并未换来清晰的妥协路径。",
-                      "rawSummary":  "Iran has proposed a phased de-escalation roadmap to the U.S., while President Trump remains unsatisfied and maintains a naval blockade, as internal hardliner dominance persists and both sides brace for possible renewed military action.",
-                      "analysis":  "The diplomatic standoff continues, with Iran\u0027s latest proposal, reported by Axios, outlining a phased roadmap that would first seek a 30‑day de‑escalation to reopen the Strait of Hormuz, lift the naval blockade, and halt fighting across Iran and Lebanon, deferring nuclear negotiations to a second stage. This follows a 14‑point counterproposal submitted through Pakistani mediation that demanded a comprehensive settlement within 30 days, including U.S. military withdrawal, sanctions relief, compensation, and new Strait of Hormuz rules; President Trump said he cannot imagine accepting that plan and warned that combat operations remain a possibility, while describing the blockade as “very friendly” and criticizing Congress. Economic pressure is deepening, with U.S. Treasury Secretary Bessent citing hard currency shortages and rationing, costs approaching $50 billion, and Iran attempting to redirect oil exports and food imports via the Caucasus while the U.S. imposes additional sanctions. Inside the regime, Foreign Minister Araghchi is reportedly acting in coordination with IRGC commander Vahidi, sidelining moderate figures, and the IRGC military wing has effectively taken over decision‑making; Tehran also announced the execution of two individuals for spying for Mossad. Israel is preparing for a potential imminent U.S. strike and a possible preemptive Iranian attack, with its Chief of Staff coordinating with CENTCOM.",
+                      "rawSummary":  "The diplomatic standoff remains deadlocked as Iran advances a phased de‑escalation roadmap while publicly reiterating its maximalist demands, the rial crashes to a record low, and Israel braces for a possible imminent U.S. strike.",
+                      "analysis":  "The standoff continues, with Iran putting forward a phased roadmap, reported by Axios, that proposes an initial 30‑day de‑escalation to reopen the Strait of Hormuz, lift the U.S. naval blockade, and halt fighting across Iran and Lebanon, deferring nuclear negotiations to a second stage. This follows a 14‑point counterproposal demanding a comprehensive settlement within 30 days, including U.S. withdrawal, sanctions relief, compensation, and new Strait of Hormuz rules; Tasnim on 3 May reaffirmed that Iran\u0027s demands remain unchanged and that Tehran insists on resolving everything within 30 days, while claiming the U.S. proposed a 2‑month ceasefire. President Trump has deemed the proposal unacceptable, warned that combat operations are possible, and described the blockade as “very friendly” while criticizing Congress. Economic pressure is deepening sharply: U.S. Treasury Secretary Bessent had cited hard currency shortages and rationing, and the Iranian rial has now hit an all‑time low of 1,910,000 per dollar, underscoring the blockade’s bite. Inside the regime, Foreign Minister Araghchi is reportedly acting in coordination with IRGC commander Vahidi, sidelining moderates, and the IRGC military wing has effectively taken over decision‑making; Tehran also announced the execution of two individuals for spying for Mossad. Israel is preparing for a potential imminent U.S. strike and a possible preemptive Iranian attack, with its Chief of Staff coordinating with CENTCOM.",
                       "link":  "",
-                      "pubDate":  "2026-05-03T07:17:06.4790000Z",
+                      "pubDate":  "2026-05-03T09:16:35.4220000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
@@ -747,10 +747,10 @@
                       "categoryId":  "middle-east",
                       "categoryName":  "中东局势与能源冲击",
                       "intensity":  5,
-                      "mentionCount":  667,
+                      "mentionCount":  669,
                       "firstSeenAt":  "2026-02-25T14:00:37.611Z",
-                      "lastMentionedAt":  "2026-05-03T07:17:06.479Z",
-                      "processedAt":  "2026-05-03 07:21:13.419Z",
+                      "lastMentionedAt":  "2026-05-03T09:16:35.422Z",
+                      "processedAt":  "2026-05-03 09:20:22.292Z",
                       "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
@@ -1167,6 +1167,376 @@
                                             "date":  "May 3, morning",
                                             "point":  "Axios reported that Iran proposed a phased roadmap to the U.S., with an initial 30-day de-escalation phase to reopen the Strait of Hormuz, lift the naval blockade, and halt fighting, followed by a second phase of nuclear negotiations.",
                                             "timestamp":  "2026-05-03T06:52:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, morning",
+                                            "point":  "The Iranian rial hit a record low against the US dollar, with one USD worth 1,910,000 rials.",
+                                            "timestamp":  "2026-05-03T08:34:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "swz62j4av6o3dyd",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "黎巴嫩南部：无人机袭击与以军空袭交织，边境紧张持续",
+                      "description":  "黎以边境仍处在高强度对抗中。WIRE 信息显示，真主党无人机袭击造成以军伤亡，以军则称打击了黎巴嫩南部多个真主党目标及隧道设施。北以色列边境社区也面临新的民防限制，说明冲突正在继续影响平民生活。",
+                      "rawSummary":  "Continued exchanges across the Israel-Lebanon border included rocket launches from Lebanon toward Avivim and ongoing IDF strikes against Hezbollah positions in southern Lebanon.",
+                      "analysis":  "Hezbollah’s fiber‑optic FPV drone campaign continues to inflict casualties and pressure Israeli forces, wounding approximately 12 soldiers near Shomera and killing Sgt. Liam Ben Hamo. The Israeli Air Force has intercepted multiple Hezbollah drones and rockets, and Israeli airstrikes hit Klaouieh, Arzoun, and Nabatieh al‑Fawqa after the military warned residents of 15 towns to evacuate. The IDF said it struck over 40 Hezbollah sites on April 30, and over the April 30–May 1 weekend struck approximately 120 targets, including 70 military buildings and 50 infrastructure sites; on May 1 it leveled 50 Hezbollah buildings and released footage of an airstrike on an armed rocket launcher. The 98th Division completed a clearing operation in Bint Jbeil, claiming over 900 infrastructure sites destroyed, hundreds of weapons seized, and around 200 Hezbollah operatives killed, including a booby‑trapped stadium; IDF photos showed a U.S. passport among the seized arms. The Lebanese Health Ministry reported at least 13 people killed in Israeli strikes, and civilian casualties include a three‑year‑old girl and her mother reportedly killed. On May 2, the IDF said it carried out around 50 strikes targeting Hezbollah infrastructure and reported rocket fire toward its forces with no casualties, while Israel’s Home Front Command reclassified border communities as yellow zones and capped the Lag B’Omer gathering at 200 people. The IDF released footage on May 3 of recent strikes showing drone strikes that eliminated armed Hezbollah operatives in two incidents and follow‑on airstrikes on buildings where additional operatives were spotted. Rockets were launched from Lebanon toward Avivim, with at least one intercepted, indicating that cross‑border fire continues.",
+                      "link":  "",
+                      "pubDate":  "2026-05-03T10:16:53.2240000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Southern Lebanon (Klaouieh, Arzoun, Nabatieh al-Fawqa)",
+                      "country":  "Lebanon",
+                      "categoryId":  "middle-east",
+                      "categoryName":  "中东局势与能源冲击",
+                      "intensity":  5,
+                      "mentionCount":  430,
+                      "firstSeenAt":  "2026-02-24T22:08:39.965Z",
+                      "lastMentionedAt":  "2026-05-03T10:16:53.224Z",
+                      "processedAt":  "2026-05-03 10:19:51.015Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "Mar 12, afternoon",
+                                            "point":  "Israeli airstrikes target the towns of Naqoura, Qabrikha, Kfar, and Touline in southern Lebanon.",
+                                            "timestamp":  "2026-03-12T11:10:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Mar 25",
+                                            "point":  "Hezbollah targets an Israeli Merkava tank in Beit Lif, southern Lebanon, with an FPV drone.",
+                                            "timestamp":  "2026-04-26T18:49:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Mar 30",
+                                            "point":  "Hezbollah targets an Israeli Merkava tank in Beit Lif, southern Lebanon, with an anti-tank guided missile.",
+                                            "timestamp":  "2026-04-26T17:44:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 4",
+                                            "point":  "An Israeli soldier is killed by Hezbollah in southern Lebanon.",
+                                            "timestamp":  "2026-04-04T16:58:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 17",
+                                            "point":  "A ceasefire between Hezbollah and Israel goes into effect, though thousands of residents from southern Lebanon begin returning to their homes despite Israeli warnings against doing so.",
+                                            "timestamp":  "2026-04-17T16:42:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 18",
+                                            "point":  "Hezbollah attacks a UNIFIL convoy in southern Lebanon with small arms fire, killing one French soldier and wounding another.",
+                                            "timestamp":  "2026-04-22T14:50:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 19",
+                                            "point":  "An Israeli soldier is filmed smashing a statue of Jesus Christ in southern Lebanon; IDF later confirms authenticity and says appropriate measures will be taken.",
+                                            "timestamp":  "2026-04-19T21:18:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 21",
+                                            "point":  "Israel says two IDF soldiers were punished for smashing the Jesus statue—removed from combat and given 30 days detention—with six others under investigation.",
+                                            "timestamp":  "2026-04-21T14:13:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 22",
+                                            "point":  "A second French soldier, Corporal Anicet Girardin, dies from wounds sustained in the April 18th Hezbollah attack on a UNIFIL convoy.",
+                                            "timestamp":  "2026-04-22T14:37:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 22, evening",
+                                            "point":  "Hezbollah resumes attacks on Israeli forces in southern Lebanon, conducting three FPV drone operations targeting an artillery position, a command vehicle, and an army position, and claims to have shot down four Israeli reconnaissance drones.",
+                                            "timestamp":  "2026-04-22T18:50:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 22, evening",
+                                            "point":  "The U.S. State Department urges American citizens to depart Lebanon.",
+                                            "timestamp":  "2026-04-22T19:24:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 23",
+                                            "point":  "New report indicates widespread looting by Israeli troops in southern Lebanon, taking motorcycles, TVs, and furniture, with commanders reportedly aware but not acting to stop it.",
+                                            "timestamp":  "2026-04-23T16:42:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 23",
+                                            "point":  "A new round of U.S.-brokered Israel-Lebanon talks is scheduled at the White House, with President Trump reportedly planning to attend, but both sides remain deadlocked over Israeli withdrawal and continued operations against Hezbollah.",
+                                            "timestamp":  "2026-04-23T17:12:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 23, evening",
+                                            "point":  "Hezbollah fires multiple rockets from Lebanon into Israel, all of which are intercepted by Israeli defenses; no injuries reported.",
+                                            "timestamp":  "2026-04-23T20:40:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 23, night",
+                                            "point":  "Hezbollah fires a large volley of rockets into northern Israel, described as a major ceasefire violation.",
+                                            "timestamp":  "2026-04-23T21:24:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 24",
+                                            "point":  "Hezbollah shoots down an Israeli drone over southern Lebanon using a surface-to-air missile, reportedly downing a second drone as well, despite an announced ceasefire extension.",
+                                            "timestamp":  "2026-04-24T13:38:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 24, evening",
+                                            "point":  "Hezbollah has significantly ramped up fiber-optic FPV drone attacks in recent weeks, a tactical shift that renders Israeli jamming countermeasures ineffective.",
+                                            "timestamp":  "2026-04-24T20:49:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 24, evening",
+                                            "point":  "New footage emerges of a Hezbollah fiber-optic FPV drone successfully chasing down and striking an Israeli HMMWV in the town of Qantara.",
+                                            "timestamp":  "2026-04-24T21:15:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25",
+                                            "point":  "ISW-CTP assesses that IRGC Commander Ahmad Vahidi has won an internal power struggle in Iran over negotiations, likely reinforcing a maximalist stance that could embolden Hezbollah and increase the risk of conflict with the U.S.",
+                                            "timestamp":  "2026-04-25T01:18:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, evening",
+                                            "point":  "Israel attacks Hezbollah targets in southern Lebanon in direct retaliation for ceasefire violations.",
+                                            "timestamp":  "2026-04-25T15:52:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, evening",
+                                            "point":  "Hezbollah launches suicide drones at northern Israel in another ceasefire violation.",
+                                            "timestamp":  "2026-04-25T16:44:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, evening",
+                                            "point":  "Hezbollah sends explosive drones toward Israeli forces in southern Lebanon; no casualties reported according to the Israeli Army.",
+                                            "timestamp":  "2026-04-25T17:19:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, evening",
+                                            "point":  "Footage surfaces of a Hezbollah FPV drone striking an Israeli Merkava Mk.4 main battle tank in southern Lebanon, underscoring continued fiber-optic drone employment.",
+                                            "timestamp":  "2026-04-26T19:14:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, night",
+                                            "point":  "Assessment indicates Hezbollah is likely conducting smaller-scale, calibrated attacks to threaten Israeli security without triggering major retaliation, while IRGC hardliners continue to dominate Iran\u0027s decision-making and block compromise.",
+                                            "timestamp":  "2026-04-25T21:47:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, night",
+                                            "point":  "The Israeli army destroys solar panels in the town of Debel in southern Lebanon.",
+                                            "timestamp":  "2026-04-25T23:53:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, early morning",
+                                            "point":  "The Israeli Air Force launches airstrikes against several Hezbollah targets in southern Lebanon in retaliation for Hezbollah suicide drones fired at northern Israel earlier that day.",
+                                            "timestamp":  "2026-04-26T00:21:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, afternoon",
+                                            "point":  "Hezbollah FPV drone narrowly misses an Israeli medevac helicopter evacuating soldiers wounded in an earlier drone attack.",
+                                            "timestamp":  "2026-04-26T20:20:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, evening",
+                                            "point":  "An Israeli soldier, Sergeant Idan Fooks, 19, is killed by Hezbollah in southern Lebanon.",
+                                            "timestamp":  "2026-04-26T16:26:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, night",
+                                            "point":  "Hezbollah FPV drone strikes Israeli troops evacuating wounded soldiers, hitting them as they load a helicopter, according to initial reports.",
+                                            "timestamp":  "2026-04-26T19:57:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 27, morning",
+                                            "point":  "The Israeli army has completely destroyed most of the civilian homes in the town of Beit Lif.",
+                                            "timestamp":  "2026-04-27T06:15:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 27, morning",
+                                            "point":  "Close footage reveals that the Hezbollah FPV drone strike on Israeli soldiers evacuating wounded troops missed its targets, contradicting earlier claims that the drone hit them.",
+                                            "timestamp":  "2026-04-27T06:41:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 27, afternoon",
+                                            "point":  "Hezbollah reportedly plans to increasingly leverage suicide bomber groups in operations against Israeli positions in southern Lebanon, according to Al Jazeera, as reciprocal exchanges continue despite a ceasefire extension.",
+                                            "timestamp":  "2026-04-27T13:42:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 27, afternoon",
+                                            "point":  "Hezbollah deploys suicide bomber squads in southern Lebanon, with a senior commander stating the group is returning to 1980s combat tactics to prevent Israeli forces from entrenching.",
+                                            "timestamp":  "2026-04-27T15:32:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 27, afternoon",
+                                            "point":  "Hezbollah announces targeting two gatherings of Israeli forces in Naqoura with two FPV drones, achieving confirmed casualties.",
+                                            "timestamp":  "2026-04-27T17:17:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28, morning",
+                                            "point":  "Israeli military issues evacuation orders to the residents of 16 villages in southern Lebanon.",
+                                            "timestamp":  "2026-04-28T09:25:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28, afternoon",
+                                            "point":  "Israel\u0027s Education Minister visits the family of Sgt. Idan Fooks, who was killed by Hezbollah on April 26, and personally delivers his high school diploma to his parents.",
+                                            "timestamp":  "2026-04-28T16:50:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28, afternoon",
+                                            "point":  "Israeli Minister Amichai Chikli states that Israel is establishing a new “border line” with Lebanon, with the IDF continuing to destroy infrastructure during the ceasefire.",
+                                            "timestamp":  "2026-04-28T16:31:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28, afternoon",
+                                            "point":  "Two Lebanese Army soldiers are wounded as a result of an Israeli targeting in Majdal Zoun, south Lebanon.",
+                                            "timestamp":  "2026-04-28T17:24:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29",
+                                            "point":  "IDF troops in Lebanon are improvising solutions to counter Hezbollah drones, indicating the ineffectiveness of existing countermeasures.",
+                                            "timestamp":  "2026-04-29T09:14:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29, evening",
+                                            "point":  "A 3-year-old girl, Mila Zayyat, and her mother were reportedly killed by Israeli forces in their home in southern Lebanon.",
+                                            "timestamp":  "2026-04-29T18:47:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, morning",
+                                            "point":  "Iran is expected to submit a new proposal to the United States in the coming days, but is reportedly unwilling to concede on the Strait of Hormuz or its nuclear program, with IRGC hardliners consolidating around demanding an end to the naval blockade first.",
+                                            "timestamp":  "2026-04-30T01:42:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, morning",
+                                            "point":  "Israeli airstrikes hit targets in southern Lebanon.",
+                                            "timestamp":  "2026-04-30T07:45:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, morning",
+                                            "point":  "Hezbollah reportedly shoots down another Israeli UAV in southern Lebanon using a surface-to-air missile.",
+                                            "timestamp":  "2026-04-30T08:08:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, afternoon",
+                                            "point":  "A Hezbollah drone struck an Israeli military vehicle near Shomera in northern Israel, causing a fire and secondary explosions; approximately 12 IDF soldiers were wounded.",
+                                            "timestamp":  "2026-04-30T11:32:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, afternoon",
+                                            "point":  "The Israeli military stated it struck buildings in southern Lebanon where Hezbollah operatives were active, claiming the sites were used to plan attacks against Israeli forces and territory.",
+                                            "timestamp":  "2026-04-30T15:30:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, afternoon",
+                                            "point":  "The Israeli military announced that Sgt. Liam Ben Hamo was killed by an explosive drone in southern Lebanon, and one other soldier was moderately wounded.",
+                                            "timestamp":  "2026-04-30T15:38:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, afternoon",
+                                            "point":  "The Israeli military warned residents in 15 towns in southern Lebanon to evacuate and remain at least one kilometer away ahead of planned airstrikes targeting Hezbollah-linked infrastructure.",
+                                            "timestamp":  "2026-04-30T15:45:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, afternoon",
+                                            "point":  "Israeli airstrikes struck Klaouieh, Arzoun, and Nabatieh al-Fawqa in southern Lebanon.",
+                                            "timestamp":  "2026-04-30T15:50:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, afternoon",
+                                            "point":  "The Israeli military said it destroyed a 140-meter Hezbollah tunnel in Ras Bayda, southern Lebanon, using 24 tons of explosives.",
+                                            "timestamp":  "2026-04-30T16:55:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "Hezbollah drones triggered sirens in Rosh Hanikra, northern Israel; the Israeli Air Force intercepted at least four Hezbollah drones, and a fifth interception is under review.",
+                                            "timestamp":  "2026-05-01T08:29:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "Israel\u0027s Home Front Command reclassifies northern border communities as yellow zones starting next week, imposing new restrictions on gatherings and educational activities.",
+                                            "timestamp":  "2026-05-01T08:15:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "The Israeli military stated that over 40 Hezbollah sites in southern Lebanon, including command centers, were struck and destroyed in the past day.",
+                                            "timestamp":  "2026-05-01T08:59:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "The Israeli military reported that two IDF soldiers were lightly wounded in a Hezbollah drone attack in southern Lebanon.",
+                                            "timestamp":  "2026-05-01T10:31:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "Attendance at the Lag B’Omer pilgrimage on Mount Meron is capped at 200 people as part of tightened restrictions in northern Israel.",
+                                            "timestamp":  "2026-05-01T10:21:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "The Israeli military said a drone heading toward IDF forces in southern Lebanon was intercepted, while Hezbollah also fired a rocket and an explosive drone that landed near IDF positions with no casualties.",
+                                            "timestamp":  "2026-05-01T10:59:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, late morning",
+                                            "point":  "The Israeli military released footage of a firefight in Bint Jbeil, southern Lebanon, and stated that its 98th Division killed around 200 Hezbollah operatives and destroyed 900 infrastructure sites in the town in recent weeks, including a booby-trapped stadium.",
+                                            "timestamp":  "2026-05-01T11:28:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, afternoon",
+                                            "point":  "IDF photos of weapons seized from Hezbollah in Bint Jbeil show a U.S. passport and passport photo booklets among the confiscated arms.",
+                                            "timestamp":  "2026-05-01T13:39:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, afternoon",
+                                            "point":  "More than ten interceptor missiles were fired from Israel toward Lebanon since the morning, reflecting heightened air defense activity.",
+                                            "timestamp":  "2026-05-01T13:53:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, afternoon",
+                                            "point":  "The Israeli military reported that IDF forces raided Hezbollah sites in the Rashaf area near Bint Jbeil, seizing hand grenades, rifles, ammunition, and a Kornet missile.",
+                                            "timestamp":  "2026-05-01T14:36:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, afternoon",
+                                            "point":  "The Israeli military said a rocket fired at its forces in southern Lebanon was intercepted, and an interceptor was launched at a suspected aerial target in the area.",
+                                            "timestamp":  "2026-05-01T15:30:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1",
+                                            "point":  "The IDF published footage of an airstrike on an armed Hezbollah rocket launcher in southern Lebanon.",
+                                            "timestamp":  "2026-05-02T18:17:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1",
+                                            "point":  "The IDF reported that 50 Hezbollah buildings were leveled in southern Lebanon on May 1.",
+                                            "timestamp":  "2026-05-02T18:35:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, afternoon",
+                                            "point":  "The Lebanese Health Ministry reports at least 13 people killed in Israeli strikes in southern Lebanon.",
+                                            "timestamp":  "2026-05-02T12:15:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, afternoon",
+                                            "point":  "The Israel Defense Forces says it carried out around 50 strikes in southern Lebanon targeting Hezbollah infrastructure, and reports rocket fire toward its forces with no casualties.",
+                                            "timestamp":  "2026-05-02T14:17:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, afternoon",
+                                            "point":  "Sirens sounded in Yiftah, northern Israel, over a suspected hostile aircraft were later confirmed a false identification.",
+                                            "timestamp":  "2026-05-02T17:02:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, evening",
+                                            "point":  "The IDF stated that approximately 120 Hezbollah targets were struck in southern Lebanon over the weekend, including 70 military buildings and 50 infrastructure sites.",
+                                            "timestamp":  "2026-05-02T18:34:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, morning",
+                                            "point":  "The IDF releases footage of recent strikes in southern Lebanon showing drone strikes eliminating armed Hezbollah operatives in two incidents and follow-on airstrikes on buildings where additional operatives were spotted.",
+                                            "timestamp":  "2026-05-03T08:24:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, late morning",
+                                            "point":  "Rockets were launched from Lebanon toward Avivim in northern Israel; at least one was intercepted, with further results under review, as cross-border exchanges continue.",
+                                            "timestamp":  "2026-05-03T09:50:00.000Z"
                                         }
                                     ]
                   },
@@ -2156,159 +2526,14 @@
                                     ]
                   },
                   {
-                      "id":  "i3z9ub52wmz6nv6",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "黎巴嫩南部：无人机袭击与以军空袭交织，边境紧张持续",
-                      "description":  "黎以边境仍处在高强度对抗中。WIRE 信息显示，真主党无人机袭击造成以军伤亡，以军则称打击了黎巴嫩南部多个真主党目标及隧道设施。北以色列边境社区也面临新的民防限制，说明冲突正在继续影响平民生活。",
-                      "rawSummary":  "The UAE is recalibrating its foreign and security policies, marked by its withdrawal from OPEC, a travel ban on Iran, Lebanon, and Iraq, resumed air operations, and now a state security referral over an alleged arms smuggling network to Sudan.",
-                      "analysis":  "The UAE is managing multiple post-conflict adjustments. Israel\u0027s military support, including Spectro and Iron Beam systems alongside Iron Dome batteries and personnel under Operation Roaring Lion, provided overt coordination during Iranian attacks, coinciding with a U.S. F/A‑18 buildup at Al Dhafra and Iranian-Omani talks on Strait of Hormuz security. The UAE Ministry of Energy and Infrastructure announced its withdrawal from OPEC and OPEC+ effective May 1, citing Hormuz constraints to limit market disruption, and officials framed it as part of a broader strategic reassessment of global organisations amid tensions with Saudi Arabia. The Ministry of Foreign Affairs banned citizens from traveling to Iran, Lebanon, and Iraq, ordering immediate returns. Airports and airspace returned to normal operations. In a separate development, the UAE Attorney General referred 13 defendants and 6 companies to the State Security Court over an alleged Muslim Brotherhood-linked network that smuggled weapons and ammunition to Sudan\u0027s army, after intercepting a shipment disguised as humanitarian aid.",
-                      "link":  "",
-                      "pubDate":  "2026-05-03T07:45:59.9770000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "United Arab Emirates",
-                      "country":  "United Arab Emirates",
-                      "categoryId":  "middle-east",
-                      "categoryName":  "中东局势与能源冲击",
-                      "intensity":  4,
-                      "mentionCount":  17,
-                      "firstSeenAt":  "2026-04-25T06:16:01.512Z",
-                      "lastMentionedAt":  "2026-05-03T07:45:59.977Z",
-                      "processedAt":  "2026-05-03 07:47:54.030Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "Apr 25",
-                                            "point":  "U.S. forces deployed 12 F/A-18s, 7 tankers, and a C-17 to Al Dhafra Air Base.",
-                                            "timestamp":  "2026-04-25T05:43:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26",
-                                            "point":  "Axios reported that Israel secretly deployed its Iron Dome system and troops to the UAE during the Iran war, marking its first use abroad.",
-                                            "timestamp":  "2026-04-26T12:04:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, evening",
-                                            "point":  "Western media reported that Netanyahu ordered the Iron Dome deployment after a call with Emirati President Mohammed bin Zayed, with several dozen IDF personnel operating the system.",
-                                            "timestamp":  "2026-04-26T20:42:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, evening",
-                                            "point":  "Iranian Foreign Minister Abbas Araghchi traveled to Muscat to discuss Strait of Hormuz security with Omani Sultan Haitham al Tariq.",
-                                            "timestamp":  "2026-04-26T20:42:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, morning",
-                                            "point":  "Israel\u0027s deployment to the UAE was reportedly carried out under the name Operation Roaring Lion.",
-                                            "timestamp":  "2026-04-27T05:22:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28",
-                                            "point":  "UAE announced it will leave OPEC and OPEC+ effective May 1, ending its 59-year membership.",
-                                            "timestamp":  "2026-04-28T12:24:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, afternoon",
-                                            "point":  "UAE Energy Minister stated the withdrawal from OPEC will not hugely impact the market because of constraints on the Strait of Hormuz.",
-                                            "timestamp":  "2026-04-28T13:20:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, afternoon",
-                                            "point":  "UAE announced it will significantly increase oil production after leaving OPEC, no longer bound by production quotas.",
-                                            "timestamp":  "2026-04-28T13:28:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29",
-                                            "point":  "UAE officials said the country is reviewing its role in global organisations but has no plans for further exits, describing it as a broader strategic reassessment amid tensions with Saudi Arabia and post-Iran war shifts.",
-                                            "timestamp":  "2026-04-29T13:03:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "US President Trump called the UAE\u0027s withdrawal from OPEC \u0027great\u0027 and described President Mohamed bin Zayed as \u0027very smart\u0027.",
-                                            "timestamp":  "2026-04-29T18:34:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "UAE Ministry of Foreign Affairs announced a travel ban on its citizens to Iran, Lebanon, and Iraq, ordering Emiratis already there to leave immediately amid current regional developments.",
-                                            "timestamp":  "2026-04-30T20:12:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "The Financial Times reported that Israel also supplied a Spectro drone-detection system and an Iron Beam laser air-defense system to the UAE during the Iranian attacks, alongside Iron Dome batteries and intelligence sharing.",
-                                            "timestamp":  "2026-04-30T20:28:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2",
-                                            "point":  "UAE airports and airspace resumed normal operations after recent disruptions.",
-                                            "timestamp":  "2026-05-02T18:40:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3",
-                                            "point":  "UAE Attorney General referred 13 defendants and 6 UAE companies to the State Security Court over an alleged Muslim Brotherhood-linked network that smuggled weapons and ammunition to Sudan\u0027s army, after intercepting a shipment disguised as humanitarian aid.",
-                                            "timestamp":  "2026-05-03T07:14:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "crz81bt22qgz43o",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "一处海外风险点：WIRE 监测到新的重要变化",
-                      "description":  "WIRE 将该事件标记为强度 4/5，累计提及 4 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。",
-                      "rawSummary":  "Israel is expanding its air force with new F-35 squadrons and planned fighter jet purchases while receiving continued U.S. military resupply, as the country\u0027s economy outpaces G7 nations and tensions rise over a potential U.S. strike on Iran.",
-                      "analysis":  "The United States conducted a large-scale resupply operation to Israel, delivering about 6,500 tons of weapons and equipment within 24 hours via ships and aircraft, including munitions, military trucks, and JLTV armored vehicles. CNBC reported that Israel is on track to outgrow every G7 economy this year, with unemployment at 3.2%, inflation below 2%, and significant gains in the Tel Aviv Stock Exchange and the shekel, driven by a dominant tech sector and surging foreign investment. In a further expansion of military capabilities, Israel has approved a fourth F-35 squadron, expanding its stealth fighter fleet to approximately 100 aircraft, while the defense ministry announced plans to purchase additional F-35 and F-15 jets from the United States. Channel 12 reported that large shipments of ammunition and military equipment have arrived recently, as Israel prepares for the possibility of a U.S. attack on Iran and the risk of an Iranian preemptive strike.",
-                      "link":  "",
-                      "pubDate":  "2026-05-03T08:16:29.2060000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Tel Aviv",
-                      "country":  "Israel",
-                      "categoryId":  "middle-east",
-                      "categoryName":  "中东局势与能源冲击",
-                      "intensity":  4,
-                      "mentionCount":  4,
-                      "firstSeenAt":  "2026-04-30T21:32:39.257Z",
-                      "lastMentionedAt":  "2026-05-03T08:16:29.206Z",
-                      "processedAt":  "2026-05-03 08:17:28.010Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "Apr 30",
-                                            "point":  "Approximately 6,500 tons of U.S. weapons and equipment, including munitions and armored vehicles, arrived in Israel within 24 hours via ships and aircraft.",
-                                            "timestamp":  "2026-04-30T21:12:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, night",
-                                            "point":  "CNBC reported that Israel\u0027s economy is growing faster than every G7 economy, with unemployment at 3.2%, inflation below 2%, and significant stock market and currency gains.",
-                                            "timestamp":  "2026-04-30T23:19:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2",
-                                            "point":  "Channel 12 reported that large shipments of ammunition and military equipment have arrived in recent days, as Israel prepares for the possibility of a U.S. attack on Iran and the risk of an Iranian preemptive strike.",
-                                            "timestamp":  "2026-05-02T17:46:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, morning",
-                                            "point":  "Israel approved a fourth F-35 squadron, expanding its fleet to approximately 100 aircraft.",
-                                            "timestamp":  "2026-05-03T07:38:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, morning",
-                                            "point":  "Israel\u0027s defense ministry announced approval of a plan to purchase new F-35 and F-15 fighter jets from the United States.",
-                                            "timestamp":  "2026-05-03T08:14:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
                       "id":  "7pqdntold382sgx",
                       "sourceKind":  "world-monitor-wire",
-                      "title":  "俄罗斯能源设施：炼油厂与出口终端安全压力上升",
-                      "description":  "俄罗斯能源基础设施继续处在战争外溢风险之中。WIRE 信息显示，炼油厂和出口终端相关事件受到关注，说明乌克兰远程打击与俄罗斯后方防护之间的攻防仍在持续。能源设施一旦反复受袭，可能进一步影响区域燃料供应和市场预期。",
-                      "rawSummary":  "Fire at Russia\u0027s largest Baltic oil export terminal after reported drone attack",
-                      "analysis":  "Multiple fires were detected at Russia\u0027s largest Baltic oil export terminal in Primorsk, with NASA\u0027s FIRMS fire monitoring system confirming the detections. The fires occurred after Ukrainian drones reportedly targeted the area, though Russian officials have not yet issued a statement. At least one loading pier was seen ablaze. The strike on a critical energy export hub marks a notable escalation in the conflict\u0027s geographic reach.",
+                      "title":  "一处海外风险点：WIRE 监测到新的重要变化",
+                      "description":  "WIRE 将该事件标记为强度 4/5，累计提及 2 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。",
+                      "rawSummary":  "Fires broke out at the Port of Primorsk oil terminal near the Finnish border after a reported Ukrainian drone strike, with NASA FIRMS detecting multiple fires and at least one loading pier seen burning.",
+                      "analysis":  "Multiple fires were detected at Russia\u0027s largest Baltic oil export terminal in Primorsk, with NASA\u0027s FIRMS fire monitoring system confirming the detections. The fires occurred after Ukrainian drones reportedly targeted the terminal, and early reports indicated the strike hit a facility close to the Finnish border, underscoring the geographic reach of the attack. Russian officials have not yet issued a statement on the incident. At least one loading pier was seen ablaze. The strike on a critical energy export hub represents a notable escalation in the conflict\u0027s expansion.",
                       "link":  "",
-                      "pubDate":  "2026-05-03T04:46:16.6240000Z",
+                      "pubDate":  "2026-05-03T10:16:53.2240000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
@@ -2317,16 +2542,46 @@
                       "categoryId":  "europe-security",
                       "categoryName":  "俄乌战争与欧洲安全",
                       "intensity":  4,
-                      "mentionCount":  1,
+                      "mentionCount":  2,
                       "firstSeenAt":  "2026-05-03T04:46:16.624Z",
-                      "lastMentionedAt":  "2026-05-03T04:46:16.624Z",
-                      "processedAt":  "2026-05-03 04:46:16.651Z",
-                      "lastChangeType":  "created",
+                      "lastMentionedAt":  "2026-05-03T10:16:53.224Z",
+                      "processedAt":  "2026-05-03 10:17:26.534Z",
+                      "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
                                             "date":  "May 3, morning",
                                             "point":  "Fires break out at Port of Primorsk oil terminal following a reported Ukrainian drone attack; NASA FIRMS detects multiple fires and at least one loading pier is seen burning.",
                                             "timestamp":  "2026-05-03T04:25:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "37g8m366gu5yo4b",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "俄罗斯能源设施：炼油厂与出口终端安全压力上升",
+                      "description":  "俄罗斯能源基础设施继续处在战争外溢风险之中。WIRE 信息显示，炼油厂和出口终端相关事件受到关注，说明乌克兰远程打击与俄罗斯后方防护之间的攻防仍在持续。能源设施一旦反复受袭，可能进一步影响区域燃料供应和市场预期。",
+                      "rawSummary":  "Ukrainian forces conduct major attack on Russian Baltic Sea oil export terminals",
+                      "analysis":  "Ukrainian forces launched a major attack on Russia’s Baltic Sea oil export terminals early on May 3, with a Ukrainian drone observed flying at low altitude over Leningrad Oblast toward its target. The terminals, which lie along the Gulf of Finland coast, are critical to Russian crude oil exports. No immediate details on damage or casualties were provided in the post.",
+                      "link":  "",
+                      "pubDate":  "2026-05-03T01:46:05.5800000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Leningrad Oblast",
+                      "country":  "Russia",
+                      "categoryId":  "europe-security",
+                      "categoryName":  "俄乌战争与欧洲安全",
+                      "intensity":  4,
+                      "mentionCount":  1,
+                      "firstSeenAt":  "2026-05-03T01:46:05.580Z",
+                      "lastMentionedAt":  "2026-05-03T01:46:05.580Z",
+                      "processedAt":  "2026-05-03 01:46:05.607Z",
+                      "lastChangeType":  "created",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "May 3, morning",
+                                            "point":  "Ukrainian forces launched a major attack on Russia’s Baltic Sea oil export terminals, with a drone spotted over Leningrad Oblast.",
+                                            "timestamp":  "2026-05-03T01:28:00.000Z"
                                         }
                                     ]
                   },
@@ -2482,41 +2737,6 @@
                                             "date":  "May 2, afternoon",
                                             "point":  "The Yemeni coast guard reported that the hijacked vessel is the UAE-owned oil tanker M/T Eureka, which left Fujairah eight days earlier and anchored near Al Mukallah two days prior.",
                                             "timestamp":  "2026-05-02T15:34:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "zywvmb1jost20fm",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "英国伯明翰：体育馆因可疑包裹疏散",
-                      "description":  "英国伯明翰出现一起低热度但值得注意的安全事件。WIRE 信息显示，Utilita Arena Birmingham 因可疑包裹进行疏散，拆弹小组到场处置。此类事件未必会演变为重大新闻，但能反映欧洲城市公共空间的安保敏感度。",
-                      "rawSummary":  "A suspicious package at the Utilita Arena in Birmingham prompted an evacuation during a Peter Kay comedy show, and a 19-year-old was subsequently arrested on suspicion of a bomb hoax.",
-                      "analysis":  "The Utilita Arena in Birmingham was evacuated during a Peter Kay show after a suspicious package was discovered. A bomb squad arrived at the scene as a precaution. The day after the evacuation, a 19-year-old was arrested on suspicion of a bomb hoax offence. The incident occurred amid a heightened terrorism threat level in the UK following a recent attack in London, though the arrest was specifically for a suspected hoax.",
-                      "link":  "",
-                      "pubDate":  "2026-05-02T09:16:36.1800000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Birmingham",
-                      "country":  "United Kingdom",
-                      "categoryId":  "low-heat",
-                      "categoryName":  "低热度地区简报",
-                      "intensity":  2,
-                      "mentionCount":  2,
-                      "firstSeenAt":  "2026-05-01T21:01:42.175Z",
-                      "lastMentionedAt":  "2026-05-02T09:16:36.180Z",
-                      "processedAt":  "2026-05-02 09:17:30.674Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 1, evening",
-                                            "point":  "Utilita Arena in Birmingham evacuated and bomb squad dispatched after a suspicious package was found during a comedy show.",
-                                            "timestamp":  "2026-05-01T20:48:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, morning",
-                                            "point":  "A 19-year-old was arrested on suspicion of a bomb hoax offence following the evacuation.",
-                                            "timestamp":  "2026-05-02T09:05:00.000Z"
                                         }
                                     ]
                   },
