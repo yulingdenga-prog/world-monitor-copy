@@ -6,7 +6,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: "*/5 * * * *"
+    # 20:30 Asia/Shanghai = 12:30 UTC
+    - cron: "30 12 * * *"
 
 
 permissions:
