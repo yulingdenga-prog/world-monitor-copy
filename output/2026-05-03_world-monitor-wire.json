@@ -1,5 +1,5 @@
 ﻿{
-    "generatedAt":  "2026-05-03T06:10:03.9713713Z",
+    "generatedAt":  "2026-05-03T07:06:49.3902511Z",
     "timezone":  "Asia/Shanghai",
     "sources":  [
                     {
@@ -46,487 +46,67 @@
                                     ]
                   },
                   {
-                      "id":  "qsgrvne311rho7t",
+                      "id":  "dnnb75vv2i4wzr2",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "北京外交：零关税、台湾议题与对日摩擦同时推进",
                       "description":  "中国相关动态今天集中在外交和经贸层面。WIRE 信息显示，中国对 53 个非洲国家的进口零关税政策生效，同时因台湾承认问题将斯威士兰排除在外；中美围绕技术和古巴制裁的摩擦仍在延续，中日之间关于军事言论的交锋也没有降温。这说明北京正在同时处理经贸拉拢、台湾议题和大国竞争三条线。",
-                      "rawSummary":  "Japan announces military drills near Taiwan in Nansei island chain",
-                      "analysis":  "Japan is directing its military exercises for the first time toward the Nansei island chain near Taiwan, a strategic shift that includes Okinawa. Upcoming drills will feature troop deployments, supply operations, and joint command training with the United States. The move signals heightened military readiness concerning the Taiwan Strait.",
+                      "rawSummary":  "As a U.S. military aircraft arrived in Beijing to prepare for a mid-May Trump-Xi summit, Chinese authorities instructed domestic companies to defy U.S. sanctions on oil refiners that buy Iranian oil, part of a broader wave of assertive actions that also saw Beijing block a Meta acquisition, sharply rebuke Japan, grant zero-tariff access to African nations excluding Eswatini, and press Washington to rescind Cuba sanctions.",
+                      "analysis":  "The zero-tariff policy for African nations, now in effect, excludes Eswatini to reinforce Beijing\u0027s One-China stance. Blocking Meta\u0027s acquisition of Manus extends technology tensions with the U.S., while the sharp rebuke of Japan over perceived military moves heightens regional security rhetoric. China\u0027s Foreign Ministry also urged the U.S. to walk back its Cuba sanctions regime, accusing it of vilifying China-Cuba cooperation. In a further move, Beijing declared it does not recognize U.S. sanctions on Iranian oil purchases and will not comply, and its Ministry of Commerce has now instructed Chinese companies not to adhere to sanctions on oil refiners, calling the measures illegal extraterritorial overreach. Separately, a U.S. military C-17 aircraft landed in Beijing to prepare for a mid-May summit between President Trump and President Xi, adding a layer of diplomatic engagement to the current assertive policy landscape.",
                       "link":  "",
-                      "pubDate":  "2026-05-02T22:31:20.7740000Z",
+                      "pubDate":  "2026-05-03T07:01:33.5440000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
-                      "locationName":  "Nansei Island Chain (including Okinawa)",
-                      "country":  "Japan",
-                      "categoryId":  "china-neighborhood",
-                      "categoryName":  "中国及周边观察",
-                      "intensity":  4,
-                      "mentionCount":  1,
-                      "firstSeenAt":  "2026-05-02T22:31:20.774Z",
-                      "lastMentionedAt":  "2026-05-02T22:31:20.774Z",
-                      "processedAt":  "2026-05-02 22:31:20.800Z",
-                      "lastChangeType":  "created",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 2",
-                                            "point":  "Japan announced that for the first time it is directing military drills toward the strategic Nansei island chain near Taiwan, with upcoming exercises including troop deployments, supply operations, and joint command training with the U.S.",
-                                            "timestamp":  "2026-05-02T22:20:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "xv8pjwx2lvaxhp7",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "一处海外风险点：WIRE 监测到新的重要变化",
-                      "description":  "WIRE 将该事件标记为强度 3/5，累计提及 1 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。",
-                      "rawSummary":  "Iranian oil tanker evades US naval blockade near Indonesia",
-                      "analysis":  "An Iranian oil tanker carrying 1.9 million barrels of oil worth nearly $220 million reportedly evaded a US naval blockade and was located near Indonesia. The tanker\u0027s movement suggests an attempt to circumvent sanctions and deliver its cargo. No immediate response from US naval forces has been confirmed. The incident underscores the ongoing tension over Iranian oil exports.",
-                      "link":  "",
-                      "pubDate":  "2026-05-03T05:16:33.6050000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Waters near Indonesia",
-                      "country":  "Indonesia",
+                      "locationName":  "Beijing",
+                      "country":  "China",
                       "categoryId":  "china-neighborhood",
                       "categoryName":  "中国及周边观察",
                       "intensity":  3,
-                      "mentionCount":  1,
-                      "firstSeenAt":  "2026-05-03T05:16:33.605Z",
-                      "lastMentionedAt":  "2026-05-03T05:16:33.605Z",
-                      "processedAt":  "2026-05-03 05:16:33.631Z",
-                      "lastChangeType":  "created",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 3",
-                                            "point":  "Large Iranian oil tanker carrying 1.9 million barrels evaded US naval blockade and was near Indonesia.",
-                                            "timestamp":  "2026-05-03T05:13:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "a5umodhco65h6be",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "霍尔木兹海峡：封锁僵局继续推高能源与航运压力",
-                      "description":  "美国海上封锁仍在持续，伊朗方面拒绝把核谈判与重新开放通道直接绑定。WIRE 信息显示，英国海军确认战争爆发以来相关船舶通行量已大幅下降，布伦特原油价格仍处在高位。能源、航运和外交谈判正在相互牵动，这是今天最值得关注的全球风险点。",
-                      "rawSummary":  "The Strait of Hormuz remains critically restricted, with daily transits under 10% of pre-war levels and Brent crude above $119 per barrel, as Iran insists on its right to control the waterway and the U.S. blockade continues; diplomatic deadlock deepened after President Trump rejected Iran\u0027s latest proposal.",
-                      "analysis":  "The Strait of Hormuz remains heavily restricted, with daily vessel transits at less than 10% of pre-war averages and Brent crude above $119 per barrel. Iran insists the strait is not an international waterway but an Iranian right, while the U.S. blockade has turned back 42 vessels and Washington warns shippers that paying tolls risks sanctions. Diplomatic efforts have failed to yield a breakthrough; Axios reported that Iran’s latest proposal set a one-month deadline for negotiations to reopen the strait under controlled conditions, end the U.S. naval blockade, and permanently end the war in Iran and Lebanon, with nuclear talks to begin only after a permanent ceasefire is secured, but President Trump rejected it, according to Reuters and Axios. Germany has expressed readiness to engage militarily to restore freedom of navigation if conditions are met, and other European allies share similar resolve. Earlier, satellite imagery showed several dozen Iranian gunboats operating around the middle of the strait, and approximately 40 speedboats were later spotted at night possibly laying mines, suggesting ongoing mine-laying or patrol activity.",
-                      "link":  "",
-                      "pubDate":  "2026-05-03T03:16:14.8220000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Strait of Hormuz (Iranian coastline)",
-                      "country":  "Iran",
-                      "categoryId":  "middle-east",
-                      "categoryName":  "中东局势与能源冲击",
-                      "intensity":  5,
-                      "mentionCount":  1287,
-                      "firstSeenAt":  "2026-02-25T17:01:14.544Z",
-                      "lastMentionedAt":  "2026-05-03T03:16:14.822Z",
-                      "processedAt":  "2026-05-03 03:20:11.811Z",
+                      "mentionCount":  8,
+                      "firstSeenAt":  "2026-04-27T10:47:06.327Z",
+                      "lastMentionedAt":  "2026-05-03T07:01:33.544Z",
+                      "processedAt":  "2026-05-03 07:02:46.188Z",
                       "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
-                                            "date":  "Apr 22, morning",
-                                            "point":  "Iranian forces attack at least two MSC-chartered container ships, with both vessels now stopped in Iranian territorial waters; one bridge heavily damaged.",
-                                            "timestamp":  "2026-04-22T08:08:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 22, morning",
-                                            "point":  "IRGC Navy announces seizure of two vessels, MSC Francesca and Epaminondas, for alleged navigation violations, and directs them to the Iranian coast.",
-                                            "timestamp":  "2026-04-22T10:03:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 22, afternoon",
-                                            "point":  "Satellite imagery shows dozens of IRGC speedboats heading in large groups away from the middle of the Strait of Hormuz, suggesting active mining operations are underway.",
-                                            "timestamp":  "2026-04-22T15:38:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 22, afternoon",
-                                            "point":  "U.S. officials assess that clearing the strait of mines could take up to six months, with operations unlikely until a long-term ceasefire is in place.",
-                                            "timestamp":  "2026-04-22T17:00:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 22, evening",
-                                            "point":  "The White House Press Secretary states the U.S. does not view the Iranian seizure of the two vessels as a ceasefire violation, downplaying the incidents as piracy and claiming Iran\u0027s conventional navy has been destroyed.",
-                                            "timestamp":  "2026-04-22T19:31:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 22, evening",
-                                            "point":  "IRGC Navy releases footage of its forces boarding and seizing two container ships in the Strait of Hormuz.",
-                                            "timestamp":  "2026-04-22T21:44:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, night",
-                                            "point":  "Analysis indicates IRGC Commander Vahidi is prepared to resume the war if needed to assert Iranian control over the strait, as Iranian decision-making remains fragmented and unable to formulate a coherent negotiating position.",
-                                            "timestamp":  "2026-04-23T00:12:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, morning",
-                                            "point":  "Iran announces it has received its first official revenue from transit tolls imposed on vessels passing through the Strait of Hormuz, reportedly up to $2 million per passage.",
-                                            "timestamp":  "2026-04-23T11:21:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, afternoon",
-                                            "point":  "Hardline IRGC generals, led by Vahidi, have overwhelmed political figures in internal debates, causing the collapse of recent negotiations, while Supreme Leader Mojtaba Khamenei remains in hiding and has delegated authority to hardliners.",
-                                            "timestamp":  "2026-04-23T12:36:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, afternoon",
-                                            "point":  "President Trump orders the U.S. Navy to shoot and destroy any Iranian boats laying mines in the Strait of Hormuz and triples mine-clearing operations.",
-                                            "timestamp":  "2026-04-23T12:49:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, afternoon",
-                                            "point":  "Trump asserts the U.S. has total control over the Strait of Hormuz and that no ship can enter or leave without U.S. approval, citing infighting between Iranian hardliners and moderates, and suggests he does not need a deal with Iran.",
-                                            "timestamp":  "2026-04-23T13:17:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, afternoon",
-                                            "point":  "The world\u0027s top 10 tanker and containership owners have completely stopped their ships from attempting to cross the Strait of Hormuz, prioritizing getting vessels out of the region amid continued Iranian seizures.",
-                                            "timestamp":  "2026-04-23T15:28:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, afternoon",
-                                            "point":  "CENTCOM reports that 33 vessels have been directed back to Iranian ports or turned back since the start of the U.S. blockade of vessels traveling to and from Iranian ports.",
-                                            "timestamp":  "2026-04-23T15:44:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, evening",
-                                            "point":  "The U.S. has used over 1,000 Tomahawk missiles and thousands of air-defense interceptors in the Iran war, raising concerns that restocking could take up to six years, potentially affecting readiness for other contingencies such as a Taiwan scenario.",
-                                            "timestamp":  "2026-04-23T19:01:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, night",
-                                            "point":  "Heads of Iran\u0027s three branches of government and other senior officials publicly reject the existence of \u0027hardline\u0027 and \u0027moderate\u0027 factions, circulating unifying revolutionary slogans to defend against potential accusations of moderation from hardliners like Vahidi.",
-                                            "timestamp":  "2026-04-24T03:26:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, morning",
-                                            "point":  "The US military is preparing plans to strike Iran\u0027s defenses around the Strait of Hormuz if the current ceasefire fails, with targets potentially including small attack boats, mine-laying vessels, missiles, and drones, as well as energy infrastructure or Iranian military leaders.",
-                                            "timestamp":  "2026-04-24T05:38:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, morning",
-                                            "point":  "Two more tankers cross the Strait of Hormuz: China-owned oil tanker Well Sail and Singapore-owned, US-sanctioned LPG tanker Avon, indicating limited but continued traffic despite the blockade and mining.",
-                                            "timestamp":  "2026-04-24T08:09:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, afternoon",
-                                            "point":  "U.S. Secretary of War Pete Hegseth says Europe needs the Strait of Hormuz much more than the U.S. does, signaling potential shifts in allied burden-sharing.",
-                                            "timestamp":  "2026-04-24T12:19:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, afternoon",
-                                            "point":  "Hegseth announces that a second U.S. aircraft carrier will join the blockade in several days, and authorizes shoot-to-destroy rules of engagement against Iranian forces laying mines or threatening U.S. ships.",
-                                            "timestamp":  "2026-04-24T12:15:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, afternoon",
-                                            "point":  "Chairman of the Joint Chiefs General Caine reports the U.S. has now directed 34 vessels to turn back that are traveling to and from Iranian ports.",
-                                            "timestamp":  "2026-04-24T12:15:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, afternoon",
-                                            "point":  "Hegseth criticizes Asian and European allies for not joining the Iran War or assisting in clearing the strait, stating \u0027the time for free-riding is over.\u0027",
-                                            "timestamp":  "2026-04-24T13:51:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, afternoon",
-                                            "point":  "German Chancellor Merz conditions any sanctions relief on free navigation in the Strait of Hormuz, a definitive end to Iran\u0027s nuclear program, and an end to Iranian threats against Israel.",
-                                            "timestamp":  "2026-04-24T16:35:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, afternoon",
-                                            "point":  "CENTCOM announces the USS George H.W. Bush has entered the region, with over 200 aircraft and twelve ships now operating in the area.",
-                                            "timestamp":  "2026-04-24T16:45:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24",
-                                            "point":  "Russian oligarch\u0027s super yacht \u0027The Nord\u0027 crosses the Strait of Hormuz with IRGC permission, after departing Dubai.",
-                                            "timestamp":  "2026-04-26T18:44:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25, morning",
-                                            "point":  "Two oil tankers, the Indian-registered and OFAC-sanctioned \u0027OCEANJET\u0027 and the unknown-ownership \u0027LUMINA OCEAN\u0027, cross the Strait of Hormuz with IRGC authorization.",
-                                            "timestamp":  "2026-04-25T07:49:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25, morning",
-                                            "point":  "Turkish Foreign Minister Hakan Fidan says Türkiye may join demining efforts in the Strait of Hormuz after a potential Iran–U.S. deal, calling it a \u0027humanitarian duty\u0027 in principle.",
-                                            "timestamp":  "2026-04-25T08:19:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25, morning",
-                                            "point":  "Iran\u0027s Central Headquarters of Hazrat Khatam al-Anbiya warns the U.S. that continued siege and maritime operations will face a reaction from Iran\u0027s armed forces, claiming greater readiness and offensive capability than before and threatening to inflict heavier damages.",
-                                            "timestamp":  "2026-04-25T11:30:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25, afternoon",
-                                            "point":  "Iranian state television visits the seized container ship Epaminondas in the Strait of Hormuz, with the MSC Francesca confirmed still nearby and AIS tracking off since April 22.",
-                                            "timestamp":  "2026-04-25T16:38:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25, evening",
-                                            "point":  "Iranian-flagged and U.S.-sanctioned bulk carrier PARISA departs the Strait of Hormuz for China, with its movements intentionally kept visible in what appears to be a display of defiance against the blockade.",
-                                            "timestamp":  "2026-04-25T19:44:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25",
-                                            "point":  "Russian oligarch Alexei Mordashov\u0027s superyacht \u0027Nord\u0027 crossed the Strait of Hormuz heading to Oman with IRGC permission, confirming the 142-meter sanctioned vessel transited despite the blockade and mine threat.",
-                                            "timestamp":  "2026-04-28T10:21:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, evening",
-                                            "point":  "U.S. naval forces turn back $1.05 billion of Iranian crude and the U.S. Coast Guard seizes $380 million at sea, intensifying economic pressure on Iran.",
-                                            "timestamp":  "2026-04-26T20:42:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, morning",
-                                            "point":  "Iran reportedly offers a new proposal to reopen the Strait of Hormuz and lift the U.S. blockade first, with nuclear talks to be delayed.",
-                                            "timestamp":  "2026-04-27T01:28:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, morning",
-                                            "point":  "U.S. President Trump and UK Prime Minister Starmer hold a call discussing the \u0027urgent need\u0027 to reopen the Strait of Hormuz, signaling high-level allied coordination on the crisis.",
-                                            "timestamp":  "2026-04-27T05:28:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, afternoon",
-                                            "point":  "A US Army AH-64E Apache attack helicopter returns from a mission over the Strait of Hormuz, indicating expanded aerial surveillance and strike capability alongside naval forces.",
-                                            "timestamp":  "2026-04-27T15:30:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, afternoon",
-                                            "point":  "U.S. aircraft carriers operating in the region are reported to depend on the Saudi port of Yanbu, the UAE port of Fujairah, and the Omani port of Duqm for supplies, potentially creating logistical vulnerabilities.",
-                                            "timestamp":  "2026-04-27T15:57:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, later afternoon",
-                                            "point":  "The United States continues moving military equipment to the Middle East amid the ceasefire, and the U.S., Israel, and Iran are reportedly preparing for a possible new round of war if no deal is reached.",
-                                            "timestamp":  "2026-04-27T16:25:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, evening",
-                                            "point":  "President Trump expresses skepticism regarding Iran\u0027s offer to reopen the Strait of Hormuz and delay nuclear talks, according to a Wall Street Journal report.",
-                                            "timestamp":  "2026-04-27T22:15:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, evening",
-                                            "point":  "Marco Rubio states that Iran cannot be the sole beneficiaries of an illegal, unlawful, and unjustified system of tolling and control in the straits.",
-                                            "timestamp":  "2026-04-27T22:40:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, evening",
-                                            "point":  "Prediction market Polymarket shows the likelihood of normal traffic resumption in the Strait of Hormuz before the end of next month has dropped to 40%, with warnings of potential fuel shortages if the strait remains closed for five more weeks.",
-                                            "timestamp":  "2026-04-27T22:58:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, night",
-                                            "point":  "President Trump told advisers he is not satisfied with Iran’s latest proposal to reopen the Strait of Hormuz, which calls for lifting the U.S. blockade and postponing nuclear talks, according to The New York Times.",
-                                            "timestamp":  "2026-04-28T02:04:00.000Z"
+                                            "date":  "Apr 27",
+                                            "point":  "China blocks Meta\u0027s $2 billion acquisition of AI firm Manus.",
+                                            "timestamp":  "2026-04-27T10:32:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 28, morning",
-                                            "point":  "The first shipment of liquefied natural gas crosses the Strait of Hormuz since the war began, according to Bloomberg.",
-                                            "timestamp":  "2026-04-28T09:20:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, morning",
-                                            "point":  "Two Japan-owned oil tankers, STARWAY and IDEMITSU MARU, cross the Strait of Hormuz with IRGC permission.",
-                                            "timestamp":  "2026-04-28T09:16:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, afternoon",
-                                            "point":  "According to MarineTraffic.com data, several vessels have passed through the Strait of Hormuz in the last 12 hours, most using the Iranian traffic separation scheme that forces traffic well north of the internationally recognized traffic separation scheme.",
-                                            "timestamp":  "2026-04-28T12:11:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, afternoon",
-                                            "point":  "President Trump posts on Truth Social that Iran has informed the U.S. it is in a \u0027State of Collapse\u0027 and wants the Strait of Hormuz opened as soon as possible.",
-                                            "timestamp":  "2026-04-28T13:33:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, afternoon",
-                                            "point":  "ISW-CTP analysis details that Iran’s latest proposal is unchanged from previous offers: a three-stage plan demanding a permanent end to the war and U.S. blockade lift, then negotiations over Iranian tolling and management of the Strait of Hormuz, with no nuclear concessions.",
-                                            "timestamp":  "2026-04-28T15:17:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, evening",
-                                            "point":  "U.S. gas prices rise to about $4.18 per gallon, the highest since 2022, and oil prices have surged over 40% since February amid tensions around the Strait of Hormuz, according to The New York Times.",
-                                            "timestamp":  "2026-04-28T18:31:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, evening",
-                                            "point":  "Gulf urea production falls to a new low of about 160,000 tons per week, down roughly 60% since the Iran War began, with 44 fertilizer vessels stuck inside the Gulf and only 11 having transited the Strait of Hormuz, prompting warnings of accelerating global food inflation, according to The Kobeissi Letter.",
-                                            "timestamp":  "2026-04-28T19:07:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, early morning",
-                                            "point":  "President Trump has told aides to prepare for an extended U.S. blockade of the Strait of Hormuz, according to the Wall Street Journal citing U.S. officials, viewing pulling out or resuming combat operations against Iran as riskier than continuing to interdict vessels traveling to and from Iranian ports.",
-                                            "timestamp":  "2026-04-29T01:23:00.000Z"
+                                            "point":  "China\u0027s Foreign Ministry accuses Japan of making dangerous, provocative moves, likening its actions to \u0027war mobilization and war cries,\u0027 and questions whether Japan seeks to repeat history as a source of disaster in East Asia.",
+                                            "timestamp":  "2026-04-28T09:38:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 29, morning",
-                                            "point":  "The U.S. blockade has resulted in the lowest number of transits through the Strait of Hormuz since the Iran War began, which today reaches its two-month mark, according to the Wall Street Journal.",
-                                            "timestamp":  "2026-04-29T01:55:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, early morning",
-                                            "point":  "Polymarket now predicts only a 36% chance that normal maritime traffic will resume in the Strait of Hormuz by the end of May, down from 40% on April 27, reflecting continued deadlock in negotiations.",
-                                            "timestamp":  "2026-04-29T05:40:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, morning",
-                                            "point":  "Japan\u0027s Prime Minister confirms that a Japanese-related vessel safely passed through the Strait of Hormuz on April 29.",
-                                            "timestamp":  "2026-04-29T06:44:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, later morning",
-                                            "point":  "A China-owned oil tanker VAST PLUS, whose owner is under U.S. sanctions for buying Iranian oil, crosses the Strait of Hormuz; China\u0027s Ministry of Foreign Affairs stated the day before it will defend Chinese companies\u0027 lawful rights.",
-                                            "timestamp":  "2026-04-29T09:08:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, late morning",
-                                            "point":  "German Chancellor Merz expresses doubts about the Iran war from the start, states Germany and Europe are suffering severely from the Strait of Hormuz closure, and says he is pushing for the conflict to be resolved.",
-                                            "timestamp":  "2026-04-29T10:36:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, late morning",
-                                            "point":  "US oil prices surge above $103 per barrel for the first time since April 13, with the Kobeissi Letter noting the rise comes amid reports of Trump preparing an extended blockade of the Strait of Hormuz.",
-                                            "timestamp":  "2026-04-29T11:45:00.000Z"
+                                            "point":  "China announces tariff-free access for all African countries with diplomatic ties to Beijing, excluding Eswatini because it recognizes Taiwan.",
+                                            "timestamp":  "2026-04-29T04:14:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 29, afternoon",
-                                            "point":  "Iranian state media warns of \u0027unprecedented military action\u0027 if U.S. seizures of Iranian-linked vessels continue, as reported by the Kobeissi Letter, while Brent crude nears $114 per barrel.",
-                                            "timestamp":  "2026-04-29T12:27:00.000Z"
+                                            "point":  "China\u0027s Foreign Ministry urges the U.S. to walk back its sanctions regime against Cuba, accusing the U.S. of \u0027vilifying China-Cuba cooperation.\u0027",
+                                            "timestamp":  "2026-04-29T13:54:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 29, afternoon",
-                                            "point":  "White House officials say President Trump has discussed with US oil companies a plan to potentially continue the US blockade of the Strait of Hormuz for months.",
-                                            "timestamp":  "2026-04-29T13:21:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, later afternoon",
-                                            "point":  "US oil prices extend gains to $105 per barrel as President Trump prepares to extend the US blockade of the Strait of Hormuz for months.",
-                                            "timestamp":  "2026-04-29T13:38:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, later afternoon",
-                                            "point":  "President Trump rejects the Iranian proposal to reopen the Strait of Hormuz, stating the U.S. blockade will continue until Iran agrees to a nuclear deal, according to Axios.",
-                                            "timestamp":  "2026-04-29T16:41:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, later afternoon",
-                                            "point":  "CENTCOM has prepared plans for a short, powerful wave of strikes against Iran to pressure Tehran into negotiations, Axios reports, as the blockade has not yet forced Iran to change its position.",
-                                            "timestamp":  "2026-04-29T16:57:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, later afternoon",
-                                            "point":  "Brent crude oil prices surge to $119.50 per barrel, their highest level of the Iran War and the highest since 2022, with the International Energy Agency calling it the \u0027biggest energy security threat in history.\u0027",
-                                            "timestamp":  "2026-04-29T17:07:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "Secretary of State Marco Rubio and UK Foreign Secretary Yvette Cooper met to discuss restoring freedom of navigation in the Strait of Hormuz, according to a State Department release.",
-                                            "timestamp":  "2026-04-29T18:40:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, night",
-                                            "point":  "CENTCOM Commander Admiral Brad Cooper announces the U.S. has now directed 42 vessels to turn back from Iranian ports since the blockade began, with 200 aircraft and 25 ships involved in the operation.",
-                                            "timestamp":  "2026-04-29T22:11:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, later night",
-                                            "point":  "The Wall Street Journal reports that the Trump administration is asking other countries to join a new international coalition to help open the Strait of Hormuz.",
-                                            "timestamp":  "2026-04-29T23:58:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "The U.S. Army is reportedly considering taking control of part of the Strait of Hormuz to restore passage.",
-                                            "timestamp":  "2026-04-30T02:47:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, morning",
-                                            "point":  "Reuters reported that the U.S. has continued heavy pressure on Europe to form a coalition to restore international freedom of navigation in the Strait of Hormuz.",
-                                            "timestamp":  "2026-04-30T10:00:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, morning",
-                                            "point":  "Iran’s Supreme Leader Mojtaba Khamenei states that the Persian Gulf will be \u0027without America\u0027 and Iran will exercise control over the Strait of Hormuz through a new legal framework, warning that outsiders with \u0027greedy intentions\u0027 have no place there except \u0027at the bottom of its waters.\u0027",
-                                            "timestamp":  "2026-04-30T10:55:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, afternoon",
-                                            "point":  "German Chancellor Merz states Germany is ready to engage militarily, if necessary conditions are met, to quickly end Iran’s blockade of the Strait of Hormuz.",
-                                            "timestamp":  "2026-04-30T12:46:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "Iranian President Masoud Pezeshkian denounces the U.S. naval blockade as an extension of military operations and calls the continued oppressive approach intolerable.",
-                                            "timestamp":  "2026-04-30T17:49:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "U.S. Senator Lindsey Graham proposes a \u0027blockade plus\u0027 strategy: continue the blockade but open a lane in the Strait of Hormuz to reduce Iranian leverage, and let Admiral Cooper finish his target list if Iran continues provocations.",
-                                            "timestamp":  "2026-04-30T18:05:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "MarineTraffic.com playback over the last 24 hours shows that some transits are occurring, mostly using the Iranian traffic separation scheme, and daily traffic volume remains less than 10% of the pre-war average of 130 vessels per day.",
-                                            "timestamp":  "2026-04-30T19:14:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, morning",
-                                            "point":  "The British Navy reports that ship passage through the Strait of Hormuz has dropped 90% since the start of the war.",
-                                            "timestamp":  "2026-05-01T09:19:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "Exxon CEO Darren Woods says it will take 1-2 months for normal maritime flows to resume after the Strait of Hormuz reopens.",
+                                            "date":  "May 1",
+                                            "point":  "China\u0027s zero-tariff policy on imports from 53 African countries takes effect; Eswatini is excluded because it recognizes Taiwan.",
                                             "timestamp":  "2026-05-01T13:54:00.000Z"
                                         },
                                         {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "Iran claimed that the Strait of Hormuz is not an international waterway but an Iranian right.",
-                                            "timestamp":  "2026-05-01T14:45:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "The U.S. warns shippers that paying tolls for passage through the Strait of Hormuz risks sanctions.",
-                                            "timestamp":  "2026-05-01T15:18:00.000Z"
-                                        },
-                                        {
                                             "date":  "May 2, morning",
-                                            "point":  "President Trump accused adversaries of attempting to disrupt global trade by threatening closure of the Strait of Hormuz.",
-                                            "timestamp":  "2026-05-02T09:02:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, morning",
-                                            "point":  "President Trump has reportedly rejected a new Iranian peace proposal that would reopen the Strait of Hormuz but leave nuclear talks for later.",
-                                            "timestamp":  "2026-05-02T10:15:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, afternoon",
-                                            "point":  "Satellite imagery captures several dozen Iranian gunboats operating around the middle of the Strait of Hormuz, indicating mine-laying or patrol activity just north of Oman.",
-                                            "timestamp":  "2026-05-02T16:17:00.000Z"
+                                            "point":  "China states it does not recognize U.S. sanctions on Iranian oil purchases and will not comply with them.",
+                                            "timestamp":  "2026-05-02T14:24:00.000Z"
                                         },
                                         {
                                             "date":  "May 2, evening",
-                                            "point":  "Reuters reported, citing an Iranian official, that President Trump rejected Iran\u0027s proposal to reopen the Strait of Hormuz and delay nuclear talks.",
-                                            "timestamp":  "2026-05-02T22:29:00.000Z"
+                                            "point":  "A U.S. military C-17 aircraft lands in Beijing as preparations begin for a meeting between President Trump and President Xi on May 14-15.",
+                                            "timestamp":  "2026-05-02T19:30:00.000Z"
                                         },
                                         {
-                                            "date":  "May 2, night",
-                                            "point":  "Approximately 40 Iranian speedboats were spotted in the Strait of Hormuz possibly laying mines.",
-                                            "timestamp":  "2026-05-02T23:15:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, night",
-                                            "point":  "Axios reports that Iran\u0027s proposal set a one-month deadline for negotiations on a deal to reopen the Strait of Hormuz, end the U.S. naval blockade, and permanently end the war in Iran and Lebanon.",
-                                            "timestamp":  "2026-05-03T00:56:00.000Z"
+                                            "date":  "May 3",
+                                            "point":  "China\u0027s Ministry of Commerce tells Chinese companies not to comply with U.S. sanctions on certain oil refiners, calling the sanctions illegal extraterritorial overreach.",
+                                            "timestamp":  "2026-05-03T06:30:00.000Z"
                                         }
                                     ]
                   },
@@ -535,10 +115,10 @@
                       "sourceKind":  "world-monitor-wire",
                       "title":  "伊朗战局：美方宣称敌对行动终止，但军事压力并未消失",
                       "description":  "尽管美国以战争权力程序为由声称敌对状态已经结束，WIRE 信息显示，海上封锁仍在继续冲击伊朗经济，美方也仍在讨论潜在的进一步军事选项。与此同时，伊朗内部路线分歧和强硬表态交织，使局势离真正降温仍有距离。",
-                      "rawSummary":  "The U.S. naval blockade continues to devastate Iran\u0027s economy while diplomatic negotiations remain deadlocked; President Trump has acknowledged a possibility of renewed strikes, and Israeli Chief of Staff Eyal Zamir is intensifying coordination with U.S. CENTCOM on potential military action against Iran.",
-                      "analysis":  "The U.S. naval blockade continues to devastate Iran\u0027s economy, with oil storage approaching capacity and the rial at record lows, prompting Iran to begin reducing oil production to avoid field damage. Diplomatic efforts remain deadlocked: President Trump, briefed on \u0027final blow\u0027 strike options and dissatisfied with Iran\u0027s latest proposal, has acknowledged a \u0027possibility\u0027 of resuming strikes, while Channel 12 reported that Israeli Chief of Staff Eyal Zamir is intensifying contacts with CENTCOM commander Brad Cooper on potential military action, signaling growing Israeli coordination for a possible strike campaign. Iranian leaders remain defiant, with Supreme Leader Khamenei vowing to sink American ships and Parliament Speaker Ghalibaf mocking the blockade, while the Washington Post reported that the security establishment rejects compromise on enrichment and Iran exploits the ceasefire to recover hidden weapons. The war\u0027s toll extends to the U.S., where surging jet fuel prices derailed Spirit Airlines\u0027 bankruptcy exit, and a new Washington Post–ABC–Ipsos poll shows 61% of Americans now view the conflict as a mistake. Strikes disrupted IRGC-linked cryptocurrency mining, temporarily stabilizing electricity, and Hezbollah\u0027s footage of domestic drone production adds a regional dimension to the conflict.",
+                      "rawSummary":  "Iran has submitted a new 14-point two-stage peace proposal to the U.S., while economic devastation from the naval blockade deepens, diplomatic deadlock persists, and President Trump remains dissatisfied, threatening further military action.",
+                      "analysis":  "The U.S. naval blockade continues to devastate Iran\u0027s economy, with oil storage approaching capacity and the rial at record lows, prompting Iran to reduce production to avoid field damage. Diplomatic efforts remain deadlocked: President Trump, briefed on \u0027final blow\u0027 strike options and dissatisfied with Iran\u0027s latest proposal, has acknowledged a \u0027possibility\u0027 of resuming strikes, and wants to eliminate the remaining 15% of Iran\u0027s missile-making capabilities. Channel 12 reported that Israeli Chief of Staff Eyal Zamir is intensifying contacts with CENTCOM commander Brad Cooper on potential military action, signaling growing Israeli coordination. Iranian leaders remain defiant, with Supreme Leader Khamenei vowing to sink American ships and Parliament Speaker Ghalibaf mocking the blockade, while the Washington Post reported that the security establishment rejects compromise on enrichment and Iran exploits the ceasefire to recover hidden weapons. Axios reported on May 3 that Iran submitted a 14-point proposal outlining a two-stage plan: first, negotiate a deal to reopen the Strait of Hormuz, lift the blockade, and end wars in Iran and Lebanon; then, begin separate talks on the nuclear program, indicating a more structured diplomatic approach even as the U.S. maintains maximum pressure. The war\u0027s toll extends to the U.S., where surging jet fuel prices derailed Spirit Airlines\u0027 bankruptcy exit, and a new Washington Post–ABC–Ipsos poll shows 61% of Americans now view the conflict as a mistake. Strikes disrupted IRGC-linked cryptocurrency mining, temporarily stabilizing electricity, and Hezbollah\u0027s footage of domestic drone production adds a regional dimension to the conflict.",
                       "link":  "",
-                      "pubDate":  "2026-05-03T04:16:07.8730000Z",
+                      "pubDate":  "2026-05-03T06:31:48.1680000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
@@ -547,10 +127,10 @@
                       "categoryId":  "middle-east",
                       "categoryName":  "中东局势与能源冲击",
                       "intensity":  5,
-                      "mentionCount":  1226,
+                      "mentionCount":  1228,
                       "firstSeenAt":  "2026-02-24T22:08:39.965Z",
-                      "lastMentionedAt":  "2026-05-03T04:16:07.873Z",
-                      "processedAt":  "2026-05-03 04:21:03.168Z",
+                      "lastMentionedAt":  "2026-05-03T06:31:48.168Z",
+                      "processedAt":  "2026-05-03 06:42:23.530Z",
                       "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
@@ -1137,6 +717,16 @@
                                             "date":  "May 3, early morning",
                                             "point":  "Channel 12 reports that Israeli Chief of Staff Eyal Zamir is intensifying contacts with U.S. CENTCOM chief Brad Cooper on potential military action against Iran.",
                                             "timestamp":  "2026-05-03T03:45:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, early morning",
+                                            "point":  "President Trump states he would like to eliminate the remaining 15% of Iran\u0027s missile-making capabilities, signaling continued military objectives beyond current destruction.",
+                                            "timestamp":  "2026-05-03T06:18:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, early morning",
+                                            "point":  "Iran submitted a 14-point proposal to the United States outlining a two-stage plan: first, negotiate a deal to reopen the Strait of Hormuz and end wars in Iran and Lebanon; second, begin talks on Iran\u0027s nuclear program, according to Axios.",
+                                            "timestamp":  "2026-05-03T06:08:00.000Z"
                                         }
                                     ]
                   },
@@ -2561,6 +2151,36 @@
                                     ]
                   },
                   {
+                      "id":  "zkqoazwn78bekxw",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "一处海外风险点：WIRE 监测到新的重要变化",
+                      "description":  "WIRE 将该事件标记为强度 4/5，累计提及 1 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。",
+                      "rawSummary":  "Ukrainian forces strike two shadow fleet oil tankers near Novorossiysk",
+                      "analysis":  "Ukrainian forces struck two vessels of Russia\u0027s shadow oil fleet at the entrance to the port of Novorossiysk, according to President Zelensky. The tankers were being used to transport oil in circumvention of sanctions. The strike is framed as part of ongoing sanctions enforcement against Russia\u0027s energy exports.",
+                      "link":  "",
+                      "pubDate":  "2026-05-03T07:01:33.5440000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Novorossiysk port entrance",
+                      "country":  "Russia",
+                      "categoryId":  "europe-security",
+                      "categoryName":  "俄乌战争与欧洲安全",
+                      "intensity":  4,
+                      "mentionCount":  1,
+                      "firstSeenAt":  "2026-05-03T07:01:33.544Z",
+                      "lastMentionedAt":  "2026-05-03T07:01:33.544Z",
+                      "processedAt":  "2026-05-03 07:01:33.572Z",
+                      "lastChangeType":  "created",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "May 3",
+                                            "point":  "Ukrainian forces struck two shadow fleet oil tankers at the entrance to Novorossiysk port, President Zelensky said, describing the action as sanctions enforcement.",
+                                            "timestamp":  "2026-05-03T06:26:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
                       "id":  "7pqdntold382sgx",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "俄罗斯能源设施：炼油厂与出口终端安全压力上升",
@@ -2625,10 +2245,10 @@
                       "sourceKind":  "world-monitor-wire",
                       "title":  "加沙：海上拦截与陆上限制并行，人道空间继续收缩",
                       "description":  "以色列拦截了驶向加沙的船只，同时加沙陆上限制区域继续扩大。WIRE 信息显示，军事行动、内部武装冲突传闻和对伊朗局势的讨论交织在一起，使加沙的人道和安全环境继续承压。",
-                      "rawSummary":  "Recent developments across the West Bank and Jerusalem include former Mossad Director Tamir Pardo likening settler violence to the Holocaust, a military unit returning to duty after assaulting a CNN team, an assault on a Catholic nun, and the arrival of two flotilla detainees; Israel’s security cabinet is set to convene Sunday.",
-                      "analysis":  "Former Mossad Director Tamir Pardo, after touring areas affected by settler violence in the West Bank, stated that what he saw reminded him of the events of the previous century against Jews, citing his mother’s experience as a Holocaust survivor. Separately, an Israeli military unit that had been suspended for one month after assaulting and detaining a CNN team in the West Bank has returned to duty; an investigation was opened, but no further discipline has been announced, according to CNN. In Jerusalem, a Catholic nun was shoved to the ground at King David’s Tomb and a suspect was arrested for racist assault. Two flotilla operatives arrested en route to Gaza arrived in Israel; the Israeli Ministry of Foreign Affairs stated they will be interrogated for suspected ties to a terrorist organization and illegal activity. Israel’s security cabinet will convene Sunday evening.",
+                      "rawSummary":  "In the West Bank, settler violence drew a Holocaust comparison from a former Mossad director, while an Israeli unit suspended for assaulting a CNN team returned to duty, a nun was shoved at King David’s Tomb, flotilla operatives were interrogated, and Israel approved a major fighter jet purchase ahead of a security cabinet meeting.",
+                      "analysis":  "Former Mossad Director Tamir Pardo compared settler violence in the West Bank to persecution of Jews in the previous century, citing his mother’s Holocaust experience. An Israeli military unit suspended for assaulting and detaining a CNN team has returned to duty, with an investigation opened but no further discipline announced, according to CNN. In Jerusalem, a Catholic nun was shoved to the ground at King David’s Tomb and a suspect was arrested for racist assault. Two flotilla operatives arrested en route to Gaza arrived in Israel, where the Foreign Ministry said they would be interrogated for suspected terrorist ties and illegal activity. The security cabinet is set to convene Sunday evening, while Israel also approved a major purchase of F-35 and F-15IA fighter jet squadrons for tens of billions of shekels.",
                       "link":  "",
-                      "pubDate":  "2026-05-02T20:03:13.0050000Z",
+                      "pubDate":  "2026-05-03T07:01:33.5440000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
@@ -2637,10 +2257,10 @@
                       "categoryId":  "middle-east",
                       "categoryName":  "中东局势与能源冲击",
                       "intensity":  3,
-                      "mentionCount":  7,
+                      "mentionCount":  8,
                       "firstSeenAt":  "2026-04-28T08:16:37.638Z",
-                      "lastMentionedAt":  "2026-05-02T20:03:13.005Z",
-                      "processedAt":  "2026-05-02 20:04:19.992Z",
+                      "lastMentionedAt":  "2026-05-03T07:01:33.544Z",
+                      "processedAt":  "2026-05-03 07:03:25.297Z",
                       "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
@@ -2667,6 +2287,11 @@
                                             "date":  "May 2, evening",
                                             "point":  "Israel’s security cabinet is scheduled to convene on Sunday at 8 PM.",
                                             "timestamp":  "2026-05-02T19:58:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, morning",
+                                            "point":  "Israel approved buying two new fighter jet squadrons—F-35 Lightning II and F-15IA—for tens of billions of shekels.",
+                                            "timestamp":  "2026-05-03T06:52:00.000Z"
                                         }
                                     ]
                   },
@@ -2707,6 +2332,41 @@
                                             "date":  "May 2, night",
                                             "point":  "I24 News reports that Israel’s security cabinet will meet on May 3 amid reciprocal Israeli-Lebanese Hezbollah strikes, and that Israel has refrained from striking Hezbollah hubs in Beirut due to U.S. pressure.",
                                             "timestamp":  "2026-05-02T22:45:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "hb8vh2wrldxf4fu",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "霍尔木兹海峡：封锁僵局继续推高能源与航运压力",
+                      "description":  "美国海上封锁仍在持续，伊朗方面拒绝把核谈判与重新开放通道直接绑定。WIRE 信息显示，英国海军确认战争爆发以来相关船舶通行量已大幅下降，布伦特原油价格仍处在高位。能源、航运和外交谈判正在相互牵动，这是今天最值得关注的全球风险点。",
+                      "rawSummary":  "Kuwait recorded zero crude oil exports in April 2026 for the first time since the Gulf War, a halt linked to a blockade of the Strait of Hormuz, with production continuing and oil stored or refined domestically.",
+                      "analysis":  "Kuwait reported zero crude oil exports for April 2026, the first such month since the 1991 Gulf War. The export halt has been attributed by vessel tracking data to a blockade in the Strait of Hormuz, through which most regional oil shipments must transit. Production reportedly continued during the month, with crude oil either placed into storage or processed in domestic refineries instead of being shipped abroad. As a major OPEC producer, the disruption could have significant implications for global energy supply chains and regional stability.",
+                      "link":  "",
+                      "pubDate":  "2026-05-03T06:31:48.1680000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Kuwait",
+                      "country":  "Kuwait",
+                      "categoryId":  "middle-east",
+                      "categoryName":  "中东局势与能源冲击",
+                      "intensity":  3,
+                      "mentionCount":  2,
+                      "firstSeenAt":  "2026-05-02T17:45:55.939Z",
+                      "lastMentionedAt":  "2026-05-03T06:31:48.168Z",
+                      "processedAt":  "2026-05-03 06:32:26.310Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "May 2",
+                                            "point":  "Kuwait reports zero crude oil exports for April 2026, its first zero-export month since the end of the Gulf War in 1991.",
+                                            "timestamp":  "2026-05-02T17:30:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3",
+                                            "point":  "The export halt is linked to a Strait of Hormuz blockade; production continued with oil being stored or refined domestically.",
+                                            "timestamp":  "2026-05-03T06:23:00.000Z"
                                         }
                                     ]
                   },
