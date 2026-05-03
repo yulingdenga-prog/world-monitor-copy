@@ -1,5 +1,5 @@
 ﻿{
-    "generatedAt":  "2026-05-03T07:44:13.2095637Z",
+    "generatedAt":  "2026-05-03T08:12:39.6085623Z",
     "timezone":  "Asia/Shanghai",
     "sources":  [
                     {
@@ -1171,371 +1171,6 @@
                                     ]
                   },
                   {
-                      "id":  "rdv7y3v3rqxss7e",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "黎巴嫩南部：无人机袭击与以军空袭交织，边境紧张持续",
-                      "description":  "黎以边境仍处在高强度对抗中。WIRE 信息显示，真主党无人机袭击造成以军伤亡，以军则称打击了黎巴嫩南部多个真主党目标及隧道设施。北以色列边境社区也面临新的民防限制，说明冲突正在继续影响平民生活。",
-                      "rawSummary":  "Hezbollah continues a sustained campaign of FPV drone and rocket attacks against Israeli forces and northern Israel, while Israeli airstrikes target southern Lebanon and destroy a large tunnel, and the ceasefire is openly violated by both sides.",
-                      "analysis":  "Hezbollah has sustained a high tempo of FPV drone attacks on Israeli Merkava tanks and other military vehicles across multiple border towns, releasing new footage on May 2 of a drone breaching a tank\u0027s cope cage and detonating, following a similar strike in Qantara the previous evening. Israeli airstrikes continue to hit targets in southern Lebanon, including Al-Zararieh, Braiqaa, and Az-Zrariyah, while a large Hezbollah tunnel in Ras Bayda was destroyed with 24 tons of explosives. An explosive-laden drone struck near Misgav Am, lightly wounding two IDF reservists and triggering an IDF evacuation warning for Habboush. President Trump has reportedly urged Netanyahu to limit military action to surgical strikes to avoid wider war and negative public perception, and Israeli Foreign Minister Sa\u0027ar acknowledged Israel\u0027s capacity constraints, stating it could conquer all of Lebanon but lacks the resources. Some Lebanese Shia have criticized Hezbollah, indicating a shift within its traditional support base, and a Lebanese army official was killed in an Israeli strike. On the broader front, Iran does not appear to have altered its negotiating position on the Strait of Hormuz and its nuclear program, but as its oil storage capacity reaches limits under the US naval blockade, it is reportedly reducing production. Hezbollah released footage of domestic drone production on May 2, and an Israeli military official told the AP on April 30 that Israel believes Hezbollah is domestically manufacturing FPV drones, suggesting a growing self-sufficiency in its attack drone arsenal. Rocket interceptions were reported in northern Israel on May 3, demonstrating that cross-border fire persists despite the nominal ceasefire.",
-                      "link":  "",
-                      "pubDate":  "2026-05-03T07:17:06.4790000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Southern Lebanon border towns (Khiam, Houla, Yaroun, Kfarkela, Qouzah, Mazraat Sarda)",
-                      "country":  "Lebanon",
-                      "categoryId":  "middle-east",
-                      "categoryName":  "中东局势与能源冲击",
-                      "intensity":  5,
-                      "mentionCount":  368,
-                      "firstSeenAt":  "2026-02-26T19:01:25.033Z",
-                      "lastMentionedAt":  "2026-05-03T07:17:06.479Z",
-                      "processedAt":  "2026-05-03 07:19:42.488Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "Mar 14, early morning",
-                                            "point":  "Heavy clashes are reported between Hezbollah and Israeli forces that entered the town of Khiam, Lebanon.",
-                                            "timestamp":  "2026-03-14T00:47:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Mar 15, late morning",
-                                            "point":  "The border town of Khiam in southern Lebanon is under artillery bombardment, coinciding with bursts of machine gun fire.",
-                                            "timestamp":  "2026-03-15T11:35:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Mar 15, afternoon",
-                                            "point":  "Hezbollah confirms it targeted and destroyed an Israeli Merkava tank with an anti-tank guided missile in the Taybeh area of southern Lebanon.",
-                                            "timestamp":  "2026-03-15T13:13:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Mar 15, afternoon",
-                                            "point":  "Hezbollah releases footage of targeting an IDF position in Jabal Blat in southern Lebanon.",
-                                            "timestamp":  "2026-03-15T14:07:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Mar 15, afternoon",
-                                            "point":  "The Israeli army employs phosphorus munitions in its assault on the city of Khiam in southern Lebanon.",
-                                            "timestamp":  "2026-03-15T16:53:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Mar 15, evening",
-                                            "point":  "Hezbollah launches a cluster missile from Lebanon into the Israeli border town of Metula.",
-                                            "timestamp":  "2026-03-15T21:26:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Mar 16, morning",
-                                            "point":  "Israeli warplanes launch a series of airstrikes on the city of Khiam in southern Lebanon.",
-                                            "timestamp":  "2026-03-16T08:53:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Mar 16, morning",
-                                            "point":  "Hezbollah publishes footage of targeting an Israeli Merkava tank on the southeastern outskirts of the town of Markaba with a guided missile.",
-                                            "timestamp":  "2026-03-16T10:50:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Mar 25, morning",
-                                            "point":  "The Lebanese army completely withdraws from southern Dibil, and Israeli forces begin advancing towards the town.",
-                                            "timestamp":  "2026-03-25T11:58:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Mar 25, afternoon",
-                                            "point":  "A Hezbollah missile hits a building in Kiryat Shmona, with Israeli sources indicating the projectile carried a cluster warhead.",
-                                            "timestamp":  "2026-03-25T14:43:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Mar 28",
-                                            "point":  "Hezbollah targets two Israeli Merkava tanks in the town of Qana, southern Lebanon, with anti-tank guided missiles.",
-                                            "timestamp":  "2026-04-16T18:24:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 6",
-                                            "point":  "Hezbollah releases footage of targeting an Israeli Merkava tank in the town of Beit Yahun, southern Lebanon, using an FPV drone.",
-                                            "timestamp":  "2026-04-19T12:10:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 11",
-                                            "point":  "Hezbollah FPV drone hits an Israeli Merkava tank in the town of Mays al-Jabal, southern Lebanon.",
-                                            "timestamp":  "2026-04-26T18:07:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 15",
-                                            "point":  "Hezbollah targets two Israeli Merkava tanks in the town of Mays al-Jabal, southern Lebanon, with explosive-laden FPV drones.",
-                                            "timestamp":  "2026-04-27T16:39:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 18",
-                                            "point":  "Hezbollah kills a French soldier in Lebanon.",
-                                            "timestamp":  "2026-04-18T17:15:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 19",
-                                            "point":  "A photo surfaces appearing to show an IDF soldier destroying a statue of Jesus Christ in the Christian town of Debel in southern Lebanon; the IDF announces an investigation.",
-                                            "timestamp":  "2026-04-19T19:44:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 20",
-                                            "point":  "Lebanese President Joseph Aoun names former ambassador to Washington Simon Karam to lead separate negotiations with Israel.",
-                                            "timestamp":  "2026-04-20T12:11:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 20",
-                                            "point":  "Hezbollah FPV drones strike an Israeli Army Namer armored carrier in Khiam.",
-                                            "timestamp":  "2026-04-20T19:03:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 21",
-                                            "point":  "French President Macron outlines a plan for lasting stabilization requiring Israeli withdrawal from Lebanon, Hezbollah disarmament, and reconstruction of southern Lebanon.",
-                                            "timestamp":  "2026-04-21T18:17:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 22, morning",
-                                            "point":  "Approximately 40 Israeli civilians cross the border fence into Syria, are retrieved by the Israeli army, and detained.",
-                                            "timestamp":  "2026-04-22T12:19:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 22, afternoon",
-                                            "point":  "French President Macron announces that Corporal Anicet Girardin, a French soldier seriously wounded by Hezbollah in Lebanon, has died from his injuries.",
-                                            "timestamp":  "2026-04-22T14:02:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, morning",
-                                            "point":  "Lebanese journalist Amal Khalil is killed in an Israeli airstrike in south Lebanon while covering the war; she and her colleague had taken shelter after an initial strike when a second strike hit the building.",
-                                            "timestamp":  "2026-04-23T10:44:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23",
-                                            "point":  "Hezbollah carries out a combined rocket and drone attack targeting the Kfar Giladi area using a locally assembled 122mm multiple rocket launcher with Chinese Type 85 artillery rockets and kamikaze drones.",
-                                            "timestamp":  "2026-04-23T11:49:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, afternoon",
-                                            "point":  "A second French soldier has now died in Lebanon after a Hezbollah ambush on a UN convoy.",
-                                            "timestamp":  "2026-04-23T16:30:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, evening",
-                                            "point":  "U.S. Secretary of State Rubio states that Israel and Lebanon are both victimized by the same terrorist organization, the U.S. Ambassador to Israel Huckabee calls Hezbollah a bad little kid throwing rocks, and President Trump says he will work to end Lebanese law criminalizing contact with Israel.",
-                                            "timestamp":  "2026-04-23T21:56:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, night",
-                                            "point":  "Trump says there is a \u0027great chance\u0027 of peace between Lebanon and Israel happening this year.",
-                                            "timestamp":  "2026-04-23T22:19:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, morning",
-                                            "point":  "Israel and Lebanon extend a ceasefire for three weeks at the White House as Trump seeks a deal with Iran, though fighting persists.",
-                                            "timestamp":  "2026-04-24T06:45:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, afternoon",
-                                            "point":  "Netanyahu confirms an excellent conversation with Trump, states Trump is pressuring Iran hard, and says a process for historic peace with Lebanon has begun but Hezbollah is trying to sabotage it.",
-                                            "timestamp":  "2026-04-24T15:11:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24, afternoon",
-                                            "point":  "US Defense Secretary Hegseth confirms Iran is laying additional mines in the Strait of Hormuz, describing it as a ceasefire violation, as tensions escalate alongside the Lebanon conflict.",
-                                            "timestamp":  "2026-04-24T16:45:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24",
-                                            "point":  "Hezbollah FPV drone targets an Israeli engineering vehicle in the town of Rashaf, southern Lebanon.",
-                                            "timestamp":  "2026-04-25T09:52:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24",
-                                            "point":  "Hezbollah FPV drone targets an Israeli armored personnel carrier (Eitan) in the town of Ramyah, southern Lebanon.",
-                                            "timestamp":  "2026-04-25T23:08:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24",
-                                            "point":  "Hezbollah FPV drone targets an Israeli army HUMVEE in the town of Qana, southern Lebanon.",
-                                            "timestamp":  "2026-04-26T19:23:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24",
-                                            "point":  "Hezbollah shoots down an Israeli Hermes 450 drone over Tyre, southern Lebanon, with a surface-to-air missile.",
-                                            "timestamp":  "2026-04-25T16:45:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25, evening",
-                                            "point":  "Netanyahu orders Israeli military to strike Hezbollah terror targets in Lebanon.",
-                                            "timestamp":  "2026-04-25T18:07:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25, night",
-                                            "point":  "New Israeli strikes hit targets inside Lebanon.",
-                                            "timestamp":  "2026-04-25T20:56:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, morning",
-                                            "point":  "Israel destroys civilian solar panels in Lebanese border villages to cut power to residents.",
-                                            "timestamp":  "2026-04-26T10:09:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, evening",
-                                            "point":  "Interviews with Lebanese Shia citizens in southern Lebanon show criticism of Hezbollah, indicating a shift in sentiment within a community traditionally seen as Hezbollah\u0027s core support base.",
-                                            "timestamp":  "2026-04-26T20:00:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26",
-                                            "point":  "Hezbollah releases footage of targeting Israeli soldiers and evacuation forces in Tyre, southern Lebanon, with two FPV drones.",
-                                            "timestamp":  "2026-04-27T15:19:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27",
-                                            "point":  "Hezbollah fiber optic FPV drone narrowly misses a group of Israeli soldiers and a UH-60 Black Hawk helicopter conducting a medical evacuation in the town of Taybeh, southern Lebanon.",
-                                            "timestamp":  "2026-04-27T15:02:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, afternoon",
-                                            "point":  "Hezbollah FPV drone hits an Israeli soldier near a Merkava Mk.4M tank, killing 1 and injuring 6, with the drone apparently going unnoticed until impact.",
-                                            "timestamp":  "2026-04-27T15:23:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27",
-                                            "point":  "Iran presents a new proposal to the United States to reopen the Strait of Hormuz and end the war, while postponing nuclear negotiations to a later date.",
-                                            "timestamp":  "2026-04-27T22:44:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27",
-                                            "point":  "The Wall Street Journal reports that Iran\u0027s oil storage capacity is rapidly depleting due to the US naval blockade, forcing it to use disused tanks and containers.",
-                                            "timestamp":  "2026-04-27T22:44:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27",
-                                            "point":  "Hezbollah has used FPV drones in 12 of its 18 claimed attacks on Israeli ground forces in Lebanon since a ceasefire came into effect on April 16.",
-                                            "timestamp":  "2026-04-27T22:44:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, morning",
-                                            "point":  "Israeli sources report a \u0027difficult event\u0027 for Israeli forces in southern Lebanon.",
-                                            "timestamp":  "2026-04-28T10:58:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, late morning",
-                                            "point":  "Video footage shows the village of Al-Khiam in southern Lebanon extensively destroyed by Israeli military action.",
-                                            "timestamp":  "2026-04-28T11:20:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, evening",
-                                            "point":  "Hezbollah announces it has shot down an Israeli Hermes 900 unmanned aerial vehicle over the town of Qana, using a surface-to-air missile.",
-                                            "timestamp":  "2026-04-28T21:15:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 24",
-                                            "point":  "Hezbollah FPV drone targets an Israeli armored personnel carrier in the town of Qana, southern Lebanon.",
-                                            "timestamp":  "2026-04-28T21:02:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, morning",
-                                            "point":  "A Lebanese army official and his brother are killed by Israeli forces.",
-                                            "timestamp":  "2026-04-29T10:25:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, morning",
-                                            "point":  "The Lebanese Army says an Israeli strike on a motorcycle in Kharbet Selm killed an army official and a family member, marking the second targeting of Lebanese military personnel in 24 hours.",
-                                            "timestamp":  "2026-04-29T10:38:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, afternoon",
-                                            "point":  "A social media claim that a 13-year-old Lebanese girl exposed a Hezbollah weapons cache at her school is debunked; the message was a prank to skip school, causing local panic and a school investigation.",
-                                            "timestamp":  "2026-04-29T14:34:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, late afternoon",
-                                            "point":  "President Trump says he asked Netanyahu to act more cautiously in Lebanon and avoid destroying buildings, stating it harms Israel\u0027s image and that he loves Lebanon and its leadership but the problem is Hezbollah.",
-                                            "timestamp":  "2026-04-29T17:15:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, late afternoon",
-                                            "point":  "Prime Minister Netanyahu publicizes Israeli airstrikes in Lebanon.",
-                                            "timestamp":  "2026-04-29T17:21:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "Trump told Netanyahu that Israeli military should only take \u0027surgical\u0027 action in Lebanon, according to Axios.",
-                                            "timestamp":  "2026-04-29T21:32:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "Trump tells Axios that Iran ruined Lebanon through its proxy Hezbollah, that Hezbollah will automatically be taken out when Iran is defeated, and that Lebanon can make a comeback.",
-                                            "timestamp":  "2026-04-29T21:42:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, afternoon",
-                                            "point":  "IDF announces the killing of a soldier, Sergeant Liam Ben Hamo, 19, in Lebanon.",
-                                            "timestamp":  "2026-04-30T15:54:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, late afternoon",
-                                            "point":  "The IDF announces the destruction of a 140-meter Hezbollah tunnel in Ras Bayda using 24 tons of explosives.",
-                                            "timestamp":  "2026-04-30T16:26:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "A family of four was reportedly killed by Israeli forces in Lebanon.",
-                                            "timestamp":  "2026-04-30T19:22:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, morning",
-                                            "point":  "Israeli Air Force struck Al-Zararieh in southern Lebanon.",
-                                            "timestamp":  "2026-05-01T10:33:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "An explosive-laden drone strikes near Misgav Am in northern Israel, lightly injuring two people and setting a car on fire.",
-                                            "timestamp":  "2026-05-01T11:54:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "IDF strikes are reported near the towns of Braiqaa and Az-Zrariyah in southern Lebanon.",
-                                            "timestamp":  "2026-05-01T11:58:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "IDF confirms that a Hezbollah explosive drone struck near Misgav Am, lightly injuring two IDF reservists; the incident is under investigation.",
-                                            "timestamp":  "2026-05-01T13:00:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "IDF spokesperson issues an urgent evacuation warning to residents of Habboush, ordering them to move at least 1,000 meters from the village to open ground, and states that Hezbollah violated the ceasefire agreement.",
-                                            "timestamp":  "2026-05-01T12:58:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "Over ten interceptors were fired from Israel toward Lebanon since this morning.",
-                                            "timestamp":  "2026-05-01T13:31:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, evening",
-                                            "point":  "Footage shows a Hezbollah FPV drone destroying an Israeli Merkava tank in Qantara, southern Lebanon, causing an ammunition cookoff.",
-                                            "timestamp":  "2026-05-01T19:09:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, morning",
-                                            "point":  "Hezbollah releases footage of an FPV drone destroying an Israeli Merkava tank in Lebanon, breaching its cope cage and triggering an explosion.",
-                                            "timestamp":  "2026-05-02T06:52:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, evening",
-                                            "point":  "Israeli Foreign Minister Gideon Sa\u0027ar states that Israel could conquer all of Lebanon but lacks sufficient military resources to do so.",
-                                            "timestamp":  "2026-05-02T19:28:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, night",
-                                            "point":  "Iran reportedly begins reducing oil production as storage capacity reaches limits under the US naval blockade, while Hezbollah releases footage of domestic drone production; an Israeli military official tells the Associated Press that Israel believes Hezbollah is domestically manufacturing FPV drones.",
-                                            "timestamp":  "2026-05-02T21:00:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, morning",
-                                            "point":  "Rocket interceptions are heard in northern Israel, indicating ongoing cross-border fire despite the ceasefire.",
-                                            "timestamp":  "2026-05-03T07:01:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
                       "id":  "ua4ueo0pq9cv2q8",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "美国侧面：油价与战争成本正在倒逼政策选择",
@@ -2521,6 +2156,101 @@
                                     ]
                   },
                   {
+                      "id":  "i3z9ub52wmz6nv6",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "黎巴嫩南部：无人机袭击与以军空袭交织，边境紧张持续",
+                      "description":  "黎以边境仍处在高强度对抗中。WIRE 信息显示，真主党无人机袭击造成以军伤亡，以军则称打击了黎巴嫩南部多个真主党目标及隧道设施。北以色列边境社区也面临新的民防限制，说明冲突正在继续影响平民生活。",
+                      "rawSummary":  "The UAE is recalibrating its foreign and security policies, marked by its withdrawal from OPEC, a travel ban on Iran, Lebanon, and Iraq, resumed air operations, and now a state security referral over an alleged arms smuggling network to Sudan.",
+                      "analysis":  "The UAE is managing multiple post-conflict adjustments. Israel\u0027s military support, including Spectro and Iron Beam systems alongside Iron Dome batteries and personnel under Operation Roaring Lion, provided overt coordination during Iranian attacks, coinciding with a U.S. F/A‑18 buildup at Al Dhafra and Iranian-Omani talks on Strait of Hormuz security. The UAE Ministry of Energy and Infrastructure announced its withdrawal from OPEC and OPEC+ effective May 1, citing Hormuz constraints to limit market disruption, and officials framed it as part of a broader strategic reassessment of global organisations amid tensions with Saudi Arabia. The Ministry of Foreign Affairs banned citizens from traveling to Iran, Lebanon, and Iraq, ordering immediate returns. Airports and airspace returned to normal operations. In a separate development, the UAE Attorney General referred 13 defendants and 6 companies to the State Security Court over an alleged Muslim Brotherhood-linked network that smuggled weapons and ammunition to Sudan\u0027s army, after intercepting a shipment disguised as humanitarian aid.",
+                      "link":  "",
+                      "pubDate":  "2026-05-03T07:45:59.9770000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "United Arab Emirates",
+                      "country":  "United Arab Emirates",
+                      "categoryId":  "middle-east",
+                      "categoryName":  "中东局势与能源冲击",
+                      "intensity":  4,
+                      "mentionCount":  17,
+                      "firstSeenAt":  "2026-04-25T06:16:01.512Z",
+                      "lastMentionedAt":  "2026-05-03T07:45:59.977Z",
+                      "processedAt":  "2026-05-03 07:47:54.030Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "Apr 25",
+                                            "point":  "U.S. forces deployed 12 F/A-18s, 7 tankers, and a C-17 to Al Dhafra Air Base.",
+                                            "timestamp":  "2026-04-25T05:43:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26",
+                                            "point":  "Axios reported that Israel secretly deployed its Iron Dome system and troops to the UAE during the Iran war, marking its first use abroad.",
+                                            "timestamp":  "2026-04-26T12:04:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, evening",
+                                            "point":  "Western media reported that Netanyahu ordered the Iron Dome deployment after a call with Emirati President Mohammed bin Zayed, with several dozen IDF personnel operating the system.",
+                                            "timestamp":  "2026-04-26T20:42:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, evening",
+                                            "point":  "Iranian Foreign Minister Abbas Araghchi traveled to Muscat to discuss Strait of Hormuz security with Omani Sultan Haitham al Tariq.",
+                                            "timestamp":  "2026-04-26T20:42:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 27, morning",
+                                            "point":  "Israel\u0027s deployment to the UAE was reportedly carried out under the name Operation Roaring Lion.",
+                                            "timestamp":  "2026-04-27T05:22:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28",
+                                            "point":  "UAE announced it will leave OPEC and OPEC+ effective May 1, ending its 59-year membership.",
+                                            "timestamp":  "2026-04-28T12:24:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28, afternoon",
+                                            "point":  "UAE Energy Minister stated the withdrawal from OPEC will not hugely impact the market because of constraints on the Strait of Hormuz.",
+                                            "timestamp":  "2026-04-28T13:20:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28, afternoon",
+                                            "point":  "UAE announced it will significantly increase oil production after leaving OPEC, no longer bound by production quotas.",
+                                            "timestamp":  "2026-04-28T13:28:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29",
+                                            "point":  "UAE officials said the country is reviewing its role in global organisations but has no plans for further exits, describing it as a broader strategic reassessment amid tensions with Saudi Arabia and post-Iran war shifts.",
+                                            "timestamp":  "2026-04-29T13:03:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29, evening",
+                                            "point":  "US President Trump called the UAE\u0027s withdrawal from OPEC \u0027great\u0027 and described President Mohamed bin Zayed as \u0027very smart\u0027.",
+                                            "timestamp":  "2026-04-29T18:34:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, evening",
+                                            "point":  "UAE Ministry of Foreign Affairs announced a travel ban on its citizens to Iran, Lebanon, and Iraq, ordering Emiratis already there to leave immediately amid current regional developments.",
+                                            "timestamp":  "2026-04-30T20:12:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30, evening",
+                                            "point":  "The Financial Times reported that Israel also supplied a Spectro drone-detection system and an Iron Beam laser air-defense system to the UAE during the Iranian attacks, alongside Iron Dome batteries and intelligence sharing.",
+                                            "timestamp":  "2026-04-30T20:28:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2",
+                                            "point":  "UAE airports and airspace resumed normal operations after recent disruptions.",
+                                            "timestamp":  "2026-05-02T18:40:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3",
+                                            "point":  "UAE Attorney General referred 13 defendants and 6 UAE companies to the State Security Court over an alleged Muslim Brotherhood-linked network that smuggled weapons and ammunition to Sudan\u0027s army, after intercepting a shipment disguised as humanitarian aid.",
+                                            "timestamp":  "2026-05-03T07:14:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
                       "id":  "7pqdntold382sgx",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "俄罗斯能源设施：炼油厂与出口终端安全压力上升",
@@ -2706,41 +2436,6 @@
                                     ]
                   },
                   {
-                      "id":  "qe713hw1njtwre9",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "乌克兰：俄军大规模无人机袭击凸显战场消耗升级",
-                      "description":  "俄军夜间发动大规模无人机袭击，WIRE 信息显示单次出动规模达到 206 架。与此同时，地面战斗和外部军援继续推进，乌方获得包括 F-16 模拟器和资金释放在内的新支持。战场正在继续向远程打击和防空消耗倾斜。",
-                      "rawSummary":  "Heavy clashes were reported around Kostiantynivka, a strategic hub, and Ukrainian forces have since made tactical advances in the Kostyantynivka-Druzhkivka area, according to an ISW assessment.",
-                      "analysis":  "Heavy fighting was reported on the outskirts of Kostiantynivka, a strategic hub in eastern Ukraine, as EuroPost cited intensifying frontline clashes. The area has become a focal point of military pressure on key Ukrainian strongholds. After those clashes, ISW assessed that Ukrainian forces recently advanced in the Kostyantynivka-Druzhkivka tactical area. No casualty figures were provided for either the fighting or the advance.",
-                      "link":  "",
-                      "pubDate":  "2026-05-03T01:33:09.1930000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Kostyantynivka-Druzhkivka tactical area",
-                      "country":  "Ukraine",
-                      "categoryId":  "europe-security",
-                      "categoryName":  "俄乌战争与欧洲安全",
-                      "intensity":  3,
-                      "mentionCount":  2,
-                      "firstSeenAt":  "2026-05-02T15:31:33.648Z",
-                      "lastMentionedAt":  "2026-05-03T01:33:09.193Z",
-                      "processedAt":  "2026-05-03 01:34:13.482Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 2",
-                                            "point":  "EuroPost reported heavy fighting on the outskirts of Kostiantynivka, a strategic hub in eastern Ukraine, as frontline clashes intensified.",
-                                            "timestamp":  "2026-05-02T15:25:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3",
-                                            "point":  "ISW assessed that Ukrainian forces recently advanced in the Kostyantynivka-Druzhkivka tactical area.",
-                                            "timestamp":  "2026-05-03T01:18:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
                       "id":  "860tgixgh5jqsfi",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "马里首都巴马科：安全压力、物资短缺和通胀风险叠加",
@@ -2807,6 +2502,36 @@
                                             "date":  "May 2, morning",
                                             "point":  "A 19-year-old was arrested on suspicion of a bomb hoax offence following the evacuation.",
                                             "timestamp":  "2026-05-02T09:05:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "hwwfwun5irqvz9q",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "乌克兰：俄军大规模无人机袭击凸显战场消耗升级",
+                      "description":  "俄军夜间发动大规模无人机袭击，WIRE 信息显示单次出动规模达到 206 架。与此同时，地面战斗和外部军援继续推进，乌方获得包括 F-16 模拟器和资金释放在内的新支持。战场正在继续向远程打击和防空消耗倾斜。",
+                      "rawSummary":  "Stalled Greece-Ukraine naval drone co-production deal",
+                      "analysis":  "A 2025 agreement for Greece and Ukraine to co-produce Ukrainian naval drones in Greek shipyards has stalled. Ukrainian officials are seeking a formal say, possibly including veto power, over how Greece could deploy the drones in a conflict. Greek officials suspect Ukraine is trying to avoid antagonizing Türkiye, a key Black Sea player and mediator with Russia. The development was reported by Kathimerini.",
+                      "link":  "",
+                      "pubDate":  "2026-05-03T08:00:56.2760000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Greece",
+                      "country":  "Greece",
+                      "categoryId":  "europe-security",
+                      "categoryName":  "俄乌战争与欧洲安全",
+                      "intensity":  2,
+                      "mentionCount":  1,
+                      "firstSeenAt":  "2026-05-03T08:00:56.276Z",
+                      "lastMentionedAt":  "2026-05-03T08:00:56.276Z",
+                      "processedAt":  "2026-05-03 08:00:56.304Z",
+                      "lastChangeType":  "created",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "May 3, morning",
+                                            "point":  "The Greece-Ukraine shipyard co-production deal for Ukrainian naval drones is stalled over Ukraine\u0027s request for a say in Greek use of the drones, including possible veto power; according to Kathimerini, Greek officials believe Ukraine aims not to antagonize Türkiye.",
+                                            "timestamp":  "2026-05-03T07:42:00.000Z"
                                         }
                                     ]
                   }
