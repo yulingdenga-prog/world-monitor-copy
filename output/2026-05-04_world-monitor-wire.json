@@ -1,5 +1,5 @@
 ﻿{
-    "generatedAt":  "2026-05-04T13:34:38.9380139Z",
+    "generatedAt":  "2026-05-04T14:38:33.8245091Z",
     "timezone":  "Asia/Shanghai",
     "sources":  [
                     {
@@ -11,251 +11,26 @@
     "count":  18,
     "items":  [
                   {
-                      "id":  "bqi3p0ofbr567ll",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "南海：菲律宾周边军演与中国海军活动叠加",
-                      "description":  "南海方向出现新的军事活动信号。WIRE 信息显示，在“肩并肩”联合军演背景下，中国海军在菲律宾附近海域的部署受到关注。对中国周边安全来说，这类动态的敏感点不在单次行动，而在军事存在、演训频率和外部力量介入是否持续上升。",
-                      "rawSummary":  "Mayon Volcano remains under Alert Level 3 following a massive eruption, with ongoing ashfall darkening nearby towns and 32 earthquakes reported as activity persists.",
-                      "analysis":  "A massive eruption occurred at Mayon Volcano on May 2, with Alert Level 3 maintained due to heightened risk. A lava flow collapse triggered a pyroclastic density current, sending ash plumes visible from Legazpi City and raising concerns over air quality, transport, and agriculture in Albay. In the following days, heavy ashfall plunged nearby towns into darkness and 32 earthquakes were reported, signaling continuing unrest. No immediate reports of casualties or evacuation orders have been confirmed.",
-                      "link":  "",
-                      "pubDate":  "2026-05-04T05:16:27.3590000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Mayon Volcano, Philippines",
-                      "country":  "Philippines",
-                      "categoryId":  "china-neighborhood",
-                      "categoryName":  "中国及周边观察",
-                      "intensity":  4,
-                      "mentionCount":  3,
-                      "firstSeenAt":  "2026-05-02T11:01:51.937Z",
-                      "lastMentionedAt":  "2026-05-04T05:16:27.359Z",
-                      "processedAt":  "2026-05-04 05:17:16.176Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 2, morning",
-                                            "point":  "A massive eruption occurred at Mayon Volcano; Alert Level 3 remains in effect.",
-                                            "timestamp":  "2026-05-02T10:58:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, afternoon",
-                                            "point":  "A lava flow collapse generated a fast-moving pyroclastic density current, with ash plumes visible from Legazpi City and concerns over air quality, transport, and agriculture in Albay.",
-                                            "timestamp":  "2026-05-02T12:50:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 4",
-                                            "point":  "Ashfall from Mayon Volcano caused darkness in Philippine towns, and 32 earthquakes were reported.",
-                                            "timestamp":  "2026-05-04T05:10:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "dnnb75vv2i4wzr2",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "北京外交：零关税、台湾议题与对日摩擦同时推进",
-                      "description":  "中国相关动态今天集中在外交和经贸层面。WIRE 信息显示，中国对 53 个非洲国家的进口零关税政策生效，同时因台湾承认问题将斯威士兰排除在外；中美围绕技术和古巴制裁的摩擦仍在延续，中日之间关于军事言论的交锋也没有降温。这说明北京正在同时处理经贸拉拢、台湾议题和大国竞争三条线。",
-                      "rawSummary":  "China\u0027s zero-tariff policy for 53 African nations has taken effect, while Beijing escalates its defiance of U.S. sanctions on Iranian oil and intensifies preparations for a Trump-Xi summit, even as regional tensions with Japan persist.",
-                      "analysis":  "China\u0027s zero-tariff policy for 53 African nations — excluding Eswatini due to its recognition of Taiwan — took effect, reinforcing the One-China principle. The Commerce Ministry\u0027s directive to Chinese firms not to comply with U.S. sanctions on oil refiners, alongside the earlier declaration that it does not recognize sanctions on Iranian oil purchases, deepens resistance to what Beijing terms illegal extraterritorial overreach. A forceful Foreign Ministry rebuke of Japan over perceived dangerous military moves has kept regional security tensions prominent. Preparations for the mid-May Trump-Xi summit have accelerated, with two additional U.S. C-17 transport aircraft landing recently, bringing the total number of such aircraft on the ground to four. One of those U.S. planes was spotted alongside an Iranian Mahan Air cargo plane during the preparations, a juxtaposition occurring as China actively challenges U.S. pressure over Iranian oil.",
-                      "link":  "",
-                      "pubDate":  "2026-05-04T12:18:27.0150000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Beijing",
-                      "country":  "China",
-                      "categoryId":  "china-neighborhood",
-                      "categoryName":  "中国及周边观察",
-                      "intensity":  3,
-                      "mentionCount":  11,
-                      "firstSeenAt":  "2026-04-27T10:47:06.327Z",
-                      "lastMentionedAt":  "2026-05-04T12:18:27.015Z",
-                      "processedAt":  "2026-05-04 12:20:05.707Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "Apr 27",
-                                            "point":  "China blocks Meta\u0027s $2 billion acquisition of AI firm Manus.",
-                                            "timestamp":  "2026-04-27T10:32:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, morning",
-                                            "point":  "China\u0027s Foreign Ministry accuses Japan of making dangerous, provocative moves, likening its actions to \u0027war mobilization and war cries,\u0027 and questions whether Japan seeks to repeat history as a source of disaster in East Asia.",
-                                            "timestamp":  "2026-04-28T09:38:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, morning",
-                                            "point":  "China announces tariff-free access for all African countries with diplomatic ties to Beijing, excluding Eswatini because it recognizes Taiwan.",
-                                            "timestamp":  "2026-04-29T04:14:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, afternoon",
-                                            "point":  "China\u0027s Foreign Ministry urges the U.S. to walk back its sanctions regime against Cuba, accusing the U.S. of \u0027vilifying China-Cuba cooperation.\u0027",
-                                            "timestamp":  "2026-04-29T13:54:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1",
-                                            "point":  "China\u0027s zero-tariff policy on imports from 53 African countries takes effect; Eswatini is excluded because it recognizes Taiwan.",
-                                            "timestamp":  "2026-05-01T13:54:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, morning",
-                                            "point":  "China states it does not recognize U.S. sanctions on Iranian oil purchases and will not comply with them.",
-                                            "timestamp":  "2026-05-02T14:24:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, evening",
-                                            "point":  "A U.S. military C-17 aircraft lands in Beijing as preparations begin for a meeting between President Trump and President Xi on May 14-15.",
-                                            "timestamp":  "2026-05-02T19:30:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, morning",
-                                            "point":  "China\u0027s Ministry of Commerce tells Chinese companies not to comply with U.S. sanctions on certain oil refiners, calling the sanctions illegal extraterritorial overreach.",
-                                            "timestamp":  "2026-05-03T06:30:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, evening",
-                                            "point":  "A U.S. Air Force C-17 and an Iranian Mahan cargo aircraft are spotted alongside each other at Beijing airport.",
-                                            "timestamp":  "2026-05-03T19:08:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, night",
-                                            "point":  "Two additional U.S. C-17 transport aircraft carrying advance logistics for Trump\u0027s China visit land at Beijing Capital Airport, bringing the total number of U.S. military C-17s on the ground to four.",
-                                            "timestamp":  "2026-05-04T09:43:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "cpbxls3k4glq72w",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "巴基斯坦斡旋：伊朗通道与美伊谈判给周边带来变量",
-                      "description":  "巴基斯坦不仅是南亚安全变量，也正成为中东外交通道的一部分。WIRE 信息显示，美伊间接谈判继续在伊斯兰堡推进，巴基斯坦还开放了通往伊朗的陆路通道。对中国周边来说，巴基斯坦的角色正在从传统安全延伸到能源通道和地区斡旋。",
-                      "rawSummary":  "Military and cross-border developments around Pakistan continue, including a missile test, new attack submarines, unconfirmed claims of opened land routes with Iran, ongoing fuel smuggling, and the safe relocation of crew from an Iranian-linked vessel reportedly seized by the U.S.",
-                      "analysis":  "A training launch of the Fateh-II precision-guided rocket with 400 km range highlights advances in conventional strike options. Pakistan has also reportedly received eight Hangor-class attack submarines, deepening defence cooperation with China. On May 1, a reporter raised the claim that land routes to Iran have been opened; former US President Trump said he was aware and expressed respect for Pakistan’s leadership, though the operational status of any official corridors remains unverified. Fuel smuggling from Iran into Pakistan is reported to continue through informal cross-border routes, even as Iran’s oil sector comes under strain from a U.S.-led blockade that is disrupting exports and forcing crude into storage. The blockade context was further underscored when crew members of an Iranian-linked ship reportedly seized by the U.S. were safely transferred to Pakistan. The coexistence of unconfirmed formal openings and ongoing illicit flows indicates a complex and economically active border region where both overt and covert cross‑border activity may be taking place.",
-                      "link":  "",
-                      "pubDate":  "2026-05-04T13:01:04.3000000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Pakistan",
-                      "country":  "Pakistan",
-                      "categoryId":  "china-neighborhood",
-                      "categoryName":  "中国及周边观察",
-                      "intensity":  3,
-                      "mentionCount":  5,
-                      "firstSeenAt":  "2026-04-29T10:02:55.020Z",
-                      "lastMentionedAt":  "2026-05-04T13:01:04.300Z",
-                      "processedAt":  "2026-05-04 13:02:55.366Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "Apr 29",
-                                            "point":  "Pakistan reportedly conducts a successful training launch of its Fateh-II precision-guided rocket with a 400 km range.",
-                                            "timestamp":  "2026-04-29T09:23:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30",
-                                            "point":  "Pakistan reportedly receives 8 Hangor-class attack submarines as part of increased militarization and defence ties with China.",
-                                            "timestamp":  "2026-04-30T13:16:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1",
-                                            "point":  "A reporter raises the claim that Pakistan has opened land routes with Iran; former US President Trump acknowledges awareness and voices respect for Pakistan\u0027s leadership.",
-                                            "timestamp":  "2026-05-01T17:02:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3",
-                                            "point":  "Fuel smuggling from Iran into Pakistan through informal cross-border routes is reported to continue as U.S.-led sanctions pressure Iran\u0027s oil sector and disrupt exports.",
-                                            "timestamp":  "2026-05-03T13:12:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 4",
-                                            "point":  "All crew of an Iranian-linked ship reportedly seized by the U.S. were safely relocated to Pakistan following a maritime operation.",
-                                            "timestamp":  "2026-05-04T13:00:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "81dprfl27degfuf",
+                      "id":  "a5umodhco65h6be",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "韩国：美军考虑把韩国打造为区域支援枢纽",
                       "description":  "韩国方向的重点在美军区域部署。WIRE 信息显示，驻韩美军司令提出把韩国作为区域支援枢纽。这个表述意味着韩国的角色可能从半岛防务进一步外溢到更广泛的印太行动支撑，对中国周边安全结构有长期影响。",
-                      "rawSummary":  "North Korean women\u0027s football team to visit Suwon for Asian Women\u0027s Champions League semi-final",
-                      "analysis":  "North Korea\u0027s Naegohyang Women\u0027s FC will face South Korea\u0027s Suwon FC Women in Suwon on May 20 in the Asian Women\u0027s Champions League semi-final. This marks the first visit by North Korean athletes to South Korea since 2018. A 39-member delegation comprising 27 players and 12 staff members is scheduled to arrive on May 17. The event represents a rare inter-Korean sports exchange amid ongoing diplomatic isolation between the two countries.",
+                      "rawSummary":  "U.S.-led Operation Freedom escorted American-flagged ships through the Strait of Hormuz amid rising tensions after an IRGC drone strike on a South Korean vessel, with the U.S. and Iran exchanging warnings and warning shots while Germany backed Washington\u0027s demand that Iran reopen the waterway.",
+                      "analysis":  "The escalation began when a UAE-owned ADNOC tanker was struck by two Iranian drones, drawing condemnation from the UAE and the Gulf Cooperation Council. The U.S. updated its rules of engagement to permit strikes on immediate threats and, according to Axios, ordered strikes on threatening IRGC vessels and positions. President Trump authorized Operation Freedom after growing frustrated with the \u0027no deal, no war\u0027 stalemate, seeking to pressure Iran into a deal, a senior U.S. official told Axios. CENTCOM announced two U.S.-flagged merchant ships successfully transited the strait under Project Freedom escort. A South Korean-flagged vessel was hit by an IRGC drone without casualties, Yonhap reported, and the IRGC Navy broadcast a threat to destroy any ship crossing without permission. The IRGC claimed it fired warning shots using cruise missiles and drones at U.S. destroyers that neared the strait and ignored a radio warning about ceasefire violations. Treasury Secretary Bessent urged China to join the U.S. operation and asserted absolute American control of the strait. German Foreign Minister Wadephul expressed full support for the U.S. negotiating position and said Iran must reopen the strait. Fighter jets were sighted over the strait near Qeshm Island, and Fars News claimed two vessels turned back after an Iranian warning, while a large U.S. military presence focused on protecting freedom of navigation carried warnings of potential rapid escalation.",
                       "link":  "",
-                      "pubDate":  "2026-05-04T07:01:39.3200000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Suwon",
-                      "country":  "South Korea",
-                      "categoryId":  "china-neighborhood",
-                      "categoryName":  "中国及周边观察",
-                      "intensity":  2,
-                      "mentionCount":  1,
-                      "firstSeenAt":  "2026-05-04T07:01:39.320Z",
-                      "lastMentionedAt":  "2026-05-04T07:01:39.320Z",
-                      "processedAt":  "2026-05-04 07:01:39.348Z",
-                      "lastChangeType":  "created",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 4",
-                                            "point":  "Plans were announced for a North Korean women\u0027s football delegation to travel to Suwon, South Korea, for an upcoming Asian Women\u0027s Champions League semi-final match — the first such visit since 2018.",
-                                            "timestamp":  "2026-05-04T06:34:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "yd9p7x77u9z0kl5",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "印度：航空业潜在停摆风险暴露经济压力",
-                      "description":  "印度方向出现航空业风险信号。WIRE 信息显示，有关印度航空业可能停摆的警告受到关注。航空业牵动出行、供应链和服务业信心，如果风险继续发酵，可能成为印度经济运行中的一个压力点。",
-                      "rawSummary":  "Pakistan holds military parade at Indian border on operation anniversary",
-                      "analysis":  "Pakistan marked the first anniversary of Operation Bunyan Al Marsoos with a military parade near the Indian border. The display was held at the border area, underscoring the military nature of the commemoration. The operation\u0027s details were not immediately reported.",
-                      "link":  "",
-                      "pubDate":  "2026-05-03T18:03:24.9890000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "Pakistan-India border",
-                      "country":  "Pakistan",
-                      "categoryId":  "china-neighborhood",
-                      "categoryName":  "中国及周边观察",
-                      "intensity":  2,
-                      "mentionCount":  1,
-                      "firstSeenAt":  "2026-05-03T18:03:24.989Z",
-                      "lastMentionedAt":  "2026-05-03T18:03:24.989Z",
-                      "processedAt":  "2026-05-03 18:03:25.017Z",
-                      "lastChangeType":  "created",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "May 3",
-                                            "point":  "Pakistan conducts a military parade at the Indian border to mark the anniversary of Operation Bunyan Al Marsoos.",
-                                            "timestamp":  "2026-05-03T17:37:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
-                      "id":  "a5umodhco65h6be",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "霍尔木兹海峡：封锁僵局继续推高能源与航运压力",
-                      "description":  "美国海上封锁仍在持续，伊朗方面拒绝把核谈判与重新开放通道直接绑定。WIRE 信息显示，英国海军确认战争爆发以来相关船舶通行量已大幅下降，布伦特原油价格仍处在高位。能源、航运和外交谈判正在相互牵动，这是今天最值得关注的全球风险点。",
-                      "rawSummary":  "Tensions near the Strait of Hormuz have escalated sharply following an Iranian drone attack on a UAE-owned tanker, with both nations issuing warnings, the U.S. changing rules of engagement and escorting merchant ships, and Iran claiming to fire warning shots at U.S. vessels.",
-                      "analysis":  "The escalation began when a UAE-owned ADNOC tanker was struck by two Iranian drones, drawing condemnation from the UAE as \u0027economic blackmail\u0027 and \u0027pirate operations.\u0027 In response, the U.S. updated rules of engagement to allow strikes on immediate threats and, according to Axios, ordered strikes on threatening IRGC vessels and positions. CENTCOM announced that two U.S.-flagged merchant ships, trapped since late February by Operation Epic Fury, successfully transited the strait under Project Freedom escort. Iran\u0027s IRGC Navy warned that passing ships require Iranian permission, and its regular Navy, through state media Tasnim, claimed to have fired warning shots at U.S. vessels. Meanwhile, five USAF refueling tankers operated over the Persian Gulf with fighter jets likely patrolling the strait, signaling a heightened U.S. air presence as tensions remain at a peak.",
-                      "link":  "",
-                      "pubDate":  "2026-05-04T13:18:16.3010000Z",
+                      "pubDate":  "2026-05-04T14:18:43.5300000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
                       "locationName":  "78 nautical miles north of Fujairah, UAE",
                       "country":  "United Arab Emirates",
-                      "categoryId":  "middle-east",
-                      "categoryName":  "中东局势与能源冲击",
+                      "categoryId":  "china-neighborhood",
+                      "categoryName":  "中国及周边观察",
                       "intensity":  5,
-                      "mentionCount":  1339,
+                      "mentionCount":  1341,
                       "firstSeenAt":  "2026-02-25T17:01:14.544Z",
-                      "lastMentionedAt":  "2026-05-04T13:18:16.301Z",
-                      "processedAt":  "2026-05-04 13:20:36.817Z",
+                      "lastMentionedAt":  "2026-05-04T14:18:43.530Z",
+                      "processedAt":  "2026-05-04 14:21:41.777Z",
                       "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
@@ -947,6 +722,246 @@
                                             "date":  "May 4, afternoon",
                                             "point":  "Fighter jets were likely patrolling the Strait of Hormuz and five USAF refueling tankers operated over the Persian Gulf amid reports of new U.S. rules of engagement authorizing strikes on threats.",
                                             "timestamp":  "2026-05-04T12:59:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "Treasury Secretary Bessent asserted that the U.S. has absolute control of the Strait of Hormuz and is reopening it, and described Iran\u0027s economy as in freefall.",
+                                            "timestamp":  "2026-05-04T13:14:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "Axios cited a source close to President Trump describing Operation Freedom as the \u0027beginning of a process that could lead to a confrontation with the Iranians.\u0027",
+                                            "timestamp":  "2026-05-04T13:17:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "The IRGC Navy issued a VHF broadcast warning that vessels crossing into the Strait without Iranian permission would be targeted and destroyed.",
+                                            "timestamp":  "2026-05-04T13:19:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "Yonhap reported that a South Korean-flagged vessel was struck by an IRGC drone in the Strait of Hormuz, with no casualties.",
+                                            "timestamp":  "2026-05-04T13:25:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "The Gulf Cooperation Council condemned Iran\u0027s attack on a UAE oil tanker.",
+                                            "timestamp":  "2026-05-04T13:38:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "The IRGC claimed that U.S. destroyers approaching the Strait of Hormuz ignored a radio warning over ceasefire violations, prompting Iranian forces to fire warning shots using cruise missiles and drones.",
+                                            "timestamp":  "2026-05-04T13:46:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "German Foreign Minister Wadephul expressed full support for the U.S. negotiating position and stated that Iran must reopen the Strait of Hormuz.",
+                                            "timestamp":  "2026-05-04T14:00:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "A senior U.S. official told Axios that President Trump ordered Operation Freedom after growing frustrated with the \u0027no deal, no war\u0027 stalemate, aiming to pressure Iran into a deal.",
+                                            "timestamp":  "2026-05-04T14:01:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "Fars News claimed that two vessels in the Strait of Hormuz turned back after receiving an Iranian warning.",
+                                            "timestamp":  "2026-05-04T14:04:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "bqi3p0ofbr567ll",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "南海：菲律宾周边军演与中国海军活动叠加",
+                      "description":  "南海方向出现新的军事活动信号。WIRE 信息显示，在“肩并肩”联合军演背景下，中国海军在菲律宾附近海域的部署受到关注。对中国周边安全来说，这类动态的敏感点不在单次行动，而在军事存在、演训频率和外部力量介入是否持续上升。",
+                      "rawSummary":  "Mayon Volcano remains under Alert Level 3 following a massive eruption, with ongoing ashfall darkening nearby towns and 32 earthquakes reported as activity persists.",
+                      "analysis":  "A massive eruption occurred at Mayon Volcano on May 2, with Alert Level 3 maintained due to heightened risk. A lava flow collapse triggered a pyroclastic density current, sending ash plumes visible from Legazpi City and raising concerns over air quality, transport, and agriculture in Albay. In the following days, heavy ashfall plunged nearby towns into darkness and 32 earthquakes were reported, signaling continuing unrest. No immediate reports of casualties or evacuation orders have been confirmed.",
+                      "link":  "",
+                      "pubDate":  "2026-05-04T05:16:27.3590000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Mayon Volcano, Philippines",
+                      "country":  "Philippines",
+                      "categoryId":  "china-neighborhood",
+                      "categoryName":  "中国及周边观察",
+                      "intensity":  4,
+                      "mentionCount":  3,
+                      "firstSeenAt":  "2026-05-02T11:01:51.937Z",
+                      "lastMentionedAt":  "2026-05-04T05:16:27.359Z",
+                      "processedAt":  "2026-05-04 05:17:16.176Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "May 2, morning",
+                                            "point":  "A massive eruption occurred at Mayon Volcano; Alert Level 3 remains in effect.",
+                                            "timestamp":  "2026-05-02T10:58:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, afternoon",
+                                            "point":  "A lava flow collapse generated a fast-moving pyroclastic density current, with ash plumes visible from Legazpi City and concerns over air quality, transport, and agriculture in Albay.",
+                                            "timestamp":  "2026-05-02T12:50:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4",
+                                            "point":  "Ashfall from Mayon Volcano caused darkness in Philippine towns, and 32 earthquakes were reported.",
+                                            "timestamp":  "2026-05-04T05:10:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "dnnb75vv2i4wzr2",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "北京外交：零关税、台湾议题与对日摩擦同时推进",
+                      "description":  "中国相关动态今天集中在外交和经贸层面。WIRE 信息显示，中国对 53 个非洲国家的进口零关税政策生效，同时因台湾承认问题将斯威士兰排除在外；中美围绕技术和古巴制裁的摩擦仍在延续，中日之间关于军事言论的交锋也没有降温。这说明北京正在同时处理经贸拉拢、台湾议题和大国竞争三条线。",
+                      "rawSummary":  "China\u0027s zero-tariff policy for 53 African nations has taken effect, while Beijing escalates its defiance of U.S. sanctions on Iranian oil and intensifies preparations for a Trump-Xi summit, even as regional tensions with Japan persist.",
+                      "analysis":  "China\u0027s zero-tariff policy for 53 African nations — excluding Eswatini due to its recognition of Taiwan — took effect, reinforcing the One-China principle. The Commerce Ministry\u0027s directive to Chinese firms not to comply with U.S. sanctions on oil refiners, alongside the earlier declaration that it does not recognize sanctions on Iranian oil purchases, deepens resistance to what Beijing terms illegal extraterritorial overreach. A forceful Foreign Ministry rebuke of Japan over perceived dangerous military moves has kept regional security tensions prominent. Preparations for the mid-May Trump-Xi summit have accelerated, with two additional U.S. C-17 transport aircraft landing recently, bringing the total number of such aircraft on the ground to four. One of those U.S. planes was spotted alongside an Iranian Mahan Air cargo plane during the preparations, a juxtaposition occurring as China actively challenges U.S. pressure over Iranian oil.",
+                      "link":  "",
+                      "pubDate":  "2026-05-04T12:18:27.0150000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Beijing",
+                      "country":  "China",
+                      "categoryId":  "china-neighborhood",
+                      "categoryName":  "中国及周边观察",
+                      "intensity":  3,
+                      "mentionCount":  11,
+                      "firstSeenAt":  "2026-04-27T10:47:06.327Z",
+                      "lastMentionedAt":  "2026-05-04T12:18:27.015Z",
+                      "processedAt":  "2026-05-04 12:20:05.707Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "Apr 27",
+                                            "point":  "China blocks Meta\u0027s $2 billion acquisition of AI firm Manus.",
+                                            "timestamp":  "2026-04-27T10:32:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 28, morning",
+                                            "point":  "China\u0027s Foreign Ministry accuses Japan of making dangerous, provocative moves, likening its actions to \u0027war mobilization and war cries,\u0027 and questions whether Japan seeks to repeat history as a source of disaster in East Asia.",
+                                            "timestamp":  "2026-04-28T09:38:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29, morning",
+                                            "point":  "China announces tariff-free access for all African countries with diplomatic ties to Beijing, excluding Eswatini because it recognizes Taiwan.",
+                                            "timestamp":  "2026-04-29T04:14:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 29, afternoon",
+                                            "point":  "China\u0027s Foreign Ministry urges the U.S. to walk back its sanctions regime against Cuba, accusing the U.S. of \u0027vilifying China-Cuba cooperation.\u0027",
+                                            "timestamp":  "2026-04-29T13:54:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1",
+                                            "point":  "China\u0027s zero-tariff policy on imports from 53 African countries takes effect; Eswatini is excluded because it recognizes Taiwan.",
+                                            "timestamp":  "2026-05-01T13:54:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, morning",
+                                            "point":  "China states it does not recognize U.S. sanctions on Iranian oil purchases and will not comply with them.",
+                                            "timestamp":  "2026-05-02T14:24:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 2, evening",
+                                            "point":  "A U.S. military C-17 aircraft lands in Beijing as preparations begin for a meeting between President Trump and President Xi on May 14-15.",
+                                            "timestamp":  "2026-05-02T19:30:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, morning",
+                                            "point":  "China\u0027s Ministry of Commerce tells Chinese companies not to comply with U.S. sanctions on certain oil refiners, calling the sanctions illegal extraterritorial overreach.",
+                                            "timestamp":  "2026-05-03T06:30:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, evening",
+                                            "point":  "A U.S. Air Force C-17 and an Iranian Mahan cargo aircraft are spotted alongside each other at Beijing airport.",
+                                            "timestamp":  "2026-05-03T19:08:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, night",
+                                            "point":  "Two additional U.S. C-17 transport aircraft carrying advance logistics for Trump\u0027s China visit land at Beijing Capital Airport, bringing the total number of U.S. military C-17s on the ground to four.",
+                                            "timestamp":  "2026-05-04T09:43:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "cpbxls3k4glq72w",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "巴基斯坦斡旋：伊朗通道与美伊谈判给周边带来变量",
+                      "description":  "巴基斯坦不仅是南亚安全变量，也正成为中东外交通道的一部分。WIRE 信息显示，美伊间接谈判继续在伊斯兰堡推进，巴基斯坦还开放了通往伊朗的陆路通道。对中国周边来说，巴基斯坦的角色正在从传统安全延伸到能源通道和地区斡旋。",
+                      "rawSummary":  "Military and cross-border developments around Pakistan continue, including a missile test, new attack submarines, unconfirmed claims of opened land routes with Iran, ongoing fuel smuggling, and the safe relocation of crew from an Iranian-linked vessel reportedly seized by the U.S.",
+                      "analysis":  "A training launch of the Fateh-II precision-guided rocket with 400 km range highlights advances in conventional strike options. Pakistan has also reportedly received eight Hangor-class attack submarines, deepening defence cooperation with China. On May 1, a reporter raised the claim that land routes to Iran have been opened; former US President Trump said he was aware and expressed respect for Pakistan’s leadership, though the operational status of any official corridors remains unverified. Fuel smuggling from Iran into Pakistan is reported to continue through informal cross-border routes, even as Iran’s oil sector comes under strain from a U.S.-led blockade that is disrupting exports and forcing crude into storage. The blockade context was further underscored when crew members of an Iranian-linked ship reportedly seized by the U.S. were safely transferred to Pakistan. The coexistence of unconfirmed formal openings and ongoing illicit flows indicates a complex and economically active border region where both overt and covert cross‑border activity may be taking place.",
+                      "link":  "",
+                      "pubDate":  "2026-05-04T13:01:04.3000000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Pakistan",
+                      "country":  "Pakistan",
+                      "categoryId":  "china-neighborhood",
+                      "categoryName":  "中国及周边观察",
+                      "intensity":  3,
+                      "mentionCount":  5,
+                      "firstSeenAt":  "2026-04-29T10:02:55.020Z",
+                      "lastMentionedAt":  "2026-05-04T13:01:04.300Z",
+                      "processedAt":  "2026-05-04 13:02:55.366Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "Apr 29",
+                                            "point":  "Pakistan reportedly conducts a successful training launch of its Fateh-II precision-guided rocket with a 400 km range.",
+                                            "timestamp":  "2026-04-29T09:23:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 30",
+                                            "point":  "Pakistan reportedly receives 8 Hangor-class attack submarines as part of increased militarization and defence ties with China.",
+                                            "timestamp":  "2026-04-30T13:16:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1",
+                                            "point":  "A reporter raises the claim that Pakistan has opened land routes with Iran; former US President Trump acknowledges awareness and voices respect for Pakistan\u0027s leadership.",
+                                            "timestamp":  "2026-05-01T17:02:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3",
+                                            "point":  "Fuel smuggling from Iran into Pakistan through informal cross-border routes is reported to continue as U.S.-led sanctions pressure Iran\u0027s oil sector and disrupt exports.",
+                                            "timestamp":  "2026-05-03T13:12:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4",
+                                            "point":  "All crew of an Iranian-linked ship reportedly seized by the U.S. were safely relocated to Pakistan following a maritime operation.",
+                                            "timestamp":  "2026-05-04T13:00:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "yd9p7x77u9z0kl5",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "印度：航空业潜在停摆风险暴露经济压力",
+                      "description":  "印度方向出现航空业风险信号。WIRE 信息显示，有关印度航空业可能停摆的警告受到关注。航空业牵动出行、供应链和服务业信心，如果风险继续发酵，可能成为印度经济运行中的一个压力点。",
+                      "rawSummary":  "Pakistan holds military parade at Indian border on operation anniversary",
+                      "analysis":  "Pakistan marked the first anniversary of Operation Bunyan Al Marsoos with a military parade near the Indian border. The display was held at the border area, underscoring the military nature of the commemoration. The operation\u0027s details were not immediately reported.",
+                      "link":  "",
+                      "pubDate":  "2026-05-03T18:03:24.9890000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Pakistan-India border",
+                      "country":  "Pakistan",
+                      "categoryId":  "china-neighborhood",
+                      "categoryName":  "中国及周边观察",
+                      "intensity":  2,
+                      "mentionCount":  1,
+                      "firstSeenAt":  "2026-05-03T18:03:24.989Z",
+                      "lastMentionedAt":  "2026-05-03T18:03:24.989Z",
+                      "processedAt":  "2026-05-03 18:03:25.017Z",
+                      "lastChangeType":  "created",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "May 3",
+                                            "point":  "Pakistan conducts a military parade at the Indian border to mark the anniversary of Operation Bunyan Al Marsoos.",
+                                            "timestamp":  "2026-05-03T17:37:00.000Z"
                                         }
                                     ]
                   },
@@ -1131,487 +1146,452 @@
                                     ]
                   },
                   {
-                      "id":  "ggr63mwgm5l25j2",
+                      "id":  "swz62j4av6o3dyd",
                       "sourceKind":  "world-monitor-wire",
-                      "title":  "伊朗内部：强硬派主导谈判立场，核协议预期降温",
-                      "description":  "伊朗政权内部的强硬路线仍占上风，围绕防空能力、核谈判和外交让步的信号相互矛盾。市场此前对核协议的乐观预期正在减弱，说明外部压力并未换来清晰的妥协路径。",
-                      "rawSummary":  "Iran and the U.S. remain locked in a diplomatic standoff over Iran\u0027s three-phase proposal, with the rial hitting rock bottom, war planning taking precedence, and fresh executions underscoring domestic repression.",
-                      "analysis":  "Iran confirmed it received a U.S. response via Pakistan and is reviewing it, while Foreign Ministry spokesman Esmail Baghaei characterized the reply as containing excessive and unreasonable demands, though details remain under consideration. President Trump dismissed the proposal as unacceptable, warned that combat operations remain possible, and the U.S. naval blockade continues. Economic strain is worsening with the rial at a historic low, and a high-level meeting focused entirely on war scenarios rather than diplomacy signals that the IRGC\u0027s influence is paramount. Hardline rhetoric persists alongside repression: three men linked to the January protests have been executed, adding to two earlier executions for alleged Mossad spying. Israel remains on alert for a possible U.S. strike or Iranian preemptive action and is coordinating with CENTCOM.",
+                      "title":  "黎巴嫩南部：无人机袭击与以军空袭交织，边境紧张持续",
+                      "description":  "黎以边境仍处在高强度对抗中。WIRE 信息显示，真主党无人机袭击造成以军伤亡，以军则称打击了黎巴嫩南部多个真主党目标及隧道设施。北以色列边境社区也面临新的民防限制，说明冲突正在继续影响平民生活。",
+                      "rawSummary":  "Intense ground operations and airstrikes continue in southern Lebanon, with the IDF raiding a Hezbollah rocket-launching site and capturing arms, while Hezbollah drone attacks and cross-border fire persist amid widespread destruction and heavy casualties.",
+                      "analysis":  "Ground operations and airstrikes have devastated southern Lebanon; The New York Times, citing satellite imagery, reported entire towns including Bint Jbeil flattened and dozens of villages heavily damaged since March, with over 2,600 killed and more than a million displaced, and a popular coastal restaurant was demolished. The IDF says it uncovered and destroyed an 80-metre Hezbollah tunnel with living quarters and over 100 weapons caches, its 7th Brigade killed 10 fighters over two days, and today Givati Brigade troops raided a Hezbollah rocket-launching site, capturing dozens of rockets, assault rifles, RPGs, and primed launchers aimed at troops and Israel. Hezbollah continues to fire rockets and escalate FPV drone use, releasing new footage claiming hits on two Namer APCs, a Merkava tank, and an M113 at IDF staging areas, while earlier an explosive drone with fiber-optic spool crashed intact near an IDF unit; previous drone strikes wounded about 12 soldiers near Shomera and killed Sgt. Liam Ben Hamo. Reuters, citing Hezbollah officials, said several thousand Hezbollah fighters have been killed since early March, and cross-border alerts persist; earlier today, two Golani Reconnaissance soldiers were wounded in a firefight, and the IAF struck Hezbollah structures and an anti-tank position.",
                       "link":  "",
-                      "pubDate":  "2026-05-04T09:47:39.4540000Z",
+                      "pubDate":  "2026-05-04T14:18:43.5300000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
-                      "locationName":  "Iranian regime governmental centers (unspecified locations)",
-                      "country":  "Iran",
+                      "locationName":  "Southern Lebanon (Klaouieh, Arzoun, Nabatieh al-Fawqa)",
+                      "country":  "Lebanon",
                       "categoryId":  "middle-east",
                       "categoryName":  "中东局势与能源冲击",
                       "intensity":  5,
-                      "mentionCount":  677,
-                      "firstSeenAt":  "2026-02-25T14:00:37.611Z",
-                      "lastMentionedAt":  "2026-05-04T09:47:39.454Z",
-                      "processedAt":  "2026-05-04 09:49:44.424Z",
+                      "mentionCount":  452,
+                      "firstSeenAt":  "2026-02-24T22:08:39.965Z",
+                      "lastMentionedAt":  "2026-05-04T14:18:43.530Z",
+                      "processedAt":  "2026-05-04 14:20:30.869Z",
                       "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
-                                            "date":  "Apr 22, evening",
-                                            "point":  "The White House stated the U.S. does not consider Iran\u0027s seizure of two ships to be a violation of the ceasefire and clarified that public reports of a firm 3-5 day deadline are not true.",
-                                            "timestamp":  "2026-04-22T19:27:00.000Z"
+                                            "date":  "Mar 12, afternoon",
+                                            "point":  "Israeli airstrikes target the towns of Naqoura, Qabrikha, Kfar, and Touline in southern Lebanon.",
+                                            "timestamp":  "2026-03-12T11:10:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 4",
+                                            "point":  "An Israeli soldier is killed by Hezbollah in southern Lebanon.",
+                                            "timestamp":  "2026-04-04T16:58:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 17",
+                                            "point":  "A ceasefire between Hezbollah and Israel goes into effect, though thousands of residents from southern Lebanon begin returning to their homes despite Israeli warnings against doing so.",
+                                            "timestamp":  "2026-04-17T16:42:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 19",
+                                            "point":  "An Israeli soldier is filmed smashing a statue of Jesus Christ in southern Lebanon; IDF later confirms authenticity and says appropriate measures will be taken.",
+                                            "timestamp":  "2026-04-19T21:18:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 21",
+                                            "point":  "Israel says two IDF soldiers were punished for smashing the Jesus statue—removed from combat and given 30 days detention—with six others under investigation.",
+                                            "timestamp":  "2026-04-21T14:13:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 22",
+                                            "point":  "A second French soldier, Corporal Anicet Girardin, dies from wounds sustained in the April 18th Hezbollah attack on a UNIFIL convoy.",
+                                            "timestamp":  "2026-04-22T14:37:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 18",
+                                            "point":  "Hezbollah attacks a UNIFIL convoy in southern Lebanon with small arms fire, killing one French soldier and wounding another.",
+                                            "timestamp":  "2026-04-22T14:50:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 22, evening",
-                                            "point":  "The White House reiterated the U.S. demand for Iran to turn over its enriched uranium.",
-                                            "timestamp":  "2026-04-22T19:37:00.000Z"
+                                            "point":  "Hezbollah resumes attacks on Israeli forces in southern Lebanon, conducting three FPV drone operations targeting an artillery position, a command vehicle, and an army position, and claims to have shot down four Israeli reconnaissance drones.",
+                                            "timestamp":  "2026-04-22T18:50:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 22, evening",
-                                            "point":  "U.S. officials identified a complete split within the Iranian leadership between moderates pushing for talks and hardliners taking a hardline approach.",
-                                            "timestamp":  "2026-04-22T19:51:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 22, night",
-                                            "point":  "Unconfirmed reports of explosions and air defense activity east of Tehran were attributed by Iranian sources to military exercises and air defense tests.",
-                                            "timestamp":  "2026-04-23T00:24:00.000Z"
+                                            "point":  "The U.S. State Department urges American citizens to depart Lebanon.",
+                                            "timestamp":  "2026-04-22T19:24:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 23",
-                                            "point":  "A pro-regime protest in Tehran featured the Spanish flag, signaling international solidarity with Iran\u0027s anti-U.S. stance, as Spain refused a U.S. request to use its military bases and closed its airspace to U.S. aircraft.",
-                                            "timestamp":  "2026-04-23T12:56:00.000Z"
+                                            "point":  "New report indicates widespread looting by Israeli troops in southern Lebanon, taking motorcycles, TVs, and furniture, with commanders reportedly aware but not acting to stop it.",
+                                            "timestamp":  "2026-04-23T16:42:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 23",
-                                            "point":  "Reports indicate that Mojtaba Khamenei has undergone three surgeries on one leg and may require a prosthetic, and also suffered severe burns and hand surgery, permanently maiming him and raising questions about leadership succession.",
-                                            "timestamp":  "2026-04-23T14:47:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23",
-                                            "point":  "The United States intercepted and boarded a sanctioned oil tanker in the Indian Ocean and redirected three Iranian-flagged tankers near India, Malaysia, and Sri Lanka, expanding the maritime blockade far beyond the Gulf of Oman.",
-                                            "timestamp":  "2026-04-23T15:48:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, afternoon",
-                                            "point":  "New reports of air defense activity over Parand in Tehran province indicated heightened readiness.",
-                                            "timestamp":  "2026-04-23T17:10:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 23, afternoon",
-                                            "point":  "Iran\u0027s Parliament Speaker Mohammad Bagher Ghalibaf resigned from the negotiating team after reported intervention by the Islamic Revolutionary Guards Corps, underscoring hardliner dominance.",
+                                            "point":  "A new round of U.S.-brokered Israel-Lebanon talks is scheduled at the White House, with President Trump reportedly planning to attend, but both sides remain deadlocked over Israeli withdrawal and continued operations against Hezbollah.",
                                             "timestamp":  "2026-04-23T17:12:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 23, afternoon",
-                                            "point":  "Reports emerged that Iran\u0027s air defense was firing at hostile targets in Tehran, though Israeli officials denied any involvement, suggesting the activity may be performative for pro-regime marches.",
-                                            "timestamp":  "2026-04-23T17:43:00.000Z"
+                                            "date":  "Apr 23, evening",
+                                            "point":  "Hezbollah fires multiple rockets from Lebanon into Israel, all of which are intercepted by Israeli defenses; no injuries reported.",
+                                            "timestamp":  "2026-04-23T20:40:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 23, evening",
-                                            "point":  "An explosion was reported in the Sattarkhan district of Tehran, adding to unconfirmed incidents in the capital.",
-                                            "timestamp":  "2026-04-23T18:58:00.000Z"
+                                            "date":  "Apr 23, night",
+                                            "point":  "Hezbollah fires a large volley of rockets into northern Israel, described as a major ceasefire violation.",
+                                            "timestamp":  "2026-04-23T21:24:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 24",
-                                            "point":  "Iran announced it has decided not to enter negotiations with the US and denied making any request for direct talks, per state-aligned Tasnim news agency.",
-                                            "timestamp":  "2026-04-24T19:18:00.000Z"
+                                            "point":  "Hezbollah shoots down an Israeli drone over southern Lebanon using a surface-to-air missile, reportedly downing a second drone as well, despite an announced ceasefire extension.",
+                                            "timestamp":  "2026-04-24T13:38:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 24, evening",
-                                            "point":  "Iran\u0027s Foreign Ministry spokesman stated no meeting is planned between Iran and the U.S., and any communication will be relayed through Pakistan.",
-                                            "timestamp":  "2026-04-24T21:33:00.000Z"
+                                            "point":  "Hezbollah has significantly ramped up fiber-optic FPV drone attacks in recent weeks, a tactical shift that renders Israeli jamming countermeasures ineffective.",
+                                            "timestamp":  "2026-04-24T20:49:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 24, night",
-                                            "point":  "The U.S. Treasury\u0027s OFAC announced new sanctions targeting Iran\u0027s oil trade and shadow fleet, including sanctions on China-based refinery Hengli Petrochemical (Dalian), 19 tankers, and crypto wallets used by the Central Bank of Iran.",
-                                            "timestamp":  "2026-04-24T23:28:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25",
-                                            "point":  "Iran stated it still has significant missile capabilities that have not been used yet, signaling continued escalation capacity.",
-                                            "timestamp":  "2026-04-25T00:31:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 25, night",
-                                            "point":  "Analysis indicates that pragmatic officials may continue advocating for flexibility but are unlikely to shape regime decision-making near-term, with IRGC commander Vahidi\u0027s victory over Ghalibaf likely impacting future US-Iran negotiations.",
-                                            "timestamp":  "2026-04-25T03:35:00.000Z"
+                                            "date":  "Apr 24, evening",
+                                            "point":  "New footage emerges of a Hezbollah fiber-optic FPV drone successfully chasing down and striking an Israeli HMMWV in the town of Qantara.",
+                                            "timestamp":  "2026-04-24T21:15:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 25",
-                                            "point":  "Imam Khamenei International Airport in Tehran reopened to limited flights.",
-                                            "timestamp":  "2026-04-25T08:25:00.000Z"
+                                            "point":  "ISW-CTP assesses that IRGC Commander Ahmad Vahidi has won an internal power struggle in Iran over negotiations, likely reinforcing a maximalist stance that could embolden Hezbollah and increase the risk of conflict with the U.S.",
+                                            "timestamp":  "2026-04-25T01:18:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 25, evening",
-                                            "point":  "Iranian negotiators reportedly passed messages to the US asking President Trump to tone down his threats, believing that hardliners would be more open to negotiations if American pressure eased.",
-                                            "timestamp":  "2026-04-25T20:23:00.000Z"
+                                            "point":  "Israel attacks Hezbollah targets in southern Lebanon in direct retaliation for ceasefire violations.",
+                                            "timestamp":  "2026-04-25T15:52:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, evening",
+                                            "point":  "Hezbollah launches suicide drones at northern Israel in another ceasefire violation.",
+                                            "timestamp":  "2026-04-25T16:44:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, evening",
+                                            "point":  "Hezbollah sends explosive drones toward Israeli forces in southern Lebanon; no casualties reported according to the Israeli Army.",
+                                            "timestamp":  "2026-04-25T17:19:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, night",
+                                            "point":  "Assessment indicates Hezbollah is likely conducting smaller-scale, calibrated attacks to threaten Israeli security without triggering major retaliation, while IRGC hardliners continue to dominate Iran\u0027s decision-making and block compromise.",
+                                            "timestamp":  "2026-04-25T21:47:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, night",
+                                            "point":  "The Israeli army destroys solar panels in the town of Debel in southern Lebanon.",
+                                            "timestamp":  "2026-04-25T23:53:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, early morning",
+                                            "point":  "The Israeli Air Force launches airstrikes against several Hezbollah targets in southern Lebanon in retaliation for Hezbollah suicide drones fired at northern Israel earlier that day.",
+                                            "timestamp":  "2026-04-26T00:21:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, evening",
+                                            "point":  "An Israeli soldier, Sergeant Idan Fooks, 19, is killed by Hezbollah in southern Lebanon.",
+                                            "timestamp":  "2026-04-26T16:26:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Mar 30",
+                                            "point":  "Hezbollah targets an Israeli Merkava tank in Beit Lif, southern Lebanon, with an anti-tank guided missile.",
+                                            "timestamp":  "2026-04-26T17:44:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Mar 25",
+                                            "point":  "Hezbollah targets an Israeli Merkava tank in Beit Lif, southern Lebanon, with an FPV drone.",
+                                            "timestamp":  "2026-04-26T18:49:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 25, evening",
+                                            "point":  "Footage surfaces of a Hezbollah FPV drone striking an Israeli Merkava Mk.4 main battle tank in southern Lebanon, underscoring continued fiber-optic drone employment.",
+                                            "timestamp":  "2026-04-26T19:14:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, night",
+                                            "point":  "Hezbollah FPV drone strikes Israeli troops evacuating wounded soldiers, hitting them as they load a helicopter, according to initial reports.",
+                                            "timestamp":  "2026-04-26T19:57:00.000Z"
+                                        },
+                                        {
+                                            "date":  "Apr 26, afternoon",
+                                            "point":  "Hezbollah FPV drone narrowly misses an Israeli medevac helicopter evacuating soldiers wounded in an earlier drone attack.",
+                                            "timestamp":  "2026-04-26T20:20:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 27, morning",
-                                            "point":  "Iran proposed a deal to the U.S. to reopen the Strait of Hormuz, extend a ceasefire, and postpone nuclear negotiations until later, signaling a more concrete diplomatic outreach.",
-                                            "timestamp":  "2026-04-27T06:07:00.000Z"
+                                            "point":  "The Israeli army has completely destroyed most of the civilian homes in the town of Beit Lif.",
+                                            "timestamp":  "2026-04-27T06:15:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 27, morning",
-                                            "point":  "Iran\u0027s Foreign Minister Abbas Araghchi stated that incorrect approaches and excessive demands by the U.S. caused the previous round of talks to fail despite progress, publicly acknowledging negotiations while shifting blame to Washington.",
-                                            "timestamp":  "2026-04-27T08:41:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, morning",
-                                            "point":  "European Commission President von der Leyen said it is too early to lift sanctions on Iran, insisting that fundamental change in Iran must come first, complicating Tehran\u0027s efforts to court European allies and gain sanctions relief.",
-                                            "timestamp":  "2026-04-27T10:43:00.000Z"
+                                            "point":  "Close footage reveals that the Hezbollah FPV drone strike on Israeli soldiers evacuating wounded troops missed its targets, contradicting earlier claims that the drone hit them.",
+                                            "timestamp":  "2026-04-27T06:41:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 27, afternoon",
-                                            "point":  "Iran\u0027s new offer to mediators reportedly outlines a 3-phase peace plan beginning with ending the war and ensuring it does not resume, and explicitly mentions Iran\u0027s intent to retain control over the Strait of Hormuz.",
-                                            "timestamp":  "2026-04-27T16:34:00.000Z"
+                                            "point":  "Hezbollah reportedly plans to increasingly leverage suicide bomber groups in operations against Israeli positions in southern Lebanon, according to Al Jazeera, as reciprocal exchanges continue despite a ceasefire extension.",
+                                            "timestamp":  "2026-04-27T13:42:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 27, evening",
-                                            "point":  "Smuggled footage published by the New York Post shows six protesters being executed while defiantly singing, exposing the regime\u0027s violent suppression of internal dissent.",
-                                            "timestamp":  "2026-04-27T20:36:00.000Z"
+                                            "date":  "Apr 27, afternoon",
+                                            "point":  "Hezbollah deploys suicide bomber squads in southern Lebanon, with a senior commander stating the group is returning to 1980s combat tactics to prevent Israeli forces from entrenching.",
+                                            "timestamp":  "2026-04-27T15:32:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 27, night",
-                                            "point":  "Trump and his national security team are skeptical of Iran\u0027s latest proposal, questioning whether it is acting in good faith and willing to end uranium enrichment, but the White House will continue talks and is expected to present counterproposals, per the Wall Street Journal.",
-                                            "timestamp":  "2026-04-27T22:18:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, night",
-                                            "point":  "ISW analysis indicates Iran is exploiting its Strait of Hormuz leverage to secure an end to the U.S. blockade without making nuclear concessions, a push partly driven by rapidly depleting oil storage capacity forced by the blockade; IRGC commander Vahidi\u0027s support for the proposal remains unclear.",
-                                            "timestamp":  "2026-04-27T22:44:00.000Z"
+                                            "date":  "Apr 27, afternoon",
+                                            "point":  "Hezbollah announces targeting two gatherings of Israeli forces in Naqoura with two FPV drones, achieving confirmed casualties.",
+                                            "timestamp":  "2026-04-27T17:17:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 28, morning",
-                                            "point":  "Iranian Foreign Minister Abbas Araghchi returned to Tehran after meeting with Russian President Vladimir Putin in St. Petersburg.",
-                                            "timestamp":  "2026-04-28T03:50:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, morning",
-                                            "point":  "Trump is unhappy with Iran\u0027s latest proposal because it delays nuclear negotiations, and the U.S. insists nuclear issues must be addressed immediately, leaving both sides far apart, per Reuters.",
-                                            "timestamp":  "2026-04-28T05:23:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, morning",
-                                            "point":  "Iran\u0027s deputy Defence Minister Brigadier General Reza Talaei-Nik stated, via state-aligned Tasnim, that the US is no longer in a position to dictate policies and that Iran is ready to share its defensive military capabilities with Shanghai Cooperation Organization members.",
-                                            "timestamp":  "2026-04-28T08:19:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, morning",
-                                            "point":  "Several advisors privately told Trump that only resuming military action would break the deadlock with Iran.",
-                                            "timestamp":  "2026-04-28T11:41:00.000Z"
+                                            "point":  "Israeli military issues evacuation orders to the residents of 16 villages in southern Lebanon.",
+                                            "timestamp":  "2026-04-28T09:25:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 28, afternoon",
-                                            "point":  "An Israeli official stated after a high-level security briefing that the Iranian regime is about to pay a very heavy price, calling for patience and alertness.",
-                                            "timestamp":  "2026-04-28T12:02:00.000Z"
+                                            "point":  "Israeli Minister Amichai Chikli states that Israel is establishing a new “border line” with Lebanon, with the IDF continuing to destroy infrastructure during the ceasefire.",
+                                            "timestamp":  "2026-04-28T16:31:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 28, afternoon",
-                                            "point":  "A photo circulated showing an Iranian woman mocking the Islamic regime\u0027s \u0027feminist propaganda\u0027 by wearing a hijab and holding a TV frame reading IRGC TV propaganda, referencing recent women-only rallies in Tehran featuring pink military vehicles and weapons in an attempt to appeal to Western audiences.",
-                                            "timestamp":  "2026-04-28T14:07:00.000Z"
+                                            "point":  "Israel\u0027s Education Minister visits the family of Sgt. Idan Fooks, who was killed by Hezbollah on April 26, and personally delivers his high school diploma to his parents.",
+                                            "timestamp":  "2026-04-28T16:50:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 28, night",
-                                            "point":  "U.S. intelligence agencies are assessing how Iran might respond if Trump declares victory and scales back the war, with early assessments suggesting Iran could see a U.S. withdrawal as a win, per Reuters.",
-                                            "timestamp":  "2026-04-28T18:33:00.000Z"
+                                            "date":  "Apr 28, afternoon",
+                                            "point":  "Two Lebanese Army soldiers are wounded as a result of an Israeli targeting in Majdal Zoun, south Lebanon.",
+                                            "timestamp":  "2026-04-28T17:24:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 28, night",
-                                            "point":  "Iran has used the ceasefire to recover and redeploy launchers, drones, and munitions previously buried by U.S. and Israeli strikes, per Reuters.",
-                                            "timestamp":  "2026-04-28T18:34:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, night",
-                                            "point":  "The U.S. Treasury Department announced additional sanctions targeting Iranian banking networks that fund the regime and the IRGC, including private companies known as \u0027Rahbars\u0027 that assist blacklisted banks in using shadow banking to support the Armed Forces General Staff, National Iranian Oil Company, and IRGC.",
-                                            "timestamp":  "2026-04-28T18:55:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, morning",
-                                            "point":  "President Trump posted on Truth Social stating \"NO MORE MR. NICE GUY!\" and that Iran \"better get smart soon,\" urging Iran to sign a non-nuclear deal.",
+                                            "date":  "Apr 29",
+                                            "point":  "IDF troops in Lebanon are improvising solutions to counter Hezbollah drones, indicating the ineffectiveness of existing countermeasures.",
                                             "timestamp":  "2026-04-29T09:14:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 29, morning",
-                                            "point":  "Trump\u0027s advisors told him a nuclear deal with Iran is unlikely, and Trump instructed them to prepare for an indefinite blockade until Iran capitulates, per the Wall Street Journal.",
-                                            "timestamp":  "2026-04-29T09:59:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, morning",
-                                            "point":  "Sources inside Iranian leadership told Reuters that the IRGC military wing has completely taken over military and political decision-making, with the newly appointed leader only able to ratify decisions rather than issue directives.",
-                                            "timestamp":  "2026-04-29T10:04:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, afternoon",
-                                            "point":  "The new leadership structure is described as a collective wartime leadership centered on the IRGC and Supreme National Security Council, with Mojtaba Khamenei as nominal supreme leader endorsing decisions but not making them, and hardline military figures now driving policy, per Reuters.",
-                                            "timestamp":  "2026-04-29T13:25:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, afternoon",
-                                            "point":  "Former Parliament Speaker Mohammad Bagher Ghalibaf, previously ousted from the negotiating team by the IRGC, stated the enemy has entered a new phase aiming to activate maritime blockade, media warfare, economic pressure, and internal division to weaken or collapse the country from within.",
-                                            "timestamp":  "2026-04-29T15:33:00.000Z"
-                                        },
-                                        {
                                             "date":  "Apr 29, evening",
-                                            "point":  "Iranian Navy Chief stated that a weapon they deeply fear will soon be revealed at their doorstep.",
-                                            "timestamp":  "2026-04-29T20:37:00.000Z"
+                                            "point":  "A 3-year-old girl, Mila Zayyat, and her mother were reportedly killed by Israeli forces in their home in southern Lebanon.",
+                                            "timestamp":  "2026-04-29T18:47:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "Senior Iranian official Mohsen Rezaee stated Iran will not tolerate the naval blockade and warned that if it continues, Iran will respond.",
-                                            "timestamp":  "2026-04-29T20:42:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "Unconfirmed reports of explosions in Iran, including Tehran, with the cause unclear at this stage.",
-                                            "timestamp":  "2026-04-30T01:26:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "Significant air-defense activity and explosions were reported over Tehran; both U.S. and Israeli officials denied renewed strikes against Iran.",
-                                            "timestamp":  "2026-04-30T01:34:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "Iran\u0027s Navy Commander warned that Iran will soon confront its enemies with a \u0027very dreadful weapon.\u0027",
-                                            "timestamp":  "2026-04-30T01:38:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "Iran\u0027s upcoming proposal to the U.S. is expected to refuse meaningful concessions on the Strait of Hormuz and nuclear program, as the regime coalesces behind IRGC commander Ahmad Vahidi\u0027s hardline approach.",
+                                            "date":  "Apr 30, morning",
+                                            "point":  "Iran is expected to submit a new proposal to the United States in the coming days, but is reportedly unwilling to concede on the Strait of Hormuz or its nuclear program, with IRGC hardliners consolidating around demanding an end to the naval blockade first.",
                                             "timestamp":  "2026-04-30T01:42:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "Oman rejected an Iranian proposal to involve it in a toll-collection scheme aimed at legitimizing Iran\u0027s control over the Strait of Hormuz.",
-                                            "timestamp":  "2026-04-30T01:42:00.000Z"
+                                            "date":  "Apr 30, morning",
+                                            "point":  "Israeli airstrikes hit targets in southern Lebanon.",
+                                            "timestamp":  "2026-04-30T07:45:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "The U.S. Army is reportedly considering contingency plans to seize Iran\u0027s enriched uranium stockpile.",
-                                            "timestamp":  "2026-04-30T03:13:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, early morning",
-                                            "point":  "A Pentagon official said the US war against Iran has cost $25 billion so far.",
-                                            "timestamp":  "2026-04-30T03:40:00.000Z"
+                                            "date":  "Apr 30, morning",
+                                            "point":  "Hezbollah reportedly shoots down another Israeli UAV in southern Lebanon using a surface-to-air missile.",
+                                            "timestamp":  "2026-04-30T08:08:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 30, afternoon",
-                                            "point":  "Professor Robert Pape assessed that Iran is likely laying the groundwork for nuclear weapons, working with Pakistan and Russia, and positioning itself as a major center of global power.",
-                                            "timestamp":  "2026-04-30T12:18:00.000Z"
+                                            "point":  "A Hezbollah drone struck an Israeli military vehicle near Shomera in northern Israel, causing a fire and secondary explosions; approximately 12 IDF soldiers were wounded.",
+                                            "timestamp":  "2026-04-30T11:32:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 30, afternoon",
-                                            "point":  "German Chancellor Merz demanded that Iran stop playing for time, end its military nuclear program, and cease strikes against Israel and regional partners.",
-                                            "timestamp":  "2026-04-30T12:53:00.000Z"
+                                            "point":  "The Israeli military stated it struck buildings in southern Lebanon where Hezbollah operatives were active, claiming the sites were used to plan attacks against Israeli forces and territory.",
+                                            "timestamp":  "2026-04-30T15:30:00.000Z"
                                         },
                                         {
                                             "date":  "Apr 30, afternoon",
-                                            "point":  "Reportedly, Iran\u0027s leadership seeks the removal of Foreign Minister Abbas Araghchi over the handling of nuclear negotiations.",
-                                            "timestamp":  "2026-04-30T17:57:00.000Z"
+                                            "point":  "The Israeli military announced that Sgt. Liam Ben Hamo was killed by an explosive drone in southern Lebanon, and one other soldier was moderately wounded.",
+                                            "timestamp":  "2026-04-30T15:38:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "Polymarket estimated a 33 percent chance of a permanent US-Iran peace deal by June 30, reflecting market skepticism amid the ceasefire and blockade.",
-                                            "timestamp":  "2026-04-30T18:51:00.000Z"
+                                            "date":  "Apr 30, afternoon",
+                                            "point":  "The Israeli military warned residents in 15 towns in southern Lebanon to evacuate and remain at least one kilometer away ahead of planned airstrikes targeting Hezbollah-linked infrastructure.",
+                                            "timestamp":  "2026-04-30T15:45:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "US officials told CBS News that the true cost of the Iran war is closer to $50 billion, exceeding an earlier Pentagon estimate of $25 billion.",
-                                            "timestamp":  "2026-04-30T19:52:00.000Z"
+                                            "date":  "Apr 30, afternoon",
+                                            "point":  "Israeli airstrikes struck Klaouieh, Arzoun, and Nabatieh al-Fawqa in southern Lebanon.",
+                                            "timestamp":  "2026-04-30T15:50:00.000Z"
                                         },
                                         {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "Air defense activity was reported over southern Tehran.",
-                                            "timestamp":  "2026-04-30T20:08:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "The UAE called on its citizens to immediately depart Iran, Iraq, and Lebanon.",
-                                            "timestamp":  "2026-04-30T20:14:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "President Trump stated that the blockade on Iran has been \u0027100% effective\u0027.",
-                                            "timestamp":  "2026-04-30T20:18:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "Iranian air defense was reportedly intercepting reconnaissance drones and quadcopters in the skies over Tehran.",
-                                            "timestamp":  "2026-04-30T20:24:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "President Trump threatened to seize Iran\u0027s nuclear material by force and claimed that Iranian leaders are dead and Tehran has no functioning air defense.",
-                                            "timestamp":  "2026-04-30T21:07:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, night",
-                                            "point":  "Supreme Leader Mojtaba Khamenei declared that Iran will retain control over shipping through the Strait of Hormuz and maintain its nuclear and missile capabilities.",
-                                            "timestamp":  "2026-04-30T22:27:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, night",
-                                            "point":  "Two informed sources reported that Foreign Minister Abbas Araghchi has been acting in full coordination with IRGC commander Ahmad Vahidi and following his instructions, while Parliament Speaker Ghalibaf and President Pezeshkian are reportedly dissatisfied with this alignment.",
-                                            "timestamp":  "2026-04-30T22:27:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, early morning",
-                                            "point":  "Polymarket odds of a nuclear deal with Iran by the end of 2026 fell sharply to 53 percent, down over 15 percentage points in a day, amid rising oil prices and growing likelihood of renewed US-Iran hostilities.",
-                                            "timestamp":  "2026-05-01T00:03:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, night",
-                                            "point":  "President Trump was briefed by U.S. Central Command Commander Admiral Brad Cooper on military options with Iran.",
-                                            "timestamp":  "2026-05-01T01:01:00.000Z"
+                                            "date":  "Apr 30, afternoon",
+                                            "point":  "The Israeli military said it destroyed a 140-meter Hezbollah tunnel in Ras Bayda, southern Lebanon, using 24 tons of explosives.",
+                                            "timestamp":  "2026-04-30T16:55:00.000Z"
                                         },
                                         {
                                             "date":  "May 1, morning",
-                                            "point":  "EuroPost noted that Trump\u0027s assertions about Iran\u0027s air defenses and leadership have not been independently verified.",
-                                            "timestamp":  "2026-05-01T08:30:00.000Z"
+                                            "point":  "Israel\u0027s Home Front Command reclassifies northern border communities as yellow zones starting next week, imposing new restrictions on gatherings and educational activities.",
+                                            "timestamp":  "2026-05-01T08:15:00.000Z"
                                         },
                                         {
                                             "date":  "May 1, morning",
-                                            "point":  "Iran called on Gulf states to pay damages, accusing them of aiding the U.S. and Israel in the war.",
-                                            "timestamp":  "2026-05-01T10:26:00.000Z"
+                                            "point":  "Hezbollah drones triggered sirens in Rosh Hanikra, northern Israel; the Israeli Air Force intercepted at least four Hezbollah drones, and a fifth interception is under review.",
+                                            "timestamp":  "2026-05-01T08:29:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "The Israeli military stated that over 40 Hezbollah sites in southern Lebanon, including command centers, were struck and destroyed in the past day.",
+                                            "timestamp":  "2026-05-01T08:59:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "Attendance at the Lag B’Omer pilgrimage on Mount Meron is capped at 200 people as part of tightened restrictions in northern Israel.",
+                                            "timestamp":  "2026-05-01T10:21:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "The Israeli military reported that two IDF soldiers were lightly wounded in a Hezbollah drone attack in southern Lebanon.",
+                                            "timestamp":  "2026-05-01T10:31:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, morning",
+                                            "point":  "The Israeli military said a drone heading toward IDF forces in southern Lebanon was intercepted, while Hezbollah also fired a rocket and an explosive drone that landed near IDF positions with no casualties.",
+                                            "timestamp":  "2026-05-01T10:59:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 1, late morning",
+                                            "point":  "The Israeli military released footage of a firefight in Bint Jbeil, southern Lebanon, and stated that its 98th Division killed around 200 Hezbollah operatives and destroyed 900 infrastructure sites in the town in recent weeks, including a booby-trapped stadium.",
+                                            "timestamp":  "2026-05-01T11:28:00.000Z"
                                         },
                                         {
                                             "date":  "May 1, afternoon",
-                                            "point":  "Iran sent a new peace proposal to the U.S. on Thursday, but sources said it still does not address enrichment issues or proxy support, per Reuters.",
-                                            "timestamp":  "2026-05-01T13:05:00.000Z"
+                                            "point":  "IDF photos of weapons seized from Hezbollah in Bint Jbeil show a U.S. passport and passport photo booklets among the confiscated arms.",
+                                            "timestamp":  "2026-05-01T13:39:00.000Z"
                                         },
                                         {
                                             "date":  "May 1, afternoon",
-                                            "point":  "The Wall Street Journal reported that Iran is attempting to redirect 40 percent of its oil exports by rail to China and import food through the Caucasus mountains to circumvent the naval blockade.",
-                                            "timestamp":  "2026-05-01T13:18:00.000Z"
+                                            "point":  "More than ten interceptor missiles were fired from Israel toward Lebanon since the morning, reflecting heightened air defense activity.",
+                                            "timestamp":  "2026-05-01T13:53:00.000Z"
                                         },
                                         {
                                             "date":  "May 1, afternoon",
-                                            "point":  "Moderate factions reportedly believe seeking a deal now with a Trump administration eager to exit the war could yield favorable terms, while hardline military factions argue for renewed hostilities to further raise oil prices and pressure Washington.",
-                                            "timestamp":  "2026-05-01T13:19:00.000Z"
+                                            "point":  "The Israeli military reported that IDF forces raided Hezbollah sites in the Rashaf area near Bint Jbeil, seizing hand grenades, rifles, ammunition, and a Kornet missile.",
+                                            "timestamp":  "2026-05-01T14:36:00.000Z"
                                         },
                                         {
                                             "date":  "May 1, afternoon",
-                                            "point":  "U.S. Envoy Witkoff reportedly sent amendments to restore nuclear terms, including a requirement that Iran not move enriched uranium or restart bombed sites during talks.",
-                                            "timestamp":  "2026-05-01T13:45:00.000Z"
+                                            "point":  "The Israeli military said a rocket fired at its forces in southern Lebanon was intercepted, and an interceptor was launched at a suspected aerial target in the area.",
+                                            "timestamp":  "2026-05-01T15:30:00.000Z"
                                         },
                                         {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "A fire was reported in western Tehran.",
-                                            "timestamp":  "2026-05-01T15:03:00.000Z"
+                                            "date":  "May 2, afternoon",
+                                            "point":  "The Lebanese Health Ministry reports at least 13 people killed in Israeli strikes in southern Lebanon.",
+                                            "timestamp":  "2026-05-02T12:15:00.000Z"
                                         },
                                         {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "The U.S. Treasury issued new Iran-related sanctions.",
-                                            "timestamp":  "2026-05-01T15:11:00.000Z"
+                                            "date":  "May 2, afternoon",
+                                            "point":  "The Israel Defense Forces says it carried out around 50 strikes in southern Lebanon targeting Hezbollah infrastructure, and reports rocket fire toward its forces with no casualties.",
+                                            "timestamp":  "2026-05-02T14:17:00.000Z"
                                         },
                                         {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "U.S. Treasury Secretary Bessent stated that the U.S. has complete control of the Strait of Hormuz, there is a hard currency shortage, food and gasoline rationing, the international community has turned against Iran, and the blockade will continue until pre-February 27 freedom of navigation is restored.",
-                                            "timestamp":  "2026-05-01T15:41:00.000Z"
+                                            "date":  "May 2, afternoon",
+                                            "point":  "Sirens sounded in Yiftah, northern Israel, over a suspected hostile aircraft were later confirmed a false identification.",
+                                            "timestamp":  "2026-05-02T17:02:00.000Z"
                                         },
                                         {
-                                            "date":  "May 1, evening",
-                                            "point":  "President Trump stated he is not satisfied with Iran\u0027s latest peace proposal and doubted a deal will be reached, describing Iran\u0027s leadership as very disjointed with multiple groups.",
-                                            "timestamp":  "2026-05-01T16:34:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, evening",
-                                            "point":  "Trump stated that talks with Iran are being conducted by phone.",
-                                            "timestamp":  "2026-05-01T16:37:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, evening",
-                                            "point":  "Trump expressed displeasure with Italy and Spain, claiming they feel it is acceptable for Iran to have a nuclear weapon.",
-                                            "timestamp":  "2026-05-01T16:42:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, evening",
-                                            "point":  "Trump claimed that even hardliners in Iran want to make a deal because they have nothing.",
-                                            "timestamp":  "2026-05-01T16:48:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 1, evening",
-                                            "point":  "The Wall Street Journal reported that Iran has eased its stance to restart peace talks, dropping its demand that the U.S. lift the blockade before negotiations and proposing simultaneous discussion of the Strait of Hormuz and sanctions relief, though the two sides remain far apart on its nuclear program.",
-                                            "timestamp":  "2026-05-01T18:23:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, morning",
-                                            "point":  "Iran announced the execution of two people convicted of spying for Israel\u0027s Mossad.",
-                                            "timestamp":  "2026-05-02T07:05:00.000Z"
+                                            "date":  "May 1",
+                                            "point":  "The IDF published footage of an airstrike on an armed Hezbollah rocket launcher in southern Lebanon.",
+                                            "timestamp":  "2026-05-02T18:17:00.000Z"
                                         },
                                         {
                                             "date":  "May 2, evening",
-                                            "point":  "Channel 12 reported that Israel is preparing for the possibility of an imminent U.S. strike on Iran and a potential preemptive Iranian attack, with the Israeli Chief of Staff having contacted CENTCOM Commander Cooper to coordinate.",
-                                            "timestamp":  "2026-05-02T19:46:00.000Z"
+                                            "point":  "The IDF stated that approximately 120 Hezbollah targets were struck in southern Lebanon over the weekend, including 70 military buildings and 50 infrastructure sites.",
+                                            "timestamp":  "2026-05-02T18:34:00.000Z"
                                         },
                                         {
-                                            "date":  "May 2, evening",
-                                            "point":  "Iran submitted a 14-point counterproposal to the U.S. through Pakistani mediation, per Tasnim, demanding a complete end to the war within 30 days, including withdrawal of U.S. forces, lifting the naval blockade, sanctions relief, compensation, and new Strait of Hormuz rules, while the U.S. had proposed a 2-month ceasefire.",
-                                            "timestamp":  "2026-05-02T20:33:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, night",
-                                            "point":  "President Trump stated that resuming combat operations against Iran remains a possibility.",
-                                            "timestamp":  "2026-05-02T22:38:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, night",
-                                            "point":  "President Trump described the naval blockade as \u0027very friendly\u0027 and unchallenged, and criticized Congress for actions he said hurt his negotiating ability, while responding to a reporter\u0027s question about his letter to Congress stating that hostilities with Iran have been terminated.",
-                                            "timestamp":  "2026-05-02T22:48:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2, night",
-                                            "point":  "President Trump stated he will review Iran\u0027s plan but cannot imagine it would be acceptable.",
-                                            "timestamp":  "2026-05-02T22:52:00.000Z"
+                                            "date":  "May 1",
+                                            "point":  "The IDF reported that 50 Hezbollah buildings were leveled in southern Lebanon on May 1.",
+                                            "timestamp":  "2026-05-02T18:35:00.000Z"
                                         },
                                         {
                                             "date":  "May 3, morning",
-                                            "point":  "Axios reported that Iran proposed a phased roadmap to the U.S., with an initial 30-day de-escalation phase to reopen the Strait of Hormuz, lift the naval blockade, and halt fighting, followed by a second phase of nuclear negotiations.",
-                                            "timestamp":  "2026-05-03T06:52:00.000Z"
+                                            "point":  "The IDF releases footage of recent strikes in southern Lebanon showing drone strikes eliminating armed Hezbollah operatives in two incidents and follow-on airstrikes on buildings where additional operatives were spotted.",
+                                            "timestamp":  "2026-05-03T08:24:00.000Z"
                                         },
                                         {
-                                            "date":  "May 3, morning",
-                                            "point":  "The Iranian rial hit a record low against the US dollar, with one USD worth 1,910,000 rials.",
-                                            "timestamp":  "2026-05-03T08:34:00.000Z"
+                                            "date":  "May 3, late morning",
+                                            "point":  "Rockets were launched from Lebanon toward Avivim in northern Israel; at least one was intercepted, with further results under review, as cross-border exchanges continue.",
+                                            "timestamp":  "2026-05-03T09:50:00.000Z"
                                         },
                                         {
-                                            "date":  "May 3, morning",
-                                            "point":  "Iran\u0027s state-affiliated Mehr news agency called for a shift to a war economy and urged adopting psychological warfare tactics modeled on Nazi Germany.",
-                                            "timestamp":  "2026-05-03T11:58:00.000Z"
+                                            "date":  "May 3, late morning",
+                                            "point":  "Additional Israeli airstrikes were reported across southern Lebanon, with Israeli Air Force jets targeting areas in the region as cross-border operations continued.",
+                                            "timestamp":  "2026-05-03T10:30:00.000Z"
                                         },
                                         {
-                                            "date":  "May 3, afternoon",
-                                            "point":  "Al Jazeera published details of Iran\u0027s three-phase proposal, including mutual non-attack commitments, gradual mine-clearing with U.S. assistance, international oversight, revised compensation wording, a 15-year enrichment freeze with subsequent resumption at civilian levels without dismantlement, and a regional security dialogue.",
-                                            "timestamp":  "2026-05-03T14:24:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3, afternoon",
-                                            "point":  "Iranian state-backed news outlets reported that Iran received a U.S. response through Pakistani mediators to its 14-point proposal, and that Iranian decision-makers are reviewing it.",
-                                            "timestamp":  "2026-05-03T17:09:00.000Z"
+                                            "date":  "May 3, midday",
+                                            "point":  "The IDF reported uncovering and demolishing an 80-metre Hezbollah tunnel in eastern southern Lebanon that contained multiple living quarters, after combat engineers fully mapped it.",
+                                            "timestamp":  "2026-05-03T11:26:00.000Z"
                                         },
                                         {
                                             "date":  "May 3, afternoon",
-                                            "point":  "Iran\u0027s Foreign Ministry spokesman Esmail Baghaei confirmed receipt of the U.S. view and stated that Iran\u0027s response will be announced after final deliberation.",
-                                            "timestamp":  "2026-05-03T17:26:00.000Z"
+                                            "point":  "The IDF reported that Hezbollah launched rockets and explosive drones at IDF troops in southern Lebanon, impacting near forces without causing injuries; an interceptor was fired at an additional drone and the interception result is under review.",
+                                            "timestamp":  "2026-05-03T11:53:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, afternoon",
+                                            "point":  "The IDF says its 401st Brigade forces discovered over 100 Hezbollah weapons caches in southern Lebanon in the past week.",
+                                            "timestamp":  "2026-05-03T13:00:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, afternoon",
+                                            "point":  "The IDF stated that the Israeli Air Force eliminated Hezbollah operatives who were moving weapons near IDF forces in Lebanon.",
+                                            "timestamp":  "2026-05-03T13:17:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, afternoon",
+                                            "point":  "The New York Times reported, citing satellite imagery, that entire towns near the border including Bint Jbeil have been flattened and dozens of villages heavily damaged since March, with more than 2,600 people killed and over a million displaced.",
+                                            "timestamp":  "2026-05-03T13:50:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, afternoon",
+                                            "point":  "Kan 11 reported that a Hezbollah explosive drone crashed intact near an IDF unit in the buffer zone in Lebanon, carrying an optical fiber spool, an RPG warhead, and a battery pack; no injuries were reported.",
+                                            "timestamp":  "2026-05-03T13:52:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, late afternoon",
+                                            "point":  "Hezbollah was reported to be increasingly using FPV drones against Israeli forces in southern Lebanon, with Israeli officials acknowledging a lack of effective countermeasures; Prime Minister Netanyahu convened a security meeting to address the threat.",
+                                            "timestamp":  "2026-05-03T15:19:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, late afternoon",
+                                            "point":  "Hezbollah fired several rockets at Israeli troops in southern Lebanon, triggering sirens in the border community of Manara; one rocket was intercepted, others hit open areas, and no injuries were reported. The IDF also launched interceptors at suspected Hezbollah drones, with results under review.",
+                                            "timestamp":  "2026-05-03T15:43:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 3, late afternoon",
+                                            "point":  "Reuters, citing two Hezbollah officials and a third source, reported that several thousand Hezbollah fighters have been killed since March 2.",
+                                            "timestamp":  "2026-05-03T16:00:00.000Z"
                                         },
                                         {
                                             "date":  "May 3, evening",
-                                            "point":  "An Iranian report indicated that a high-level meeting of Parliamentary Speaker Ghalibaf, the IRGC, the president, and Foreign Minister Araghchi focused entirely on war scenarios rather than diplomacy, signaling preparations for a potential second phase of conflict.",
-                                            "timestamp":  "2026-05-03T18:54:00.000Z"
+                                            "point":  "Hezbollah released footage claiming to show an FPV drone strike on an Israeli armored personnel carrier in Bint Jbeil, southern Lebanon.",
+                                            "timestamp":  "2026-05-03T16:19:00.000Z"
                                         },
                                         {
-                                            "date":  "May 3, evening",
-                                            "point":  "Iran\u0027s Deputy Parliament Speaker Hamidreza Haji-Babaei said the U.S. must accept the Islamic Republic\u0027s \u0027ten conditions\u0027 and that negotiations are no longer about solving a problem but about reaching an agreement with a power.",
-                                            "timestamp":  "2026-05-03T19:47:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 4, morning",
-                                            "point":  "Iranian Foreign Ministry spokesman Esmail Baghaei stated that the U.S. response, received through Pakistan, contains excessive and unreasonable demands, and that details remain under review.",
-                                            "timestamp":  "2026-05-04T07:54:00.000Z"
+                                            "date":  "May 3, night",
+                                            "point":  "Sirens sounded in northern Israel and air defenses were activated amid ongoing cross-border attacks from Lebanon.",
+                                            "timestamp":  "2026-05-03T22:22:00.000Z"
                                         },
                                         {
                                             "date":  "May 4, morning",
-                                            "point":  "Iran executed three men linked to the January protests.",
-                                            "timestamp":  "2026-05-04T09:21:00.000Z"
+                                            "point":  "The IDF stated that 7th Brigade forces eliminated 10 Hezbollah fighters over the past two days across multiple incidents in southern Lebanon, and destroyed a loaded launch site, weapons storage infrastructure, and military buildings; the IAF separately struck Hezbollah infrastructure after an anti-tank missile was fired at Israeli forces, with no casualties.",
+                                            "timestamp":  "2026-05-04T07:44:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, morning",
+                                            "point":  "A popular coastal restaurant known as \u0027The Boat\u0027 was demolished amid Israeli military action in southern Lebanon.",
+                                            "timestamp":  "2026-05-04T11:10:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "Hezbollah released footage claiming FPV drone strikes on two Israeli Namer APCs, a Merkava Mk.4M tank, and an M113 at IDF staging areas in Lebanon; some Israeli units were reported to have started camouflaging vehicles in a basic and inconsistent manner.",
+                                            "timestamp":  "2026-05-04T12:16:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "Two Golani Reconnaissance soldiers were moderately wounded in a firefight with Hezbollah operatives in southern Lebanon; the IDF said the clash began shortly after 11:00 AM, and the IAF struck several Hezbollah military structures and an anti-tank position in the area.",
+                                            "timestamp":  "2026-05-04T13:14:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "The IDF reported that Givati Brigade reconnaissance troops raided a Hezbollah rocket-launching site in southern Lebanon, capturing dozens of rockets, assault rifles, RPGs and primed launchers that were aimed at troops and at Israel.",
+                                            "timestamp":  "2026-05-04T13:44:00.000Z"
                                         }
                                     ]
                   },
@@ -2836,111 +2816,6 @@
                                     ]
                   },
                   {
-                      "id":  "i3z9ub52wmz6nv6",
-                      "sourceKind":  "world-monitor-wire",
-                      "title":  "黎巴嫩南部：无人机袭击与以军空袭交织，边境紧张持续",
-                      "description":  "黎以边境仍处在高强度对抗中。WIRE 信息显示，真主党无人机袭击造成以军伤亡，以军则称打击了黎巴嫩南部多个真主党目标及隧道设施。北以色列边境社区也面临新的民防限制，说明冲突正在继续影响平民生活。",
-                      "rawSummary":  "The UAE experienced a brief nationwide missile threat alert on May 4, followed promptly by an all-clear, as the government continues a geopolitical recalibration that includes leaving OPEC, a travel ban on Iran, Lebanon, and Iraq, and the prosecution of an alleged Muslim Brotherhood-linked arms smuggling network.",
-                      "analysis":  "UAE authorities issued an emergency missile threat alert via mobile phones on May 4, instructing residents to seek shelter, but an all-clear was issued later that afternoon, indicating no immediate strike materialized. The brief scare interrupted a return to normal air operations that had been restored after earlier Iranian attacks. It unfolded amid a broader strategic shift that has seen the UAE withdraw from OPEC, ban travel to Iran, Lebanon, and Iraq, and refer 13 individuals and six companies to a state security court over alleged weapons smuggling to Sudan. Gulf security expert Dr. Andreas Krieg characterized Abu Dhabi\u0027s recent moves as a Machiavellian recalibration centered on national interests, which he said could extend to reconsidering ties with the Arab League and the Organization of Islamic Cooperation. Israeli-supplied air defense systems, including Iron Dome and a Spectro drone-detection system, were reportedly provided during earlier waves of Iranian attacks.",
-                      "link":  "",
-                      "pubDate":  "2026-05-04T13:31:16.5660000Z",
-                      "sourceId":  "world-monitor-wire",
-                      "sourceName":  "World Monitor WIRE",
-                      "imageUrl":  "",
-                      "locationName":  "United Arab Emirates",
-                      "country":  "United Arab Emirates",
-                      "categoryId":  "middle-east",
-                      "categoryName":  "中东局势与能源冲击",
-                      "intensity":  4,
-                      "mentionCount":  21,
-                      "firstSeenAt":  "2026-04-25T06:16:01.512Z",
-                      "lastMentionedAt":  "2026-05-04T13:31:16.566Z",
-                      "processedAt":  "2026-05-04 13:32:25.285Z",
-                      "lastChangeType":  "updated",
-                      "keyPoints":  [
-                                        {
-                                            "date":  "Apr 25",
-                                            "point":  "U.S. forces deployed 12 F/A-18s, 7 tankers, and a C-17 to Al Dhafra Air Base.",
-                                            "timestamp":  "2026-04-25T05:43:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26",
-                                            "point":  "Axios reported that Israel secretly deployed its Iron Dome system and troops to the UAE during the Iran war, marking its first use abroad.",
-                                            "timestamp":  "2026-04-26T12:04:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, evening",
-                                            "point":  "Western media reported that Netanyahu ordered the Iron Dome deployment after a call with Emirati President Mohammed bin Zayed, with several dozen IDF personnel operating the system.",
-                                            "timestamp":  "2026-04-26T20:42:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 26, evening",
-                                            "point":  "Iranian Foreign Minister Abbas Araghchi traveled to Muscat to discuss Strait of Hormuz security with Omani Sultan Haitham al Tariq.",
-                                            "timestamp":  "2026-04-26T20:42:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 27, morning",
-                                            "point":  "Israel\u0027s deployment to the UAE was reportedly carried out under the name Operation Roaring Lion.",
-                                            "timestamp":  "2026-04-27T05:22:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28",
-                                            "point":  "UAE announced it will leave OPEC and OPEC+ effective May 1, ending its 59-year membership.",
-                                            "timestamp":  "2026-04-28T12:24:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, afternoon",
-                                            "point":  "UAE Energy Minister stated the withdrawal from OPEC will not hugely impact the market because of constraints on the Strait of Hormuz.",
-                                            "timestamp":  "2026-04-28T13:20:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 28, afternoon",
-                                            "point":  "UAE announced it will significantly increase oil production after leaving OPEC, no longer bound by production quotas.",
-                                            "timestamp":  "2026-04-28T13:28:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29",
-                                            "point":  "UAE officials said the country is reviewing its role in global organisations but has no plans for further exits, describing it as a broader strategic reassessment amid tensions with Saudi Arabia and post-Iran war shifts.",
-                                            "timestamp":  "2026-04-29T13:03:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 29, evening",
-                                            "point":  "US President Trump called the UAE\u0027s withdrawal from OPEC \u0027great\u0027 and described President Mohamed bin Zayed as \u0027very smart\u0027.",
-                                            "timestamp":  "2026-04-29T18:34:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "UAE Ministry of Foreign Affairs announced a travel ban on its citizens to Iran, Lebanon, and Iraq, ordering Emiratis already there to leave immediately amid current regional developments.",
-                                            "timestamp":  "2026-04-30T20:12:00.000Z"
-                                        },
-                                        {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "The Financial Times reported that Israel supplied a Spectro drone-detection system and an Iron Beam laser air-defense system to the UAE during the Iranian attacks, alongside Iron Dome batteries and intelligence sharing.",
-                                            "timestamp":  "2026-04-30T20:28:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 2",
-                                            "point":  "UAE airports and airspace resumed normal operations after recent disruptions.",
-                                            "timestamp":  "2026-05-02T18:40:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 3",
-                                            "point":  "UAE Attorney General referred 13 defendants and 6 UAE companies to the State Security Court over an alleged Muslim Brotherhood-linked network that smuggled weapons and ammunition to Sudan\u0027s army, after intercepting a shipment disguised as humanitarian aid.",
-                                            "timestamp":  "2026-05-03T07:14:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 4, afternoon",
-                                            "point":  "UAE authorities issued an emergency missile threat alert, with residents receiving air raid warnings instructing them to seek shelter in secure buildings due to a potential missile threat.",
-                                            "timestamp":  "2026-05-04T13:01:00.000Z"
-                                        },
-                                        {
-                                            "date":  "May 4, afternoon",
-                                            "point":  "UAE authorities issued an all-clear signal, indicating the missile threat alert had ended.",
-                                            "timestamp":  "2026-05-04T13:15:00.000Z"
-                                        }
-                                    ]
-                  },
-                  {
                       "id":  "mipg9fjo3zt08dq",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "乌克兰：俄军大规模无人机袭击凸显战场消耗升级",
@@ -3131,52 +3006,57 @@
                                     ]
                   },
                   {
-                      "id":  "dlv6z4wz7d1ahnn",
+                      "id":  "gp6bh2oi6shs9ga",
                       "sourceKind":  "world-monitor-wire",
                       "title":  "一处海外风险点：WIRE 监测到新的重要变化",
-                      "description":  "WIRE 将该事件标记为强度 3/5，累计提及 7 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。",
-                      "rawSummary":  "U.S. Secretary of State Marco Rubio is expected to visit Italy this week, meeting with Pope Leo at the Vatican and Prime Minister Giorgia Meloni in Rome, against a backdrop of U.S.-Italy tensions over potential troop withdrawals, Israeli-Palestinian tensions, and protests.",
-                      "analysis":  "President Trump recently said he is considering pulling U.S. military forces out of Italy and Spain, criticizing those countries for an alleged lack of assistance. Israeli Foreign Minister Gideon Sa\u0027ar stated that Italy is defending Israel against EU sanctions attempts, while Italian opposition parties are criticizing the government over cooperation with Israel. Demonstrators waving Palestinian flags clashed with police on Italian streets. U.S. Secretary of State Marco Rubio is expected to meet Pope Leo on Thursday during his visit to Italy this week; Italian Prime Minister Giorgia Meloni has also said she expects to meet Rubio in Rome.",
+                      "description":  "WIRE 将该事件标记为强度 3/5，累计提及 4 次。相关摘要显示局势仍在变化，建议发布前结合结构化数据再做事实核对。",
+                      "rawSummary":  "Unverified rumors of Sharjah\u0027s secession from the UAE were dismissed by an expert, while a brief shelter warning was issued across the UAE due to an Iranian missile threat; after the all-clear, Apache helicopters were sighted over Dubai.",
+                      "analysis":  "Unverified rumors circulated that Sharjah might announce secession from the United Arab Emirates. An expert on the Emirates later stated that while there are issues, Sharjah is not breaking away from the UAE; neither an official government statement nor concrete evidence has been provided to substantiate the initial speculation. In a separate development, UAE authorities issued a brief shelter warning for residents over an Iranian missile threat—the first such alert in a month—prompting a missile threat alert in Dubai as well. The warning was lifted shortly after, with UAE officials declaring it safe to resume normal activities. Later that afternoon, Apache AH-64D helicopters were sighted over Dubai, reportedly responding to the Iranian threat.",
                       "link":  "",
-                      "pubDate":  "2026-05-04T12:49:32.6320000Z",
+                      "pubDate":  "2026-05-04T14:31:06.2040000Z",
                       "sourceId":  "world-monitor-wire",
                       "sourceName":  "World Monitor WIRE",
                       "imageUrl":  "",
-                      "locationName":  "Vatican City",
-                      "country":  "Vatican City",
+                      "locationName":  "Sharjah, United Arab Emirates",
+                      "country":  "United Arab Emirates",
                       "categoryId":  "middle-east",
                       "categoryName":  "中东局势与能源冲击",
                       "intensity":  3,
-                      "mentionCount":  7,
-                      "firstSeenAt":  "2026-04-30T20:17:08.148Z",
-                      "lastMentionedAt":  "2026-05-04T12:49:32.632Z",
-                      "processedAt":  "2026-05-04 12:51:01.614Z",
+                      "mentionCount":  4,
+                      "firstSeenAt":  "2026-05-02T15:46:32.709Z",
+                      "lastMentionedAt":  "2026-05-04T14:31:06.204Z",
+                      "processedAt":  "2026-05-04 14:32:08.707Z",
                       "lastChangeType":  "updated",
                       "keyPoints":  [
                                         {
-                                            "date":  "Apr 30, evening",
-                                            "point":  "Trump says he probably will withdraw US troops from Italy and Spain, criticizing the countries for lack of help.",
-                                            "timestamp":  "2026-04-30T19:34:00.000Z"
+                                            "date":  "May 2, afternoon",
+                                            "point":  "Rumors spread that Sharjah may announce secession from the UAE.",
+                                            "timestamp":  "2026-05-02T15:45:00.000Z"
                                         },
                                         {
-                                            "date":  "May 1, afternoon",
-                                            "point":  "Demonstrators waving Palestinian flags clashed with police on the streets in Italy, as officers moved to disperse crowds.",
-                                            "timestamp":  "2026-05-01T15:00:00.000Z"
+                                            "date":  "May 2, afternoon",
+                                            "point":  "An expert on the Emirates stated that while there are issues, Sharjah is not breaking away from the UAE.",
+                                            "timestamp":  "2026-05-02T15:53:00.000Z"
                                         },
                                         {
-                                            "date":  "May 2, evening",
-                                            "point":  "Israeli Foreign Minister Gideon Sa\u0027ar says Italy is defending Israel against EU sanctions attempts, and that the Italian opposition is criticizing the government for cooperating with Israel.",
-                                            "timestamp":  "2026-05-02T19:53:00.000Z"
+                                            "date":  "May 4, afternoon",
+                                            "point":  "UAE warned citizens to seek shelter due to an Iranian missile threat, the first such warning in a month.",
+                                            "timestamp":  "2026-05-04T13:09:00.000Z"
                                         },
                                         {
-                                            "date":  "May 3, afternoon",
-                                            "point":  "Reuters reported that U.S. Secretary of State Marco Rubio is expected to meet Pope Leo on Thursday during his visit to Italy this week.",
-                                            "timestamp":  "2026-05-03T13:36:00.000Z"
+                                            "date":  "May 4, afternoon",
+                                            "point":  "An all-clear was issued following the missile threat alert.",
+                                            "timestamp":  "2026-05-04T13:12:00.000Z"
                                         },
                                         {
-                                            "date":  "May 4",
-                                            "point":  "Italian Prime Minister Giorgia Meloni says she expects to meet with U.S. Secretary of State Marco Rubio in Rome.",
-                                            "timestamp":  "2026-05-04T12:25:00.000Z"
+                                            "date":  "May 4, afternoon",
+                                            "point":  "UAE officials stated it was safe to return to normal activities.",
+                                            "timestamp":  "2026-05-04T13:17:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "Apache AH-64D helicopters were sighted over Dubai, reportedly responding to the Iranian missile threat.",
+                                            "timestamp":  "2026-05-04T14:23:00.000Z"
                                         }
                                     ]
                   },
@@ -3217,6 +3097,81 @@
                                             "date":  "May 3, afternoon",
                                             "point":  "Sweden seized the oil tanker Jin Hui, a Syrian-flagged vessel, as part of a crackdown on sanctions evasion; authorities suspect fake flag registration, safety issues, and noted it was not carrying cargo.",
                                             "timestamp":  "2026-05-03T15:50:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "q529dy5slulibn4",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "伊朗内部：强硬派主导谈判立场，核协议预期降温",
+                      "description":  "伊朗政权内部的强硬路线仍占上风，围绕防空能力、核谈判和外交让步的信号相互矛盾。市场此前对核协议的乐观预期正在减弱，说明外部压力并未换来清晰的妥协路径。",
+                      "rawSummary":  "Over 40 IRGC speedboats were observed in formation near Qeshm Island, and evacuation orders were subsequently reported at refinery sites in southern Iran.",
+                      "analysis":  "Satellite imagery showed over 40 IRGC speedboats moving in formation near Qeshm Island, indicating a significant show of force or military exercise by Iran\u0027s Islamic Revolutionary Guard Corps in the strategic Strait of Hormuz area. Two days later, evacuation orders were reported at refinery sites in southern Iran; it is unclear whether the two developments are linked. No immediate comment has been provided by Iranian authorities on either the naval activity or the reported refinery evacuations. The speedboat formation highlights heightened IRGC naval posture in a critical energy transit corridor, and the reported refinery evacuations may reflect precautionary security measures.",
+                      "link":  "",
+                      "pubDate":  "2026-05-04T13:49:01.5270000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "near Qeshm Island",
+                      "country":  "Iran",
+                      "categoryId":  "middle-east",
+                      "categoryName":  "中东局势与能源冲击",
+                      "intensity":  3,
+                      "mentionCount":  2,
+                      "firstSeenAt":  "2026-05-02T16:31:13.681Z",
+                      "lastMentionedAt":  "2026-05-04T13:49:01.527Z",
+                      "processedAt":  "2026-05-04 13:50:31.813Z",
+                      "lastChangeType":  "updated",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "May 2, afternoon",
+                                            "point":  "Satellite imagery revealed over 40 IRGC speedboats moving in formation near Qeshm Island.",
+                                            "timestamp":  "2026-05-02T15:53:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, afternoon",
+                                            "point":  "Evacuation orders were reported at refinery sites in southern Iran.",
+                                            "timestamp":  "2026-05-04T13:12:00.000Z"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "gzkfpfoqi60vnt5",
+                      "sourceKind":  "world-monitor-wire",
+                      "title":  "霍尔木兹海峡：封锁僵局继续推高能源与航运压力",
+                      "description":  "美国海上封锁仍在持续，伊朗方面拒绝把核谈判与重新开放通道直接绑定。WIRE 信息显示，英国海军确认战争爆发以来相关船舶通行量已大幅下降，布伦特原油价格仍处在高位。能源、航运和外交谈判正在相互牵动，这是今天最值得关注的全球风险点。",
+                      "rawSummary":  "Alleged missile strike on a U.S. vessel near Jask Island in the Strait of Hormuz",
+                      "analysis":  "Iranian Fars News Agency claimed two missiles hit a U.S. warship near Jask Island after it ignored warnings. A local source separately reported a missile launch from the Sirik military site toward the Strait of Hormuz. A U.S. official denied any vessel was struck, while another outlet noted Iran has made similar unconfirmed claims in the past. No independent verification has emerged, and accounts remain disputed.",
+                      "link":  "",
+                      "pubDate":  "2026-05-04T10:46:32.2180000Z",
+                      "sourceId":  "world-monitor-wire",
+                      "sourceName":  "World Monitor WIRE",
+                      "imageUrl":  "",
+                      "locationName":  "Jask Island",
+                      "country":  "Iran",
+                      "categoryId":  "middle-east",
+                      "categoryName":  "中东局势与能源冲击",
+                      "intensity":  3,
+                      "mentionCount":  1,
+                      "firstSeenAt":  "2026-05-04T10:46:32.218Z",
+                      "lastMentionedAt":  "2026-05-04T10:46:32.218Z",
+                      "processedAt":  "2026-05-04 10:46:32.245Z",
+                      "lastChangeType":  "created",
+                      "keyPoints":  [
+                                        {
+                                            "date":  "May 4, morning",
+                                            "point":  "Iranian Fars News Agency claims two missiles hit a U.S. warship near Jask Island after it ignored Iranian warnings.",
+                                            "timestamp":  "2026-05-04T10:14:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, morning",
+                                            "point":  "A local source reports a missile launch from the Sirik military site in Hormozgan province toward the Strait of Hormuz.",
+                                            "timestamp":  "2026-05-04T10:25:00.000Z"
+                                        },
+                                        {
+                                            "date":  "May 4, morning",
+                                            "point":  "A U.S. official denies any American vessel was struck by Iranian missiles.",
+                                            "timestamp":  "2026-05-04T10:37:00.000Z"
                                         }
                                     ]
                   },
