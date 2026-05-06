@@ -26,11 +26,16 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate daily copy
-        shell: powershell
+        shell: pwsh
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          powershell -ExecutionPolicy Bypass -File .\scripts\daily-news.ps1 -Out output -TextOut copy-output
+          [Console]::InputEncoding = [System.Text.UTF8Encoding]::new($false)
+          [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+          $OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+          $PSDefaultParameterValues['*:Encoding'] = 'utf8'
+
+          & .\scripts\daily-news.ps1 -Out output -TextOut copy-output
 
       - name: Upload generated files
         uses: actions/upload-artifact@v4
@@ -41,7 +46,7 @@ jobs:
             copy-output/*
 
       - name: Email TXT copy
-        shell: powershell
+        shell: pwsh
         env:
           SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -50,7 +55,20 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: |
-          $required = @("SMTP_SERVER", "SMTP_PORT", "SMTP_USERNAME", "SMTP_PASSWORD", "EMAIL_FROM", "EMAIL_TO")
+          [Console]::InputEncoding = [System.Text.UTF8Encoding]::new($false)
+          [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+          $OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+          $PSDefaultParameterValues['*:Encoding'] = 'utf8'
+
+          $required = @(
+            "SMTP_SERVER",
+            "SMTP_PORT",
+            "SMTP_USERNAME",
+            "SMTP_PASSWORD",
+            "EMAIL_FROM",
+            "EMAIL_TO"
+          )
+
           foreach ($name in $required) {
             if ([string]::IsNullOrWhiteSpace([Environment]::GetEnvironmentVariable($name))) {
               Write-Host "Email secret $name is not configured. Skipping email."
@@ -58,41 +76,73 @@ jobs:
             }
           }
 
-          $txt = Get-ChildItem -Path copy-output -Filter *.txt | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+          $txt = Get-ChildItem -Path copy-output -Filter *.txt |
+            Sort-Object LastWriteTime -Descending |
+            Select-Object -First 1
+
           if (-not $txt) {
             throw "No TXT file found in copy-output."
           }
 
           $attachmentFiles = @($txt)
+
           $extraFiles = Get-ChildItem -Path copy-output -File | Where-Object {
             $_.BaseName.StartsWith($txt.BaseName) -and
             $_.FullName -ne $txt.FullName -and
             $_.Extension -in @(".json", ".png", ".jpg", ".jpeg", ".webp")
           } | Sort-Object Name
+
           $attachmentFiles += @($extraFiles)
+
+          $utf8 = [System.Text.Encoding]::UTF8
 
           $message = New-Object System.Net.Mail.MailMessage
           $message.From = $env:EMAIL_FROM
           $message.To.Add($env:EMAIL_TO)
           $message.Subject = "Daily World Monitor Copy - " + (Get-Date -Format "yyyy-MM-dd")
+          $message.SubjectEncoding = $utf8
+          $message.BodyEncoding = $utf8
+          $message.HeadersEncoding = $utf8
           $message.Body = "The daily TXT copy has been generated. Attachments include the TXT copy and image prompts when available."
+
           foreach ($file in $attachmentFiles) {
-            $message.Attachments.Add((New-Object System.Net.Mail.Attachment($file.FullName)))
+            if ($file.Extension -eq ".txt") {
+              $contentType = New-Object System.Net.Mime.ContentType("text/plain")
+              $contentType.CharSet = "utf-8"
+              $attachment = New-Object System.Net.Mail.Attachment($file.FullName, $contentType)
+            } elseif ($file.Extension -eq ".json") {
+              $contentType = New-Object System.Net.Mime.ContentType("application/json")
+              $contentType.CharSet = "utf-8"
+              $attachment = New-Object System.Net.Mail.Attachment($file.FullName, $contentType)
+            } else {
+              $attachment = New-Object System.Net.Mail.Attachment($file.FullName)
+            }
+
+            $message.Attachments.Add($attachment) | Out-Null
           }
 
           $client = New-Object System.Net.Mail.SmtpClient($env:SMTP_SERVER, [int]$env:SMTP_PORT)
           $client.EnableSsl = $true
           $client.Credentials = New-Object System.Net.NetworkCredential($env:SMTP_USERNAME, $env:SMTP_PASSWORD)
+
           $client.Send($message)
+
           $message.Dispose()
           $client.Dispose()
 
       - name: Commit generated files
-        shell: powershell
+        shell: pwsh
         run: |
+          [Console]::InputEncoding = [System.Text.UTF8Encoding]::new($false)
+          [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+          $OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+          $PSDefaultParameterValues['*:Encoding'] = 'utf8'
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add -f output copy-output
+
           if (git diff --cached --quiet) {
             Write-Host "No generated changes to commit."
           } else {
