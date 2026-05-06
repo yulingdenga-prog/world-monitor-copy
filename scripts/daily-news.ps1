@@ -283,6 +283,10 @@ function Read-WorldMonitorWireItems {
 
     $content = Invoke-TextRequestWithRetry $NewsSource.url
     $payload = $content | ConvertFrom-Json
+    if ($NewsSource.wireMode -eq "top-the-wire") {
+        return Convert-WireLocationsToTopWireItems -Locations @($payload.locations) -NewsSource $NewsSource
+    }
+
     return Convert-WireLocationsToItems -Locations @($payload.locations) -NewsSource $NewsSource
 }
 
@@ -291,6 +295,10 @@ function Read-WorldMonitorWireFileItems {
 
     $filePath = Resolve-ProjectPath $NewsSource.filePath
     $payload = Get-Content -LiteralPath $filePath -Raw -Encoding utf8 | ConvertFrom-Json
+    if ($NewsSource.wireMode -eq "top-the-wire") {
+        return Convert-WireLocationsToTopWireItems -Locations @($payload.locations) -NewsSource $NewsSource
+    }
+
     return Convert-WireLocationsToItems -Locations @($payload.locations) -NewsSource $NewsSource
 }
 
@@ -427,6 +435,108 @@ function Convert-WireLocationsToItems {
             processedAt = $location.processed_at
             lastChangeType = $location.last_changes.type
             keyPoints = @($location.key_points)
+        }
+    }
+
+    return $items
+}
+
+function Get-WirePointText {
+    param($Point)
+
+    if ($null -eq $Point) {
+        return ""
+    }
+    if ($Point.PSObject.Properties["point"]) {
+        return Convert-HtmlToText ([string]$Point.point)
+    }
+    if ($Point.PSObject.Properties["text"]) {
+        return Convert-HtmlToText ([string]$Point.text)
+    }
+    if ($Point.PSObject.Properties["summary"]) {
+        return Convert-HtmlToText ([string]$Point.summary)
+    }
+
+    return Convert-HtmlToText ([string]$Point)
+}
+
+function Get-WirePointDate {
+    param(
+        $Point,
+        $Location
+    )
+
+    $candidate = $null
+    foreach ($name in @("timestamp", "date", "time", "created_at", "updated_at")) {
+        if ($Point -and $Point.PSObject.Properties[$name] -and -not [string]::IsNullOrWhiteSpace([string]$Point.$name)) {
+            $candidate = [string]$Point.$name
+            break
+        }
+    }
+
+    if ([string]::IsNullOrWhiteSpace($candidate)) {
+        $candidate = [string]$Location.last_mentioned_at
+    }
+
+    return Convert-ToDateTimeOffset $candidate
+}
+
+function Convert-WireLocationsToTopWireItems {
+    param(
+        $Locations,
+        $NewsSource
+    )
+
+    $minIntensity = if ($NewsSource.minIntensity) { [int]$NewsSource.minIntensity } else { 0 }
+    $locations = @($Locations | Where-Object { [int]$_.intensity -ge $minIntensity })
+    $items = @()
+
+    foreach ($location in $locations) {
+        $points = @($location.key_points)
+        if ($points.Count -eq 0 -and -not [string]::IsNullOrWhiteSpace([string]$location.summary)) {
+            $points = @([pscustomobject]@{ point = $location.summary; date = $location.last_mentioned_at })
+        }
+
+        for ($index = 0; $index -lt $points.Count; $index++) {
+            $point = $points[$index]
+            $pointText = Get-WirePointText $point
+            if ([string]::IsNullOrWhiteSpace($pointText)) {
+                continue
+            }
+
+            $date = Get-WirePointDate $point $location
+            $categoryId = Resolve-WireCategory $location $NewsSource
+            $locationLabel = @($location.location_name, $location.country) |
+                Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_) } |
+                Select-Object -First 2
+
+            $items += [pscustomobject]@{
+                id = "$($location.id)-key-point-$index"
+                sourceKind = "world-monitor-wire"
+                wireMode = "top-the-wire"
+                title = (($locationLabel -join ", ") + ": " + $pointText)
+                description = $pointText
+                rawSummary = $location.summary
+                analysis = $location.analysis
+                link = ""
+                pubDate = if ($date) { $date.UtcDateTime.ToString("o") } else { $null }
+                sourceId = $NewsSource.id
+                sourceName = $NewsSource.name
+                imageUrl = ""
+                locationName = $location.location_name
+                country = $location.country
+                categoryId = $categoryId
+                categoryName = Get-WireCategoryName $categoryId $NewsSource
+                intensity = [int]$location.intensity
+                mentionCount = [int]$location.mention_count
+                firstSeenAt = $location.first_seen_at
+                lastMentionedAt = $location.last_mentioned_at
+                processedAt = $location.processed_at
+                lastChangeType = $location.last_changes.type
+                keyPoint = $pointText
+                keyPointDate = if ($date) { $date.UtcDateTime.ToString("o") } else { $null }
+                keyPoints = @($point)
+            }
         }
     }
 
@@ -811,6 +921,164 @@ function Convert-MarkdownToPlainText {
     return (($lines -join "`r`n").Trim() + "`r`n")
 }
 
+function Split-GeneratedArticleAndImagePrompts {
+    param([string]$Text)
+
+    $article = $Text
+    $imagePromptJson = $null
+
+    $articleMatch = [regex]::Match($Text, "(?s)<ARTICLE>\s*(.*?)\s*</ARTICLE>")
+    if ($articleMatch.Success) {
+        $article = $articleMatch.Groups[1].Value.Trim()
+    }
+
+    $promptMatch = [regex]::Match($Text, "(?s)<IMAGE_PROMPTS_JSON>\s*(.*?)\s*</IMAGE_PROMPTS_JSON>")
+    if ($promptMatch.Success) {
+        $imagePromptJson = $promptMatch.Groups[1].Value.Trim()
+    }
+
+    if (-not $articleMatch.Success) {
+        $article = [regex]::Replace($article, "(?s)<IMAGE_PROMPTS_JSON>.*?</IMAGE_PROMPTS_JSON>", "").Trim()
+    }
+
+    return [pscustomobject]@{
+        Article = $article
+        ImagePromptJson = $imagePromptJson
+    }
+}
+
+function Get-SafeFileName {
+    param(
+        [string]$Value,
+        [string]$Fallback
+    )
+
+    $name = if ([string]::IsNullOrWhiteSpace($Value)) { $Fallback } else { $Value }
+    $name = [System.IO.Path]::GetFileName($name)
+    $name = [regex]::Replace($name, '[\\/:*?"<>|]+', "-")
+    $name = $name.Trim(". ")
+    if ([string]::IsNullOrWhiteSpace($name)) {
+        return $Fallback
+    }
+
+    return $name
+}
+
+function Invoke-OpenAIImageGeneration {
+    param(
+        [string]$Prompt,
+        [string]$OutputPath,
+        $ImageSettings
+    )
+
+    $apiKey = [Environment]::GetEnvironmentVariable("OPENAI_API_KEY")
+    if ([string]::IsNullOrWhiteSpace($apiKey)) {
+        Write-Host "OPENAI_API_KEY is not configured. Skipping image generation."
+        return $false
+    }
+
+    $baseUrl = if ($ImageSettings.baseUrl) { [string]$ImageSettings.baseUrl } else { "https://api.openai.com/v1" }
+    $model = if ($ImageSettings.model) { [string]$ImageSettings.model } else { "gpt-image-1" }
+    $size = if ($ImageSettings.size) { [string]$ImageSettings.size } else { "1536x1024" }
+    $quality = if ($ImageSettings.quality) { [string]$ImageSettings.quality } else { "medium" }
+    $endpoint = $baseUrl.TrimEnd("/") + "/images/generations"
+
+    $body = [pscustomobject]@{
+        model = $model
+        prompt = $Prompt
+        n = 1
+        size = $size
+        quality = $quality
+        output_format = "png"
+    } | ConvertTo-Json -Depth 6
+
+    try {
+        $response = Invoke-RestMethod `
+            -Uri $endpoint `
+            -Method Post `
+            -Headers @{ Authorization = "Bearer $apiKey" } `
+            -ContentType "application/json; charset=utf-8" `
+            -Body $body
+
+        $imageBase64 = [string]$response.data[0].b64_json
+        if ([string]::IsNullOrWhiteSpace($imageBase64)) {
+            Write-Host "OpenAI image response did not include b64_json. Skipping $OutputPath."
+            return $false
+        }
+
+        [System.IO.File]::WriteAllBytes($OutputPath, [Convert]::FromBase64String($imageBase64))
+        return $true
+    }
+    catch {
+        Write-Host "OpenAI image generation failed for $OutputPath`: $($_.Exception.Message)"
+        return $false
+    }
+}
+
+function Invoke-ArticleImageGeneration {
+    param(
+        [string]$ImagePromptJson,
+        [string]$OutputDir,
+        [string]$BaseName,
+        $Settings
+    )
+
+    $imageSettings = $Settings.imageGeneration
+    if (-not $imageSettings -or $imageSettings.enabled -ne $true) {
+        return @()
+    }
+
+    if ([string]::IsNullOrWhiteSpace($ImagePromptJson)) {
+        return @()
+    }
+
+    try {
+        $promptSpec = $ImagePromptJson | ConvertFrom-Json
+    }
+    catch {
+        Write-Host "Image prompt JSON is invalid. Skipping image generation."
+        return @()
+    }
+
+    $generatedPaths = @()
+    $requests = @()
+
+    if ($promptSpec.cover -and $promptSpec.cover.prompt) {
+        $requests += [pscustomobject]@{
+            FileName = Get-SafeFileName ([string]$promptSpec.cover.filename) "$BaseName-cover.png"
+            Prompt = [string]$promptSpec.cover.prompt
+        }
+    }
+
+    $maxIllustrations = if ($imageSettings.maxIllustrations) { [int]$imageSettings.maxIllustrations } else { 2 }
+    $illustrations = @($promptSpec.illustrations | Select-Object -First $maxIllustrations)
+    for ($index = 0; $index -lt $illustrations.Count; $index++) {
+        $item = $illustrations[$index]
+        if (-not $item.prompt) {
+            continue
+        }
+
+        $requests += [pscustomobject]@{
+            FileName = Get-SafeFileName ([string]$item.filename) "$BaseName-illustration-$($index + 1).png"
+            Prompt = [string]$item.prompt
+        }
+    }
+
+    foreach ($request in $requests) {
+        $fileName = if ($request.FileName -match "\.png$") { $request.FileName } else { "$($request.FileName).png" }
+        if (-not $fileName.StartsWith($BaseName)) {
+            $fileName = "$BaseName-$fileName"
+        }
+
+        $outputPath = Join-Path $OutputDir $fileName
+        if (Invoke-OpenAIImageGeneration $request.Prompt $outputPath $imageSettings) {
+            $generatedPaths += $outputPath
+        }
+    }
+
+    return $generatedPaths
+}
+
 function Render-WireArticle {
     param(
         $Items,
@@ -824,6 +1092,10 @@ function Render-WireArticle {
 
     $source = $NewsSources[0]
     $article = $source.article
+    if ($article.editor -and $article.editor.provider -eq "deepseek") {
+        return Invoke-DeepSeekWireArticle $Items $Settings $DateLabel $GeneratedAt $DaysBack $source $TimeZone
+    }
+
     $labels = $article.labels
     $title = if ($article.titleTemplate) { [string]$article.titleTemplate } else { "World Monitor Wire Brief" }
     $title = $title.Replace("{date}", $DateLabel)
@@ -877,6 +1149,144 @@ function Render-WireArticle {
     }
 
     return ($lines -join "`n") + "`n"
+}
+
+function Convert-WireItemsToDeepSeekInput {
+    param(
+        $Items,
+        [System.TimeZoneInfo]$TimeZone
+    )
+
+    $lines = New-Object System.Collections.Generic.List[string]
+    for ($index = 0; $index -lt $Items.Count; $index++) {
+        $item = $Items[$index]
+        $number = $index + 1
+        $timeLabel = ""
+        if ($item.pubDate) {
+            $timeLabel = Format-Date ([datetime]::Parse($item.pubDate)) $TimeZone "yyyy-MM-dd HH:mm"
+        }
+
+        $lines.Add("[$number]")
+        $lines.Add("location: $($item.locationName)")
+        $lines.Add("country: $($item.country)")
+        $lines.Add("category: $($item.categoryName)")
+        $lines.Add("time: $timeLabel")
+        $lines.Add("intensity: $($item.intensity)/5")
+        $lines.Add("mentions: $($item.mentionCount)")
+        $lines.Add("key_point: $($item.keyPoint)")
+        if ($item.rawSummary) {
+            $lines.Add("source_summary: $($item.rawSummary)")
+        }
+        if ($item.analysis) {
+            $lines.Add("source_analysis: $($item.analysis)")
+        }
+        $lines.Add("")
+    }
+
+    return $lines -join "`n"
+}
+
+function Invoke-DeepSeekWireArticle {
+    param(
+        $Items,
+        $Settings,
+        [string]$DateLabel,
+        [datetime]$GeneratedAt,
+        [int]$DaysBack,
+        $NewsSource,
+        [System.TimeZoneInfo]$TimeZone
+    )
+
+    $apiKey = [Environment]::GetEnvironmentVariable("DEEPSEEK_API_KEY")
+    if ([string]::IsNullOrWhiteSpace($apiKey)) {
+        throw "DEEPSEEK_API_KEY is not configured. Add it as a GitHub Actions repository secret before running the DeepSeek editor."
+    }
+
+    $editor = $NewsSource.article.editor
+    $baseUrl = if ($editor.baseUrl) { [string]$editor.baseUrl } else { "https://api.deepseek.com" }
+    $model = if ($editor.model) { [string]$editor.model } else { "deepseek-v4-flash" }
+    $temperature = if ($null -ne $editor.temperature) { [double]$editor.temperature } else { 0.6 }
+    $maxTokens = if ($editor.maxTokens) { [int]$editor.maxTokens } else { 4000 }
+    $endpoint = $baseUrl.TrimEnd("/") + "/chat/completions"
+
+    $sourceText = Convert-WireItemsToDeepSeekInput $Items $TimeZone
+    $generatedLabel = Format-Date $GeneratedAt $TimeZone "yyyy-MM-dd HH:mm"
+
+    $systemPrompt = @"
+你是一名中文公众号新闻编辑。你的任务是只根据用户提供的 World Monitor 顶部 THE WIRE 时间线信息，生成可以直接发布的中文文章。
+
+要求：
+1. 不要编造事实，不要添加输入里没有的伤亡数字、表态或结论。
+2. 不要出现“WIRE 信息显示”“本文为自动整理”“下面这篇稿件”等说明性字眼。
+3. 不要写版权免责声明，不要解释你如何写作，只输出正文。
+4. 先写中国、中国周边、亚太安全相关内容，再写中东、俄乌、欧美，热度较低但有价值的国家和地区放在后面。
+5. 保留不确定性，用“相关信息称”“目前可见信号是”等稳妥表达。
+6. 文章要口语化、有冲突感、不无聊，可以犀利一点，但不能违规：不要煽动仇恨、不要污名化群体、不要鼓励暴力、不要人身攻击、不要把未经证实的信息写成定论。
+7. 写成一篇完整的微信公众号文章，不要只是新闻列表。需要有标题、开头、分段小标题和结尾。
+8. 同时生成 1 张封面图和最多 2 张文章插图的图片提示词。提示词要适合新闻评论插画，不要包含真实人物肖像、血腥暴力、国旗羞辱、敏感标语、品牌商标或可读文字。
+9. 必须严格使用以下输出格式：
+<ARTICLE>
+这里写最终公众号正文
+</ARTICLE>
+<IMAGE_PROMPTS_JSON>
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "英文图片提示词"
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "英文图片提示词"
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "英文图片提示词"
+    }
+  ]
+}
+</IMAGE_PROMPTS_JSON>
+"@
+
+    $userPrompt = @"
+生成日期：$DateLabel
+生成时间：$generatedLabel
+观察窗口：最近 $DaysBack 天
+纳入事件数：$($Items.Count)
+
+请根据以下 THE WIRE 时间线信息生成中文公众号稿件：
+
+$sourceText
+"@
+
+    $body = [pscustomobject]@{
+        model = $model
+        messages = @(
+            [pscustomobject]@{ role = "system"; content = $systemPrompt },
+            [pscustomobject]@{ role = "user"; content = $userPrompt }
+        )
+        temperature = $temperature
+        max_tokens = $maxTokens
+    } | ConvertTo-Json -Depth 8
+
+    try {
+        $response = Invoke-RestMethod `
+            -Uri $endpoint `
+            -Method Post `
+            -Headers @{ Authorization = "Bearer $apiKey" } `
+            -ContentType "application/json; charset=utf-8" `
+            -Body $body
+    }
+    catch {
+        throw "DeepSeek API request failed: $($_.Exception.Message)"
+    }
+
+    $content = [string]$response.choices[0].message.content
+    if ([string]::IsNullOrWhiteSpace($content)) {
+        throw "DeepSeek API returned an empty response."
+    }
+
+    return ($content.Trim() + "`n")
 }
 
 function Add-WireCategorySection {
@@ -985,15 +1395,30 @@ $jsonPath = Join-Path $outputDir "$baseName.json"
 
 $markdown = Render-Markdown $recentItems $settings $dateLabel $generatedAt $daysBack $selectedSources $timeZone
 $markdown = Clean-PublishText $markdown
+$generatedParts = Split-GeneratedArticleAndImagePrompts $markdown
+$markdown = $generatedParts.Article
 Set-Content -LiteralPath $markdownPath -Value $markdown -Encoding utf8
 
 $textPath = $null
+$imagePromptPath = $null
+$generatedImagePaths = @()
 if ($TextOut -or $settings.textOutputDir) {
     $textOutputDir = Resolve-ProjectPath $(if ($TextOut) { $TextOut } else { $settings.textOutputDir })
     New-Item -ItemType Directory -Force -Path $textOutputDir | Out-Null
     $textPath = Join-Path $textOutputDir "$baseName.txt"
     $plainText = Convert-MarkdownToPlainText $markdown
     Set-Content -LiteralPath $textPath -Value $plainText -Encoding utf8
+
+    if ($generatedParts.ImagePromptJson) {
+        $imagePromptPath = Join-Path $textOutputDir "$baseName-image-prompts.json"
+        Set-Content -LiteralPath $imagePromptPath -Value $generatedParts.ImagePromptJson -Encoding utf8
+        $generatedImagePaths = @(Invoke-ArticleImageGeneration $generatedParts.ImagePromptJson $textOutputDir $baseName $settings)
+    }
+}
+elseif ($generatedParts.ImagePromptJson) {
+    $imagePromptPath = Join-Path $outputDir "$baseName-image-prompts.json"
+    Set-Content -LiteralPath $imagePromptPath -Value $generatedParts.ImagePromptJson -Encoding utf8
+    $generatedImagePaths = @(Invoke-ArticleImageGeneration $generatedParts.ImagePromptJson $outputDir $baseName $settings)
 }
 
 $payload = [pscustomobject]@{
@@ -1008,6 +1433,8 @@ $payload = [pscustomobject]@{
     })
     count = $recentItems.Count
     items = $recentItems
+    imagePromptPath = $imagePromptPath
+    generatedImages = $generatedImagePaths
 }
 
 $payload | ConvertTo-Json -Depth 10 | Set-Content -LiteralPath $jsonPath -Encoding utf8
@@ -1017,4 +1444,10 @@ Write-Host "Markdown: $markdownPath"
 Write-Host "JSON: $jsonPath"
 if ($textPath) {
     Write-Host "TXT: $textPath"
+}
+if ($imagePromptPath) {
+    Write-Host "Image prompts: $imagePromptPath"
+}
+foreach ($imagePath in $generatedImagePaths) {
+    Write-Host "Image: $imagePath"
 }

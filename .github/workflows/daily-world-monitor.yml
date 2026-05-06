@@ -5,10 +5,14 @@ on:
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/daily-world-monitor.yml"
+      - "scripts/**"
+      - "config.json"
+      - "README.md"
   schedule:
     # 20:30 Asia/Shanghai = 12:30 UTC
     - cron: "30 12 * * *"
-
 
 permissions:
   contents: write
@@ -23,6 +27,8 @@ jobs:
 
       - name: Generate daily copy
         shell: powershell
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           powershell -ExecutionPolicy Bypass -File .\scripts\daily-news.ps1 -Out output -TextOut copy-output
 
@@ -57,12 +63,22 @@ jobs:
             throw "No TXT file found in copy-output."
           }
 
+          $attachmentFiles = @($txt)
+          $extraFiles = Get-ChildItem -Path copy-output -File | Where-Object {
+            $_.BaseName.StartsWith($txt.BaseName) -and
+            $_.FullName -ne $txt.FullName -and
+            $_.Extension -in @(".json", ".png", ".jpg", ".jpeg", ".webp")
+          } | Sort-Object Name
+          $attachmentFiles += @($extraFiles)
+
           $message = New-Object System.Net.Mail.MailMessage
           $message.From = $env:EMAIL_FROM
           $message.To.Add($env:EMAIL_TO)
           $message.Subject = "Daily World Monitor Copy - " + (Get-Date -Format "yyyy-MM-dd")
-          $message.Body = "The daily TXT copy has been generated. See the attached file."
-          $message.Attachments.Add((New-Object System.Net.Mail.Attachment($txt.FullName)))
+          $message.Body = "The daily TXT copy has been generated. Attachments include the TXT copy and image prompts when available."
+          foreach ($file in $attachmentFiles) {
+            $message.Attachments.Add((New-Object System.Net.Mail.Attachment($file.FullName)))
+          }
 
           $client = New-Object System.Net.Mail.SmtpClient($env:SMTP_SERVER, [int]$env:SMTP_PORT)
           $client.EnableSsl = $true
@@ -81,6 +97,5 @@ jobs:
             Write-Host "No generated changes to commit."
           } else {
             git commit -m "Generate daily World Monitor copy"
-            git pull --rebase
             git push
           }

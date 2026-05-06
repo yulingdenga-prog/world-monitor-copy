@@ -5,13 +5,23 @@
   "limit": 20,
   "outputDir": "output",
   "textOutputDir": "{Desktop}\\文案输出",
+  "imageGeneration": {
+    "enabled": false,
+    "provider": "openai",
+    "baseUrl": "https://api.openai.com/v1",
+    "model": "gpt-image-1",
+    "size": "1536x1024",
+    "quality": "medium",
+    "maxIllustrations": 2
+  },
   "sources": [
     {
       "id": "world-monitor-wire",
-      "name": "World Monitor WIRE",
+      "name": "World Monitor THE WIRE",
       "type": "world-monitor-wire",
       "url": "https://world-monitor.com/api/signal-markers",
       "allowApiAccess": true,
+      "wireMode": "top-the-wire",
       "minIntensity": 1,
       "enabled": true,
       "article": {
@@ -20,6 +30,13 @@
         "sourceNote": "数据来源：World Monitor。",
         "closing": "放在一起看，今天的重点不是某一条新闻本身，而是风险正在分层扩散：中东牵动能源和谈判，俄乌继续把战线推向后方基础设施，而中国周边则同时出现外交、军事、金融和海上通道信号。对中文读者来说，接下来最值得盯住三件事：南海和台海周边军事活动是否升温，日本金融波动是否继续外溢，以及巴基斯坦、缅甸等周边国家的安全变量是否会影响地区稳定。",
         "showMeta": false,
+        "editor": {
+          "provider": "deepseek",
+          "baseUrl": "https://api.deepseek.com",
+          "model": "deepseek-v4-flash",
+          "temperature": 0.6,
+          "maxTokens": 4000
+        },
         "focus": {
           "minItems": 8,
           "patterns": "China|Taiwan|Beijing|Hong Kong|Japan|Tokyo|Korea|South Korea|North Korea|Pyongyang|Seoul|Philippines|Manila|South China Sea|East China Sea|India|Pakistan|Islamabad|Karachi|Myanmar|Naypyidaw|Vietnam|Thailand|Malaysia|Indonesia|Malacca|Singapore|Mongolia|Bangladesh|Nepal|Bhutan"

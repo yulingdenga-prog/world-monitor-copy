@@ -1,8 +1,8 @@
 # World Monitor WIRE Daily Brief
 
-自动抓取 World Monitor 的 `THE WIRE` 事件列表，并生成已经分类、润色过的中文公众号文章草稿，同时保留结构化 JSON 方便复核。
+自动抓取 World Monitor 顶部 `THE WIRE` 使用的时间线要点，并调用 DeepSeek 生成中文公众号文章草稿，同时保留结构化 JSON 方便复核。
 
-默认输出不是网页链接列表，而是按主题整理后的中文稿件，例如“中东局势与能源冲击”“俄乌战争与欧洲安全”“非洲安全与政局风险”等。
+默认输出不是网页链接列表，而是 DeepSeek 根据 `THE WIRE` 时间线要点生成的中文稿件。脚本本身只负责采集、筛选、分类和调用 DeepSeek，不再使用本地 `rewriteRules` 做正文润色。
 
 ## 重要说明
 
@@ -33,18 +33,28 @@ powershell -ExecutionPolicy Bypass -File .\scripts\daily-news.ps1 -Out output
 - `-Out`：输出目录
 - `-Config`：配置文件路径，默认 `config.json`
 
-## 调整文章风格
+## DeepSeek 润色
 
-编辑 `config.json` 中 `world-monitor-wire.article`：
+当前正文由 DeepSeek 生成。需要先配置环境变量或 GitHub Secret：
 
-- `titleTemplate`：公众号标题
-- `intro`：开头导语
-- `closing`：结语
-- `categories`：分类规则
-- `rewriteRules`：把 WIRE 事件匹配成中文标题和中文摘要
-- `showMeta`：是否在正文中显示强度、提及次数、地点和更新时间
+- `DEEPSEEK_API_KEY`
 
-如果某类事件没有被规则覆盖，会使用 `fallbackTitleTemplate` 和 `fallbackSummaryTemplate` 生成中文兜底段落。想让文章更像人工编辑稿，优先补充 `rewriteRules`。
+DeepSeek 接入参数在 `config.json` 的 `world-monitor-wire.article.editor` 中：
+
+- `provider`：固定为 `deepseek`
+- `baseUrl`：默认 `https://api.deepseek.com`
+- `model`：默认 `deepseek-v4-flash`
+- `temperature`：文风发散程度
+- `maxTokens`：最大输出长度
+
+如果没有配置 `DEEPSEEK_API_KEY`，脚本会停止运行，避免误把未润色的原始材料发出去。
+
+DeepSeek 会同时输出图片提示词：
+
+- 1 张封面图提示词
+- 最多 2 张文章插图提示词
+
+当前已关闭自动图片生成。脚本会生成 TXT 和 `image-prompts.json`，邮件会把它们一起发出。你可以把 `image-prompts.json` 里的提示词复制到 ChatGPT 或其他图片工具中手动生成封面图和插图。
 
 ## 每日自动运行
 
@@ -60,7 +70,7 @@ schtasks /Create /SC DAILY /TN "WorldMonitorWireDaily" /TR "powershell -Executio
 
 仓库已包含 `.github/workflows/daily-world-monitor.yml`。
 
-它会在每天北京时间 22:00 自动运行，也可以在 GitHub 页面手动触发：
+它会在每天北京时间 20:30 自动运行，也可以在 GitHub 页面手动触发：
 
 1. 把本项目推送到 GitHub 仓库。
 2. 打开仓库的 `Actions` 页面。
@@ -74,7 +84,7 @@ schtasks /Create /SC DAILY /TN "WorldMonitorWireDaily" /TR "powershell -Executio
 
 说明：本地运行时仍会输出到桌面 `文案输出` 文件夹；GitHub Actions 上没有你的桌面环境，所以使用 `copy-output/` 作为仓库内的 TXT 输出目录。
 
-GitHub Actions 使用 UTC 时间，配置里的 `0 14 * * *` 对应北京时间晚上 22:00。
+GitHub Actions 使用 UTC 时间，配置里的 `30 12 * * *` 对应北京时间晚上 20:30。
 
 ## 邮件发送
 
@@ -88,3 +98,7 @@ Workflow 会在生成 TXT 后尝试把当天文案作为附件发送到邮箱。
 - `EMAIL_TO`
 
 如果这些 Secrets 没配置，邮件步骤会自动跳过，不影响文件生成。
+
+DeepSeek 还需要额外配置：
+
+- `DEEPSEEK_API_KEY`
