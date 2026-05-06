@@ -43,7 +43,7 @@ DeepSeek 接入参数在 `config.json` 的 `world-monitor-wire.article.editor` �
 
 - `provider`：固定为 `deepseek`
 - `baseUrl`：默认 `https://api.deepseek.com`
-- `model`：默认 `deepseek-v4-flash`
+- `model`：默认 `deepseek-chat`
 - `temperature`：文风发散程度
 - `maxTokens`：最大输出长度
 
