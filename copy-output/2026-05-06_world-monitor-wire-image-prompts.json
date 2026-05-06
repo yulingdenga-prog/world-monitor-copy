@@ -1,16 +1,16 @@
-﻿{
+{
   "cover": {
     "filename": "cover.png",
-    "prompt": "A dramatic digital illustration depicting the Strait of Hormuz at sunset, with a large oil tanker navigating through a narrow waterway. In the foreground, a stylized website interface reading 'Persian Gulf Strait Authority' floats in the air, while a military speedboat patrols nearby. The scene conveys tension and uncertainty, with dark storm clouds gathering on the horizon. No text, flags, or real people are shown."
+    "prompt": "A stylized illustration of a cargo ship sailing through a narrow strait under a stormy sky, with a large toll gate symbol floating above the water and a cracked oil barrel leaking black liquid, in a dramatic news commentary style, no real people or text, muted blue and orange tones."
   },
   "illustrations": [
     {
       "filename": "illustration-1.png",
-      "prompt": "A conceptual illustration showing a split screen. On the left side, a diplomatic meeting table with a single-page document labeled 'Memorandum of Understanding' and a Pakistani flag. On the right side, a chaotic scene of a warship firing warning shots across the bow of a commercial vessel in choppy seas. The image represents the contrast between peace negotiations and military confrontation. No readable text or real people faces."
+      "prompt": "An abstract digital illustration showing a seesaw with an oil barrel on one end and an airplane silhouette on the other, surrounded by chaotic financial chart lines and a fragmented globe, representing volatile oil prices and global aviation disruption, no text or real brands, dark background with neon accents."
     },
     {
       "filename": "illustration-2.png",
-      "prompt": "An infographic-style illustration showing a global map with flight paths being crossed out and cancelled. A large jet fuel price ticker shows a 100% increase. In the background, a crude oil price chart shows a dramatic V-shaped recovery with a 12% drop followed by an 8% surge. The scene conveys the economic shockwaves of the conflict. No real logos or brand names."
+      "prompt": "A conceptual illustration of a closed scroll with a wax seal marked 'MOU' floating above a turbulent sea, with a warship and a cargo ship facing each other from opposite sides, symbolizing the fragile and uncertain peace negotiations, no real flags or identifiable symbols, muted earth tones."
     }
   ]
 }
