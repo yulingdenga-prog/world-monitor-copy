@@ -1,0 +1,16 @@
+﻿{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration showing a split scene. On the left side, a diplomatic table with documents and flags of the US, Iran, and Pakistan under a bright, hopeful light. On the right side, a dark silhouette of an oil tanker navigating through a narrow strait under stormy skies, with a glowing web domain name 'Persian Gulf Strait Authority' appearing as a digital overlay. The overall mood is tense and uncertain, cinematic lighting, no text, no real person portraits."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A dynamic financial chart illustration showing a sharp 'V' shape reversal. The line plunges steeply down by over 12 percent and then rockets back up by 8 percent in a single spike. The background is a blurred trading floor with glowing red and green digital numbers. Abstract representation of oil barrels and a clock showing '70 minutes before news'. No readable text or brand logos, no real people."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration of a global airline disruption. A large world map in the background with numerous red cancellation symbols scattered across major flight routes. In the foreground, a stylized jet fuel pump with a price tag showing an exorbitantly high number, and a calendar page for May with many dates crossed out. The scene conveys economic strain and logistical chaos. No real aircraft models, no text, no human figures."
+    }
+  ]
+}
