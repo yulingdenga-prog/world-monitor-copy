@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A digital illustration of the Strait of Hormuz at dusk, showing a large oil tanker with its navigation lights off moving stealthily through the water, with a faint military drone silhouette in the sky and the silhouette of a naval vessel on the horizon. The mood is tense and secretive. No text, flags, or identifiable logos. Style: realistic news illustration."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing a Chinese bank building and a military court gavel side by side, with a faint map of Iran in the background and a pipeline symbol connecting them. The style is semi-abstract, clean, and professional for a news analysis piece. No text, flags, or identifiable logos."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An illustration of a negotiation table with a 14-point document in the center, surrounded by abstract silhouettes of a Pakistani mediator, an American diplomat, and an Iranian official. In the background, a stylized map of the Strait of Hormuz shows a blocked waterway with a small, ghostly tanker slipping through. No text, flags, or identifiable logos. Style: flat vector illustration with a serious tone."
+    }
+  ]
+}
