@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic illustration of the Strait of Hormuz at dusk, with warships and oil tankers silhouetted against a fiery orange sky, a faint dove carrying an olive branch flying above the smoke, no readable text or flags, cinematic wide shot, digital painting style"
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "Abstract illustration of a chessboard with pieces representing China, USA, and Iran, a Great Wall motif on one side, an eagle on another, and a Persian pattern on the third, with diplomatic cables and oil barrels as game pieces, no real portraits or flags, surreal digital art style"
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A split scene showing a UN Security Council chamber on one side and a stock market ticker on the other, with a broken chain and olive branch connecting them, no readable text on ticker, no real people faces visible, abstract political illustration style"
+    }
+  ]
+}
