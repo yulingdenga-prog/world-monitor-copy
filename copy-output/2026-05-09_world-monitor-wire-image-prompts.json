@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized digital illustration of the Strait of Hormuz at sunset, showing a completely empty sea with no ships, only a single military vessel silhouette on the horizon. The sky is dramatic with dark orange and purple clouds, symbolizing tension and blockade. No text, no flags, no identifiable faces."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "Abstract illustration of a handshake between two silhouetted figures representing Pakistan and Iran, with a map of the Middle East in the background and a glowing olive branch in the center. The style is flat vector art with warm colors. No text, no real faces, no political symbols."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration showing a broken oil pipeline shaped like a question mark, with a small airplane silhouette falling from the sky above it. The background is a simple gradient from dark blue to orange. No text, no logos, no violent imagery."
+    }
+  ]
+}
