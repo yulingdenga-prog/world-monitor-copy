@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of the Strait of Hormuz at sunset, with a large Iranian naval submarine surfacing in the foreground, an American warship silhouette on the horizon, and an oil tanker stopped in the water. The sky is orange and smoky, conveying tension and military standoff. No flags, no text, no real faces."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A tense diplomatic scene in a dimly lit room: an Iranian general in military uniform meets with a senior clerical figure in a black turban and robe, both seated at a table with a map of the Middle East. The atmosphere is serious and confrontational. No visible flags, no identifiable real faces, no text."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration of a cruise ship docked at a port with medical personnel in hazmat suits and ambulances on the pier, representing a health emergency evacuation. The scene is calm but ominous, with a cloudy sky. No visible logos, no real faces, no text."
+    }
+  ]
+}
