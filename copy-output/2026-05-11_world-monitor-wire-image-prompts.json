@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of the Strait of Hormuz at sunset, with multiple naval warships from different nations converging near a narrow waterway. In the distance, an oil tanker is leaking dark smoke and oil into the sea. Small speedboats are visible near the tanker. The sky is orange and red, conveying tension and crisis. No flags, logos, or readable text. No real faces. Style: realistic news illustration, cinematic lighting."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A split-screen digital illustration. Left side: a stern-faced man in a suit behind a lectern labeled with abstract geometric shapes, representing U.S. rejection. Right side: a group of men in military-style clothing around a table with documents, representing Iranian counterproposals. The background is a stylized map of the Persian Gulf with a red warning zone around the Strait of Hormuz. No real faces, no flags, no readable text. Style: editorial illustration, muted earth tones with red accents."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An abstract digital illustration of a large oil barrel with a crack in it, oil spilling out and forming a puddle shaped like the Strait of Hormuz. In the background, faint silhouettes of warships and oil rigs. The color palette is dark blues, blacks, and a single bright red line representing the crack. No real faces, no flags, no readable text. Style: conceptual art, minimalist, high contrast."
+    }
+  ]
+}
