@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized digital illustration of a tense geopolitical standoff at the Strait of Hormuz, showing a large oil tanker navigating through narrow waters with military silhouettes on the horizon, storm clouds gathering above, warm sunset colors, no visible flags or text, cinematic lighting, abstract and symbolic, no real people or violence."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration of a nuclear enrichment centrifuge glowing with a bright orange light, surrounded by digital chains and a broken internet cable, representing Iran's nuclear threshold and digital isolation, dark background with subtle red and gold tones, no text or real equipment logos, abstract and symbolic style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A symbolic image of a diplomatic table with a cracked globe in the center, a Pakistani flag-shaped puzzle piece slightly separated from the rest, representing the mediator role under scrutiny, muted colors, no recognizable faces or political symbols, abstract and editorial illustration style."
+    }
+  ]
+}
