@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of the Strait of Hormuz at sunset, with a large oil tanker navigating through a narrow waterway, surrounded by military warships and fighter jets in the sky. The scene conveys tension and geopolitical conflict. No flags, no readable text, no real person portraits. Style: cinematic, realistic, high contrast."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing a globe with the Middle East highlighted, and a chain or lock symbol over the Strait of Hormuz, with oil barrels and dollar signs floating nearby. The image represents economic impact and energy blockade. No real flags or text. Style: flat vector, infographic style, clean composition."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A split-screen digital art: left side shows a crowded negotiation table with multiple national flags (abstract, no recognizable symbols), right side shows a warship and fighter jet silhouette against a stormy sky. The image represents diplomatic and military confrontation. No readable text, no real person faces. Style: semi-abstract, modern, dramatic lighting."
+    }
+  ]
+}
