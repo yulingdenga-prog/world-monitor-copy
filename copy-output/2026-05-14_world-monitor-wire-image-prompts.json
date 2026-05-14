@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of the Strait of Hormuz at sunset, with a large commercial tanker sailing under the shadow of a military warship, and a stylized map of the Persian Gulf in the background, no real people or flags, abstract geopolitical tension."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing a giant hand labeled 'US & China' blocking a toll booth labeled 'Iran' on a stylized sea route, with oil barrels floating in the water, no real faces or text, symbolic and clean."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A night scene illustration of a drone flying over a Mediterranean coastal town with a damaged parking lot, smoke rising, no visible people or gore, focus on the drone and the aftermath, abstract and news-style."
+    }
+  ]
+}
