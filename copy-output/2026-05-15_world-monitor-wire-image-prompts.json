@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic geopolitical illustration showing the Strait of Hormuz at sunset, with an oil tanker silhouette navigating between two large landmasses under a tense sky, a glowing globe with China and USA highlighted in the background, no text or flags"
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A symbolic illustration of a massive scale balancing a Boeing 747 airplane on one side and a nuclear symbol on the other, with a map of the Strait of Hormuz in the background, stylized and abstract, no real people or text"
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A minimalist geopolitical cartoon showing a chessboard with a Chinese dragon and an American eagle facing off across the Strait of Hormuz, with a small Iranian lion figure in the middle, no text or flags"
+    }
+  ]
+}
