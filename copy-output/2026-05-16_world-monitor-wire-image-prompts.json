@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized illustration of the Strait of Hormuz with a large shipping container ship blocked by a massive wall labeled 'TOLL' in Persian and English, with military silhouettes on both sides, in a dramatic sunset with dark storm clouds, no real faces or flags, abstract geopolitical tension style."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing a globe with the Middle East region highlighted in red, with a broken chain linking Europe to Asia, pills and medicine bottles falling off the chain, representing supply chain disruption, no text or logos, flat vector style with muted colors."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An abstract illustration of a chessboard with a US flag piece and an Iranian flag piece facing off over a narrow blue channel representing the Strait of Hormuz, with a Chinese flag piece standing nearby watching, no real faces, minimalist geometric style."
+    }
+  ]
+}
