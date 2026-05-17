@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of a tense geopolitical standoff: a stylized map of the Middle East with Iran highlighted in red, surrounded by military silhouettes of ships and aircraft, with a storm cloud looming overhead. The scene conveys high tension and imminent conflict. No real people, flags, or text. Abstract, news commentary style."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "An abstract illustration of the Strait of Hormuz as a narrow waterway choked by a chain link fence and warning buoys, with a single cargo ship stopped in front of a toll booth shaped like a missile. The sky is dark orange. No real flags, logos, or text. Symbolic, geopolitical commentary style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual image of a broken diplomatic handshake between two hands, one draped in an American flag pattern and the other in an Iranian flag pattern, with cracks and sparks between them. The background is a blurred negotiation table. No real people, faces, or readable text. Abstract, editorial illustration style."
+    }
+  ]
+}
