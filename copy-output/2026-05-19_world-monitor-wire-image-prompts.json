@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A geopolitical news illustration showing a large hourglass on a world map, with sand running out. The Middle East region is highlighted in red and orange tones. Military silhouette outlines and oil barrel symbols are faintly visible in the background. No text, no real faces, no violence. Cinematic lighting, dark and tense atmosphere."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "Abstract illustration of a narrow strait between two landmasses, with a large chain and padlock symbol blocking the passage. Small ship silhouettes are stopped on one side. Bitcoin symbol floats above the lock. No real flags, no text, no violence. Minimalist style, blue and gold color palette."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A split scene showing a handshake on one side with dollar signs and airplane silhouettes, and a broken negotiation table on the other side with a ticking bomb. No real faces, no text. Conceptual art style, contrasting warm and cold colors."
+    }
+  ]
+}
