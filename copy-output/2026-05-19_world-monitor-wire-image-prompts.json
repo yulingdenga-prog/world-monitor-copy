@@ -1,16 +1,16 @@
 {
   "cover": {
     "filename": "cover.png",
-    "prompt": "A geopolitical news illustration showing a large hourglass on a world map, with sand running out. The Middle East region is highlighted in red and orange tones. Military silhouette outlines and oil barrel symbols are faintly visible in the background. No text, no real faces, no violence. Cinematic lighting, dark and tense atmosphere."
+    "prompt": "A minimalist news illustration showing a globe with the Strait of Hormuz highlighted in red, surrounded by abstract military silhouettes and economic chart lines trending downward. No text, no flags, no real people. Digital art style, muted colors with red accents."
   },
   "illustrations": [
     {
       "filename": "illustration-1.png",
-      "prompt": "Abstract illustration of a narrow strait between two landmasses, with a large chain and padlock symbol blocking the passage. Small ship silhouettes are stopped on one side. Bitcoin symbol floats above the lock. No real flags, no text, no violence. Minimalist style, blue and gold color palette."
+      "prompt": "Abstract illustration of a chessboard with a US flag piece and an Iranian flag piece facing off, with a cracked oil barrel and a broken chain in the middle. No real people, no violent scenes, no readable text. Flat vector style, neutral background."
     },
     {
       "filename": "illustration-2.png",
-      "prompt": "A split scene showing a handshake on one side with dollar signs and airplane silhouettes, and a broken negotiation table on the other side with a ticking bomb. No real faces, no text. Conceptual art style, contrasting warm and cold colors."
+      "prompt": "Symbolic illustration of a large ship trapped in a narrow strait with a giant padlock, surrounded by small military boats and a NATO emblem in the distance. No real people, no flags with symbols, no text. Digital painting style, blue and gray tones."
     }
   ]
 }
