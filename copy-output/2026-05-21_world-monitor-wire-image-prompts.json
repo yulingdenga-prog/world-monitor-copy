@@ -1,16 +1,16 @@
 {
   "cover": {
     "filename": "cover.png",
-    "prompt": "A dramatic digital illustration of the Strait of Hormuz at sunset, with a large oil tanker navigating through a narrow waterway, flanked by military drones in the sky and naval vessels in the distance, conveying tension and geopolitical conflict. No readable text, no flags, no real person portraits."
+    "prompt": "A stylized illustration of a large cargo ship navigating a narrow strait under a hazy, tense sky, with an Iranian flag subtly depicted on a distant patrol boat. The scene conveys economic pressure and geopolitical tension, with no visible people, logos, or text. Digital painting style, muted colors with a hint of orange and gray."
   },
   "illustrations": [
     {
       "filename": "illustration-1.png",
-      "prompt": "A conceptual illustration of a negotiation table with a cracked globe in the middle, surrounded by abstract figures representing Iran, US, and Pakistan, with a stormy sea visible through a window. No readable text, no real person portraits, no flags."
+      "prompt": "An abstract illustration of a globe with a glowing red line marking the Strait of Hormuz, surrounded by small ship icons and a rising graph line representing fertilizer prices. No real maps, text, or logos. Minimalist digital art style, with a sense of global economic impact."
     },
     {
       "filename": "illustration-2.png",
-      "prompt": "An abstract digital painting showing an oil tanker silhouette under a dark sky, with a glowing Bitcoin symbol and a drone shadow over the water, symbolizing modern hybrid warfare and economic coercion. No readable text, no real person portraits, no flags."
+      "prompt": "A conceptual image of a broken chain and a padlock floating in dark blue water, with a distant silhouette of oil rigs. No people, flags, or text. Symbolizes blockade and economic disruption. Surreal digital painting, cool blue and dark gray tones."
     }
   ]
 }
