@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of the Strait of Hormuz at sunset, with a large commercial oil tanker navigating through narrow waters, a stylized map overlay showing disputed maritime zones in red, and a tense atmosphere with dark clouds on the horizon. No flags, no text, no visible people."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A split-screen digital illustration: left side shows a military officer in a suit shaking hands with a diplomat in a neutral conference room, symbolizing last-ditch mediation; right side shows a stylized globe with a red chain around the Strait of Hormuz. No real faces, no flags, no text."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A symbolic illustration of a damaged MQ-9 Reaper drone silhouette against a fiery orange sky, with broken electronic sparks and a graph line dropping sharply in the background. No real people, no military insignia, no readable text."
+    }
+  ]
+}
