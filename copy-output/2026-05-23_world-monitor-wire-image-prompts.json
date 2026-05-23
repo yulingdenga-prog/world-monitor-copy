@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A tense geopolitical illustration showing a map of the Middle East with the Strait of Hormuz highlighted in red, surrounded by storm clouds and lightning bolts, with oil tanker silhouettes and military aircraft shadows, no text or flags, dramatic lighting, cinematic style"
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A diplomatic negotiation scene in a minimalist style, showing two hands reaching toward each other from opposite sides with a cracked globe between them, warm amber and cool blue tones, no identifiable people or text, abstract and symbolic"
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A stylized illustration of a narrow waterway with commercial ships and military vessels, a toll booth symbol floating above the water, stormy sea and dark sky, oil barrels drifting in the foreground, no flags or text, dramatic contrast"
+    }
+  ]
+}
