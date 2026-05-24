@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized illustration of the Strait of Hormuz at sunset, with a large cargo ship navigating through a narrow waterway. In the background, a diplomatic handshake is silhouetted against a glowing sky, while a faint, ghostly chain symbolizing blockade hangs in the air. No real people, flags, or text. Digital painting style, dramatic lighting."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "An abstract illustration of a broken chain over a map of the Persian Gulf, with a single key floating in the middle. The key is split in two halves, one painted with the US flag colors and the other with the Iranian flag colors, but no actual flag symbols or text are present. The background is a stormy sea. Digital art, symbolic, no real people."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration of a telephone receiver with multiple cables connecting to different countries' outlines (Pakistan, US, Iran). The cables are tangled and some are sparking. The background is a dark room with a single lamp. No real people, no text, no recognizable brand logos. Digital painting, moody and tense atmosphere."
+    }
+  ]
+}
