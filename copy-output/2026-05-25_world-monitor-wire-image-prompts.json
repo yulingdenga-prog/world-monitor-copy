@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized digital illustration showing a globe with a focus on the Middle East and East Asia, with a Chinese yuan symbol and a Persian Gulf oil tanker silhouette, abstract geopolitical tension lines connecting Beijing and Tehran, no real people or text, muted geopolitical colors with orange and blue accents."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "Abstract illustration of a diplomatic negotiation table with a Chinese flag and an Iranian flag placed on opposite sides, a silhouette of a military drone flying overhead, stylized waves representing the Strait of Hormuz in the background, no real people or readable text, muted beige and navy tones."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual image showing a broken chain link with dollar signs and oil barrels on one side, and a rising sun motif on the other, representing economic pressure and military tension, no real people or text, abstract shapes in dark red and gold."
+    }
+  ]
+}
