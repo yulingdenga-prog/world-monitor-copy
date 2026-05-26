@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of a military warship escorting a large oil tanker through a narrow strait at sunset, with dark smoke rising from distant explosions on the horizon, minimal text, no identifiable flags or logos, cinematic lighting, wide-angle view, photorealistic style."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing a cracked globe with the Middle East region glowing in orange and red, surrounded by oil barrels and stock market charts in chaos, no text or real maps, abstract geopolitical tension theme, dark background with neon accents."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A minimalist flat illustration of a stack of coins with a downward arrow overlaid, representing currency depreciation, with an Indonesian rupiah symbol and a broken chain link nearby, no human faces, clean graphic style, muted colors with a red warning tone."
+    }
+  ]
+}
