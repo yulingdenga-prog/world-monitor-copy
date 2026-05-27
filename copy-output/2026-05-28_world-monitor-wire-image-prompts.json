@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized illustration showing a globe with a cracked oil barrel in the Middle East region, surrounded by a chain of island dots representing the Asia-Pacific, with a red and blue tension line connecting them. Abstract, geopolitical, no text or logos."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "An abstract illustration of a tense negotiation table with two silhouetted figures on opposite sides, one with a US flag pattern and one with an Iranian flag pattern, a glowing document between them but a large crack splitting the table. No real faces, no text."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A stylized map of the Strait of Hormuz, shown as a narrow bottleneck, with a dark warship silhouette blocking the passage and a small commercial ship waiting. The background has a hazy, smoky atmosphere. No flags, no text, no real logos."
+    }
+  ]
+}
