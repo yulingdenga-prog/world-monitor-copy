@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of the Strait of Hormuz at twilight, showing a commercial oil tanker navigating between military warships and distant smoke plumes on the horizon, with a cracked negotiation document floating in the foreground, cinematic lighting, no readable text or logos, photorealistic style."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing a bulldozer and dump truck clearing rubble from a mountain tunnel entrance, with missile silhouettes visible inside the cave, set in a desert landscape under a hazy sky, no human faces, no flags or text, cinematic composition."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A split-screen digital art piece: left side shows a Japanese oil refinery with empty pipelines and a graph showing a steep drop, right side shows a diplomatic handshake between a Pakistani military figure and an American official, with a globe in the background, no readable text or logos, professional illustration style."
+    }
+  ]
+}
