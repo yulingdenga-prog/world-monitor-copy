@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic illustration of the Strait of Hormuz at sunset, with warships and commercial vessels silhouetted against a fiery sky, oil tankers and naval ships in the foreground, abstract geopolitical tension, no flags or readable text, cinematic lighting, wide-angle view, digital art style."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A tense diplomatic negotiation scene with two figures in suits sitting across a table, a globe and documents between them, abstract background of oil rigs and warships, no identifiable faces or flags, muted color palette, professional illustration style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual image of a missile launch against a dark ocean horizon, with a faint outline of a bridge or strait in the background, no visible explosions or damage, abstract representation of military tension, stormy sky, digital painting style."
+    }
+  ]
+}
