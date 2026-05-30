@@ -1,16 +1,16 @@
 {
   "cover": {
     "filename": "cover.png",
-    "prompt": "A dramatic illustration of the Strait of Hormuz at sunset, with warships and commercial vessels silhouetted against a fiery sky, oil tankers and naval ships in the foreground, abstract geopolitical tension, no flags or readable text, cinematic lighting, wide-angle view, digital art style."
+    "prompt": "A photorealistic digital illustration of the Strait of Hormuz at sunset, with a large oil tanker navigating through narrow waters, surrounded by military warships and small patrol boats. The sky is dramatic with orange and gray clouds, reflecting tension. No flags, logos, or readable text. The mood is tense and uncertain, like a geopolitical standoff."
   },
   "illustrations": [
     {
       "filename": "illustration-1.png",
-      "prompt": "A tense diplomatic negotiation scene with two figures in suits sitting across a table, a globe and documents between them, abstract background of oil rigs and warships, no identifiable faces or flags, muted color palette, professional illustration style."
+      "prompt": "A split-screen digital illustration showing two contrasting scenes: on the left, a smartphone screen displaying a social media post with a 'blockade lifted' message; on the right, a naval warship with a searchlight on a dark sea. No real faces, flags, or readable text. The style is semi-abstract, symbolizing a contradiction between words and reality."
     },
     {
       "filename": "illustration-2.png",
-      "prompt": "A conceptual image of a missile launch against a dark ocean horizon, with a faint outline of a bridge or strait in the background, no visible explosions or damage, abstract representation of military tension, stormy sky, digital painting style."
+      "prompt": "A stylized illustration of a large wooden gavel and a stack of US dollar bills, with a small bird perched on the gavel. The background is a blurred American flag pattern without clear stars or stripes. No real people, logos, or readable text. The mood is ironic, suggesting financial and legal controversies."
     }
   ]
 }
