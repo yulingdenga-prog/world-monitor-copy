@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of the Strait of Hormuz at sunset, with a large naval mine floating in the foreground, oil tankers silhouetted against a smoky orange sky, and a subtle missile trail in the distance. No flags, no text, no real people. News commentary style, cinematic lighting."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "Abstract political illustration showing a broken negotiation table with an Iranian flag-shaped crack and a small nuclear mushroom cloud symbol emerging from the crack. No real people, no text, no blood. Minimalist, conceptual art style for news commentary."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A stylized map of the Middle East with a red question mark over Iran, a small Chinese flag icon near the Persian Gulf, and a broken chain link symbol over the Strait of Hormuz. No real people, no text, no political symbols. Flat vector illustration style for news analysis."
+    }
+  ]
+}
