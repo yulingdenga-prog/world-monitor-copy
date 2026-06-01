@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of the Strait of Hormuz at twilight, with a large cargo ship silhouetted against a fiery orange and red sky, surrounded by smaller fast patrol boats and military vessels. The water reflects the tense colors. No visible flags, logos, or human faces. The scene conveys geopolitical tension and energy crisis."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing two large arrows pointing in opposite directions over a map of the Middle East, one labeled with a red downward arrow representing 'negotiations' and the other with a blue upward arrow representing 'military tension'. In the background, abstract geometric shapes of oil barrels and warships. No text, flags, or real-world symbols. Clean, infographic-style, suitable for news commentary."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A split-screen illustration. On the left side, a modern Chinese power plant with cooling towers and wind turbines, symbolizing energy self-sufficiency. On the right side, a dark silhouette of an oil tanker stuck in a narrow strait, with a chain blocking its path. The contrast highlights the shift from imported oil to domestic energy. No real logos or faces. Minimalist and symbolic."
+    }
+  ]
+}
