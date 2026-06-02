@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of a world map with three glowing hotspots: East Asia (Japan and Taiwan), the Middle East (Strait of Hormuz), and Eastern Europe (Kursk region). Red arrows and military silhouettes converge on these points, with a dark stormy sky background. No text, no real faces, no flags. Style: geopolitical news illustration, cinematic lighting, high contrast."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "An abstract illustration of a stylized missile with a range arc of 300 km over a digital map of the South China Sea. The missile is sleek and futuristic, with a glowing radar seeker head. No text, no national symbols, no real aircraft. Style: technical blueprint meets sci-fi, clean lines, blue and orange color scheme."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A split illustration: left side shows a dark silhouette of a military transport plane (Il-76 style) flying over a snowy landscape at night, right side shows a calm but tense ocean scene with a warship silhouette near a narrow strait. No text, no flags, no real insignia. Style: photorealistic digital painting, muted colors, dramatic shadows."
+    }
+  ]
+}
