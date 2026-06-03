@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic night scene of a damaged airport terminal with smoke rising from a runway, debris scattered, and emergency lights flashing in the distance. The sky is dark with a faint orange glow. No people, no text, no flags. News illustration style."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A stylized map of the Strait of Hormuz with a large ship silhouette navigating through narrow waters, surrounded by abstract military symbols like radar waves and missile trajectories, all in muted blue and orange tones. No real country flags or text. Editorial illustration."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An abstract illustration of a nuclear facility dome with cracked surveillance camera lens, symbolizing monitoring gaps. Background shows a dark horizon with faint red warning lines. No people, no text, no identifiable logos. Conceptual news art style."
+    }
+  ]
+}
