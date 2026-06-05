@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized digital illustration of a globe with the Middle East region highlighted in glowing orange and red, with a cracked oil barrel and a broken chain symbolizing blockade and conflict, in a news commentary style, no real people, no text, no logos."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A dramatic wide-angle illustration of a narrow sea strait with warships and oil tankers silhouetted against a smoky sunset sky, with a large broken chain floating in the water, symbolizing blockade and geopolitical tension, no real flags or text, news commentary style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A split-screen digital illustration: left side shows a handshake broken by a lightning bolt, right side shows a nuclear symbol with a cracked shield, both in muted gray and orange tones, representing failed negotiations and nuclear risk, no real people or text, news commentary style."
+    }
+  ]
+}
