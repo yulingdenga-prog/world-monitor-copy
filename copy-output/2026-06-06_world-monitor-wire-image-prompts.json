@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of a missile streaking across a darkening sky over the Strait of Hormuz, with a cargo ship silhouetted in the foreground and a distant explosion on the horizon. The scene conveys tension and geopolitical crisis. No text, flags, or identifiable military insignia. Style: cinematic, moody, photorealistic digital art."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing a shattered globe with the Middle East region cracked and glowing red, with oil barrels and military drones floating in the background. The image symbolizes global energy crisis and geopolitical conflict. No real people, text, or flags. Style: abstract, editorial, dark palette with glowing accents."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A stylized illustration of a broken negotiation table with two empty chairs facing each other, a nuclear symbol faintly glowing in the background, and scattered papers labeled with abstract diplomatic symbols. The scene represents failed nuclear talks. No real people, text, or identifiable symbols. Style: minimalist, symbolic, muted colors with a tense atmosphere."
+    }
+  ]
+}
