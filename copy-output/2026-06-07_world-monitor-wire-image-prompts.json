@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized illustration of the Strait of Hormuz at sunset, with a large cargo ship in the foreground and military drones and fighter jets silhouetted in the sky, conveying tension and geopolitical standoff. No text, flags, or recognizable faces. Digital art style with warm and cool color contrast."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "An abstract illustration of a broken oil pipeline and a cracked globe, with a coin and a military boot placed on top, symbolizing the intersection of energy, money, and military conflict. No text, flags, or real people. Digital painting style with muted earth tones."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration of a chessboard with pieces representing a tank, a drone, and a diplomatic briefcase, set against a blurred map of the Middle East. The scene conveys strategic maneuvering and uncertainty. No text, flags, or recognizable faces. Minimalist vector art style."
+    }
+  ]
+}
