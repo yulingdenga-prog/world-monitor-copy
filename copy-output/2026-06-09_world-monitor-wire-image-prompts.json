@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic news illustration showing a cracked globe with two distinct scenes: one side shows a collapsed building and tsunami waves near a palm tree, the other shows a burning oil tanker in a narrow strait with warships silhouetted against a smoky sky. The image has a dark, ominous tone with orange and gray colors, no readable text or flags."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "News illustration of a cracked hourglass on a world map, with sand falling into a pool of oil. The hourglass is surrounded by faint silhouettes of warships and fighter jets. Dark blue and orange color palette, no text or symbols, abstract and symbolic style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A stylized illustration of a handshake between two shadowy figures, with a paper document labeled 'ceasefire' tearing in the middle, revealing a battlefield behind it. Minimalist style, muted colors, no readable text or identifiable flags or uniforms."
+    }
+  ]
+}
