@@ -1,16 +1,16 @@
 {
   "cover": {
     "filename": "cover.png",
-    "prompt": "A dramatic news illustration showing a cracked globe with two distinct scenes: one side shows a collapsed building and tsunami waves near a palm tree, the other shows a burning oil tanker in a narrow strait with warships silhouetted against a smoky sky. The image has a dark, ominous tone with orange and gray colors, no readable text or flags."
+    "prompt": "A dramatic digital illustration showing a cracked stock market graph in the shape of a broken arrow, with a faint map of the Korean peninsula in the background, and a dark red sky with storm clouds. No text, no real people. News commentary illustration style."
   },
   "illustrations": [
     {
       "filename": "illustration-1.png",
-      "prompt": "News illustration of a cracked hourglass on a world map, with sand falling into a pool of oil. The hourglass is surrounded by faint silhouettes of warships and fighter jets. Dark blue and orange color palette, no text or symbols, abstract and symbolic style."
+      "prompt": "A stylized digital painting of a naval standoff in a narrow strait at sunset. A small oil tanker is disabled, smoke rising from its engine room, while a fighter jet flies overhead. No flags, no identifiable markings, no real people. News illustration style, dramatic lighting."
     },
     {
       "filename": "illustration-2.png",
-      "prompt": "A stylized illustration of a handshake between two shadowy figures, with a paper document labeled 'ceasefire' tearing in the middle, revealing a battlefield behind it. Minimalist style, muted colors, no readable text or identifiable flags or uniforms."
+      "prompt": "A symbolic illustration of a cracked globe, with a glowing red line tracing from the Middle East through Southeast Asia. Abstract, geopolitical tension theme. No text, no flags, no real people. News commentary illustration style."
     }
   ]
 }
