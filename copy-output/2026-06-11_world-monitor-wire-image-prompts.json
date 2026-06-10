@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of a globe with Asia and the Middle East in focus, showing a stylized map with a red-hot glowing line connecting the Strait of Hormuz to East Asia. Abstract financial charts and arrows overlap the map, conveying global economic and geopolitical tension. No text, no real people, no flags. Dark blue and orange color palette, cinematic lighting."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration of a stock market crash: a large red downward-pointing arrow piercing through a stylized city skyline, with broken bar charts and scattered coins falling around it. The scene is abstract, with no readable text or recognizable brand logos. Dark and moody tones with red accents, digital art style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A symbolic illustration of rare earth elements: glowing, crystalline rocks in neon green and blue colors floating in a dark void, with a faint outline of a circuit board pattern behind them. No text, no real people. High contrast, sci-fi inspired aesthetic."
+    }
+  ]
+}
