@@ -1,16 +1,16 @@
 {
   "cover": {
     "filename": "cover.png",
-    "prompt": "A dramatic digital illustration of the Strait of Hormuz at twilight, showing a large oil tanker navigating a narrow waterway between two rocky coastlines, with a tense atmosphere of military ships and surveillance drones in the distance, no visible flags or text, photorealistic style, cinematic lighting."
+    "prompt": "A dramatic digital illustration of a tense standoff in the Strait of Hormuz at sunset. A large cargo ship is dwarfed by a massive warship in the foreground. In the sky, a drone is being intercepted by a missile trail. The atmosphere is smoky and orange. No flags, logos, or readable text. News commentary style, cinematic lighting."
   },
   "illustrations": [
     {
       "filename": "illustration-1.png",
-      "prompt": "A split-screen digital illustration showing on the left side a closed port with ships anchored and waiting, and on the right side an open sea lane with commercial vessels moving under escort, no human figures or identifiable flags, abstract geopolitical tension style, muted colors."
+      "prompt": "A split-screen illustration. Left side: a diplomatic negotiation table with a document and a pen, but the paper is torn. Right side: a military command center with radar screens showing blips and a map of the Persian Gulf. No people's faces visible. Abstract, geopolitical tension theme. No text or logos."
     },
     {
       "filename": "illustration-2.png",
-      "prompt": "An abstract infographic-style illustration showing a map of the Persian Gulf and Strait of Hormuz, with a large oil barrel icon in the center, surrounded by arrows indicating disrupted shipping routes and rising price graphs, no text or words, clean flat design style."
+      "prompt": "An abstract illustration of a pipeline and an oil barrel with a question mark over it, set against a globe with the Middle East region highlighted in red. The background is a stormy sky. No real flags, no text, no brand logos. Symbolic representation of energy security crisis."
     }
   ]
 }
