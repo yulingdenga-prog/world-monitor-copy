@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration depicting a split scene: on the left, a futuristic electronic signing ceremony with digital screens and flags, on the right, a dark silhouette of military aircraft over a smoky strait with oil tankers. The composition is tense and cinematic, with a mood of uncertainty. No real faces, no text, no logos."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing a cracked digital banking interface overlaid on a map of Iran, with a padlock icon and binary code fragments falling like rain. The background is dark blue and red, suggesting a cyberattack or system failure. No visible text, no real logos, no faces."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An abstract illustration of a sealed underground tunnel entrance, with warning tape and scattered rocks. In the background, a faint glowing symbol representing nuclear material. The mood is ominous and secretive. No people, no text, no real-world symbols."
+    }
+  ]
+}
