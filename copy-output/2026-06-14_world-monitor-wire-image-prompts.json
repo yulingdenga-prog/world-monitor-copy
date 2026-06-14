@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized illustration of a tense diplomatic standoff: a large desk with two empty chairs facing each other, a cracked globe of the Middle East on the table, a single oil tanker silhouette sailing in a narrow strait under a stormy sky, no text or flags."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual image of a split screen: on the left, a smiling politician shaking hands; on the right, a military drone and a warship in a dark sea, with a cracked line running down the middle, no identifiable faces or logos."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A simple flat vector style illustration of a cargo ship sailing in a narrow blue waterway, with two large arrows pointing in opposite directions above it, a storm cloud in the background, no text."
+    }
+  ]
+}
