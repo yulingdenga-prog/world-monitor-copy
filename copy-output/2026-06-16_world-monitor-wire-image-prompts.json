@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic illustration of a cargo ship navigating through the Strait of Hormuz at sunset, with oil barrels floating on the water and a cracked peace treaty document in the foreground, abstract style, no real people or flags, muted warm tones with a tense atmosphere."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A stylized illustration of a negotiation table with two hands almost shaking, but a broken drone and a military boot are visible under the table, symbolizing fragile peace and hidden conflict, no text or identifiable logos, semi-abstract style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An abstract representation of oil price fluctuation: a jagged red arrow plunging downward against a background of a partially open sea strait with mine warning symbols fading away, no real people, clean graphic style."
+    }
+  ]
+}
