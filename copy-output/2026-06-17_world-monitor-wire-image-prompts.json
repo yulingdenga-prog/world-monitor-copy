@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized digital illustration of the Strait of Hormuz at sunset, with a massive oil tanker navigating through a narrow waterway. On one side, a glowing American flag is faintly visible in the sky; on the other, a silhouette of an Iranian naval vessel. The scene is tense but not violent, with dark clouds gathering overhead. No real faces, no text, no logos."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A minimalist infographic-style illustration showing a human brain connected to a glowing microchip via a thin fiber optic line. The chip is labeled 'NEO' in a futuristic font, and the background is a calm, abstract blue. No human faces, no medical gore, no text other than 'NEO'."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration of a broken handshake between two silhouetted figures, one wearing a US-style suit and the other a Middle Eastern robe. Between them, a cracked piece of paper labeled 'Agreement' lies on the ground. The background is a chaotic swirl of oil barrels and missiles. No real faces, no flags, no readable text except 'Agreement'."
+    }
+  ]
+}
