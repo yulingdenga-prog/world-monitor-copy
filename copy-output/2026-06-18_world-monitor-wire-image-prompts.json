@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized illustration of a globe with the Middle East highlighted, showing a broken chain link near Iran and a Chinese yuan symbol floating above, with an oil tanker silhouette in the background. No text, no real people, no flags. Abstract geopolitical concept art in muted earth tones."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration of the Strait of Hormuz, showing a narrow waterway clogged with dozens of small ship silhouettes, with a large broken chain floating on the water surface and a drone shadow overhead. No real ships, no flags, no people. Dark blue and grey color palette, dramatic lighting."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An abstract image showing two hands reaching toward each other over a stylized map of the Middle East, with a Chinese lantern and an Iranian dome silhouette in the background. No real people, no text, no flags. Warm amber and gold tones, diplomatic negotiation vibe."
+    }
+  ]
+}
