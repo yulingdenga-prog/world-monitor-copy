@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized illustration of a tense maritime scene at the Strait of Hormuz at sunset, with a large cargo ship silhouetted against a hazy sky, and a small military speedboat with warning lights in the foreground. The mood is ominous and geopolitical. No flags, text, or identifiable real people. Digital painting style."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "An abstract illustration of a torn peace treaty document with a handshake in the background turning into a clenched fist. The scene conveys broken promises and diplomatic tension. No text, flags, or real people. Watercolor and ink style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual image of a large world map with the Middle East region glowing in orange and red, surrounded by dark storm clouds. A single broken chain lies across the Strait of Hormuz. No text, flags, or real people. Minimalist vector art style."
+    }
+  ]
+}
