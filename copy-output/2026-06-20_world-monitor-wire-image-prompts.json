@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dark, dramatic digital illustration of the Strait of Hormuz at sunset, with a massive cargo ship silhouetted against a fiery orange sky, a closed gate symbol floating above the water, and abstract geopolitical tension lines in the background, no text or real people."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A stylized illustration of a diplomatic negotiation table with two flags, one American and one Iranian, facing each other, with a Swiss mountain landscape visible through a window, symbolizing mediation, neutral colors, no real people or text."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An abstract digital illustration of a broken oil pipeline shaped like a question mark, with a globe in the background showing the Middle East and Europe, dark blue and orange tones, no real people, no text, no blood or violence."
+    }
+  ]
+}
