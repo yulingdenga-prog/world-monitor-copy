@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized illustration showing a diplomatic handshake in the foreground, with a globe in the background showing the Middle East region, oil tankers and military aircraft silhouettes in the sky, creating a tense negotiation atmosphere. No real portraits, text, or flags. Digital art style, muted colors with warm orange highlights."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A symbolic illustration of a narrow sea strait with a large oil tanker blocked by a chain or barrier, with a shadowy silhouette of a military ship in the distance. Stormy sky with lightning. No real flags, text, or people. Digital painting, cinematic composition."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A split scene showing a diplomatic negotiation table on one side with documents and pens, and a destroyed urban landscape with smoke on the other side, representing the contrast between talks and ongoing conflict. Abstract, symbolic art style. No real portraits or text."
+    }
+  ]
+}
