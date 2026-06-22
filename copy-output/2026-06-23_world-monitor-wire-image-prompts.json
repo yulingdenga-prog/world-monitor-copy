@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A tense diplomatic negotiation scene with an American flag and an Iranian flag placed on a table, papers scattered, a blurred figure of a negotiator walking away from the table, dramatic lighting with shadows, abstract and symbolic style, no visible faces, no text or logos."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A large burning oil depot at night with smoke rising into the sky, silhouette of a damaged bridge in the background, distant drone in the sky, dark and moody atmosphere, cinematic illustration style, no real people or identifiable military insignia."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A chessboard with a nuclear symbol on one side and an oil barrel on the other, a hand reaching to knock over a king piece, abstract geopolitical metaphor, minimalist vector illustration style, neutral colors, no text."
+    }
+  ]
+}
