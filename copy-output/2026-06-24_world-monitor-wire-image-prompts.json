@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A minimalist news illustration showing a cracked globe with a red flag and a warship silhouette on the horizon, dramatic storm clouds overhead, no text or identifiable faces, muted earth tones with a red accent."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A symbolic illustration of a large warship emerging from stormy sea waves, with a faint nuclear radiation symbol overlaid on the hull, dark blue and gray palette, no text or real ship markings, abstract and dramatic."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An abstract illustration of a closed door with a golden key floating in front, surrounded by question marks and faint map outlines of the Middle East, warm orange and gold tones, no text or recognizable symbols."
+    }
+  ]
+}
