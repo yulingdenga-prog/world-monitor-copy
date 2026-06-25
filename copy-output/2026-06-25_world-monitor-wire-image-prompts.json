@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized world map with glowing red hotspots over East Asia (Korean Peninsula), Japan, and northern South America (Venezuela), with faint news headline text in the background, digital art style, no real people or identifiable text, suitable for a news commentary illustration."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration of a large warship silhouette on a stormy sea, with a faint nuclear symbol glowing on its hull, representing naval nuclear ambitions, no real flags or text, dramatic sky, digital painting style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A scene of a collapsed building in a coastal city with rescue workers using flashlights in the rubble, debris and dust, a small group of people huddled nearby, no identifiable faces or logos, somber and realistic style, representing earthquake disaster relief."
+    }
+  ]
+}
