@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A photorealistic digital illustration of a small light aircraft crashing into the side of a modern skyscraper in a bustling city center, with smoke and debris visible, emergency vehicles gathering below, dramatic sky, no visible human figures, no text or logos, cinematic lighting."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration of the Strait of Hormuz at sunset, showing a commercial cargo ship and a military drone in the sky above, tense atmosphere, stylized waves, no flags or identifiable markings on vessels, no human figures, no text."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A minimalist digital illustration showing a broken chain link and a gavel next to it, symbolizing legal accountability and national security breaches, muted colors, abstract style, no text, no recognizable portraits."
+    }
+  ]
+}
