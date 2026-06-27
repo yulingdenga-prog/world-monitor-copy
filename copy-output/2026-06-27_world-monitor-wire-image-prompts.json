@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A panoramic digital illustration of Beijing's skyline at dusk, with a small aircraft silhouette approaching a towering skyscraper in the center, financial data streams and oil barrel symbols floating in the sky, in a semi-abstract news illustration style, no readable text or real faces."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A split-screen digital illustration showing a stock market ticker with abstract green numbers on one side and a red warning symbol on the other, with a silhouette of a drone fleet in the background, no readable text except abstract numerical shapes."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A geopolitical illustration of the Middle East with a cracked peace agreement document in the center, a missile silhouette on one side, and abstract protest crowd shapes on the other, all rendered in muted earth tones with abstract forms, no real faces or symbols."
+    }
+  ]
+}
