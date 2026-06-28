@@ -1,0 +1,77 @@
+# 北京一天之内：飞机撞中信大厦、AI逆袭、黄金狂买——这节奏谁顶得住？
+
+6月28日的北京，注定不平静。
+
+一架Sunward SA60L轻型飞机直接撞上了中信大厦，碎片四溅，引发小型火灾，大楼紧急疏散。截至目前，伤亡数字尚未确认，但这事儿已经够让人捏把冷汗了——北京核心区上空的安全问题，瞬间被推上风口浪尖。
+
+与此同时，北京还在悄悄干另一件大事：推动基于人民币的石油结算体系，给伊朗和俄罗斯提供绕过西方制裁的通道。这招儿，够狠。
+
+而在科技战场，中国AI模型GLM-5.2在漏洞检测基准测试上，以六分之一的成本干翻了Anthropic的Claude Code。北京在网络安全领域的追赶速度，比很多人想象的快得多。
+
+同一天，中国5月黄金进口量达到163吨，创下2024年3月以来新高，前五个月总进口量同比暴增76%。央行连续第19个月增持，总持有量已达2331吨的历史纪录。全球不确定性下，中国正在疯狂囤金。
+
+---
+
+## 韩国股市崩了：保证金贷款创纪录，强制平仓吓死人
+
+韩国股市最近不太平。6月28日的数据显示，韩国保证金贷款总额已飙升至约260亿美元，自2025年初以来翻了一倍。最近市场回调期间，强制平仓比例单日飙升至保证金贷款总额的4%到5%，远高于1%的正常水平。
+
+周四下午，韩国交易所直接触发了熔断机制，基准指数暴跌超过8%后暂停交易。这背后，是芯片股一年暴涨后的泡沫破裂——SK海力士和三星今年迄今分别暴涨348%和199%，但“涨得越高，摔得越惨”。
+
+更热闹的是，韩国前第一夫人金建希因受贿罪被判7年监禁，政治动荡叠加市场崩盘，韩国人这个夏天不好过。
+
+---
+
+## 巴基斯坦：伊朗船员刚走，炸弹就响了
+
+卡拉奇这两天也够乱。
+
+22名伊朗船员从一艘被美国扣押的油轮上被转移至伊朗驻卡拉奇领事馆，看起来是外交遣返的常规操作。但紧接着，一辆汽车炸弹在信德省游骑兵队设施外爆炸，3名士兵死亡，4人受伤。3名武装分子被击毙，1人被俘。巴基斯坦军方誓言“报复行动”。
+
+目前没有证据表明这两件事有关联，但卡拉奇的治安状况，显然不容乐观。
+
+---
+
+## 霍尔木兹海峡：美伊直接交火了，伊朗要“独家管理”
+
+中东那边，局势彻底升级了。
+
+美国在临时豁免到期后，重新对俄罗斯海上石油出口实施制裁。但更炸裂的是霍尔木兹海峡——美伊双方已经直接交火。
+
+美国空袭了伊朗在霍尔木兹海峡附近的军事目标，伊朗革命卫队随即宣称对科威特和巴林的8个美军基地发动了报复性打击。巴林上空拉响了防空警报，居民被要求寻找掩体。
+
+伊朗外长阿拉格齐放话：根据与美国签署的谅解备忘录，霍尔木兹海峡将在30天内恢复战前通行能力，但由伊朗独家管理。任何试图建立新通道的行为，只会让局势更复杂、更紧张。
+
+伊朗国家电视台随后宣布了“指定安全航线”：进港船只从霍尔木兹岛以南通过，出港船只从拉拉克岛以南通过。这等于直接挑战国际社会开辟替代航道的努力——而那条替代航道，已经搁浅了。
+
+---
+
+## 杰米·戴蒙：中国是“潜在对手”，美国依赖中国供应链是耻辱
+
+摩根大通CEO杰米·戴蒙又放炮了。
+
+他说，美国应该把中国视为“潜在对手”，而不是“全面对手”。但他更狠的是批评美国在关键领域对中国供应链的严重依赖——他称之为“悲伤和尴尬”。
+
+戴蒙还指出，中国与几乎所有邻国（日本、韩国、菲律宾、印尼、越南、印度等）关系紧张，这是“自我孤立”。这番来自全球系统重要性银行掌门人的言论，很可能给华盛顿关于贸易限制和产业政策的辩论添一把火。
+
+---
+
+## 日本：6.0级地震，无伤亡报告
+
+日本本州东海岸附近海域发生6.0级地震，欧洲地中海地震中心记录到了这一事件。目前没有人员伤亡或财产损失的报告。对日本来说，这算是“常规操作”了。
+
+---
+
+## 阿富汗-巴基斯坦边境：强震来袭
+
+阿富汗和巴基斯坦边境地区发生强烈地震，震感波及两国。目前没有伤亡报告，但震感“显著”。兴都库什地区近期地震活动频繁。
+
+---
+
+**封面图提示词：**
+A dramatic digital illustration of a light aircraft crashing into a modern skyscraper in Beijing at dusk, with smoke and debris scattering, fire trucks and emergency vehicles on the ground, city skyline in background, cinematic lighting, no visible text or logos, photorealistic style.
+
+**插图提示词：**
+A stylized map illustration of the Strait of Hormuz with a red line showing Iran's designated safe transit routes, military silhouettes of drones and missiles in the sky, oil tankers in the sea, tension and conflict atmosphere, no real flags or readable text, vector art style.
+
+A minimalist financial chart illustration showing a red downward arrow plunging through a stock market index line, with the Korean flag silhouette in background, scattered coins and paper documents flying, dark moody tones, no real text or numbers, abstract and symbolic style.

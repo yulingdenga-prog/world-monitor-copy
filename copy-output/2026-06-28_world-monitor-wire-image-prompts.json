@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of a light aircraft crashing into a modern skyscraper in Beijing at dusk, with smoke and debris scattering, fire trucks and emergency vehicles on the ground, city skyline in background, cinematic lighting, no visible text or logos, photorealistic style."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A stylized map illustration of the Strait of Hormuz with a red line showing Iran's designated safe transit routes, military silhouettes of drones and missiles in the sky, oil tankers in the sea, tension and conflict atmosphere, no real flags or readable text, vector art style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A minimalist financial chart illustration showing a red downward arrow plunging through a stock market index line, with the Korean flag silhouette in background, scattered coins and paper documents flying, dark moody tones, no real text or numbers, abstract and symbolic style."
+    }
+  ]
+}
