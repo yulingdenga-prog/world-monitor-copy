@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized digital illustration of a world map with a red-hot wire connecting major cities like Beijing, Washington D.C., Doha, and Seoul. The wire is glowing, with sparks flying off it. The background is a dark, abstract space. No real people, flags, or text. Style: news illustration, dramatic lighting, high contrast."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing a Chinese submarine rising from the ocean surface, with a silhouette of a skyscraper (like CITIC Tower) in the background behind a subtle, stylized 'rare earth' symbol. The scene is at dusk with a tense, geopolitical atmosphere. No real military insignia, flags, or text. Style: news illustration, photorealistic but abstract."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A courtroom scene with a gavel striking a block, and a stylized ballot box with a 'mail-in' envelope flying towards it. In the background, a faint silhouette of the U.S. Supreme Court building. The mood is tense and divided. No real people, flags, or text. Style: editorial cartoon, clean lines, symbolic."
+    }
+  ]
+}
