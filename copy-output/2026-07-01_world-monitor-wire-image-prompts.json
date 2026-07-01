@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A stylized digital illustration showing a world map with glowing hotspots in Beijing, the Strait of Hormuz, and Moscow. The map is dark blue with orange and red glowing dots connected by thin lines, suggesting global tension and news events. No text, no real faces, no flags. Cinematic lighting, newsroom aesthetic."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A symbolic illustration of the Strait of Hormuz at sunset, with a small ship passing through narrow water between two rocky shores. In the foreground, a hand reaches out as if collecting a toll. The scene is rendered in warm orange and cool blue tones, abstract and geopolitical in style. No real flags, no text, no people's faces."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration showing a long queue of cars at a gas station under a grey sky. The gas pumps have 'out of service' signs. In the background, a refinery is shown with smoke rising, partially damaged. The style is muted, somber, and editorial. No recognizable brand logos, no real people's faces, no text."
+    }
+  ]
+}
