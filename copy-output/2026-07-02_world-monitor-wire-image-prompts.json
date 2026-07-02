@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A surreal digital illustration showing a small light aircraft silhouette approaching a towering glass skyscraper in a hazy cityscape, with emergency lights flashing below, abstract and dramatic, no readable text or logos, cinematic lighting, wide angle view"
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A split composition: left side shows a crowded mosque interior with black flags and mourners in dark clothing, right side shows a modern negotiation table with empty chairs and documents, symbolic of political transition and uncertainty, no identifiable faces, muted colors with warm amber tones"
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An abstract collage showing a cracked fuel gauge needle over a map of Russia, with small drone silhouettes hovering near refinery towers in the background, industrial grey and orange palette, no text or logos, conveying energy crisis and infrastructure vulnerability"
+    }
+  ]
+}
