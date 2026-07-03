@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic wide-angle illustration of a crowded funeral procession in Tehran, with hundreds of mourners holding green banners and flags, set against a hazy skyline of modern buildings and minarets. The scene conveys solemnity and geopolitical tension, with no identifiable faces or readable text. Digital painting style, muted earth tones with pops of green and gold."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A split-screen illustration contrasting a tense diplomatic negotiation table with a military aircraft tarmac. On one side, silhouetted figures in suits sit across from each other, with a document and a globe between them. On the other side, a large cargo plane is being loaded, with subtle oil barrel shapes in the background. No text, no flags, no identifiable people. Stylized vector art, cool blues and warm oranges."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "An abstract illustration of a cracked hourglass, with sand flowing from one side labeled 'diplomacy' (represented by an olive branch) to the other side labeled 'conflict' (represented by a stylized lightning bolt). The hourglass sits on a map-like background with faint, blurred outlines of continents. No readable text or recognizable symbols. Surrealist digital art, high contrast, moody lighting."
+    }
+  ]
+}
