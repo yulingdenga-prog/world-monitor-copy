@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A conceptual illustration showing a world map with glowing hotspots: a large crowd silhouette in Iran, a data server with semiconductor chips in South Korea, a power grid map of China, and a thermometer showing extreme heat over the United States. The style is a modern, flat vector illustration with a dark blue background and neon orange and cyan accents. No text, no real faces, no flags with identifiable symbols."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A stylized illustration of a massive crowd of mourners in Tehran, with a large Quranic book open in the foreground, pages glowing with abstract Arabic calligraphy. In the background, a silhouette of a leader is absent from a podium, replaced by a shadowy figure. The color palette is dark red, gold, and black. No real faces, no political symbols, no text."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration of the United States Capitol building under a blazing sun with a cracked thermometer showing 115°F. In the foreground, a canceled parade banner lies on the ground, and a broken firework launcher sits unused. The style is a semi-realistic digital painting with warm, oppressive colors. No real people, no flags, no text."
+    }
+  ]
+}
