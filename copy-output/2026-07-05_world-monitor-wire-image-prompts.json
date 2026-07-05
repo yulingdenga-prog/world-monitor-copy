@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of a massive crowd of mourners at an airport tarmac under a hazy orange sky, with red flags waving in the wind, a distant silhouette of a military aircraft, and a sense of tension and scale, no visible faces or text, cinematic wide angle, photorealistic style"
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A conceptual illustration showing a globe with glowing red lines connecting Iran, China, and the Strait of Hormuz, with a stylized semiconductor chip and an oil barrel icon on the map, dark blue background with subtle golden highlights, no real country borders or text, abstract geopolitical style"
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A split-scene digital illustration: left side shows a chaotic storm with crowds evacuating an open mall area under dark clouds and lightning, right side shows a formal meeting room with two silhouette figures facing each other across a table with a small American and Israeli flag, no visible faces or text, dramatic lighting, semi-realistic style"
+    }
+  ]
+}
