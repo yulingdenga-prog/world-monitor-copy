@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration showing a ballistic missile trail arcing across a stylized map of the South Pacific Ocean, with subtle glowing lines representing geopolitical tensions, in a news commentary illustration style, no real people, no text, no flags, no violence."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "An abstract digital illustration depicting a tense diplomatic standoff, showing a stylized F-35 fighter jet silhouette and a broken chain link symbolizing a blocked deal, set against a blurred background of a capitol building, news commentary style, no real people, no text, no logos."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration of a crowded funeral procession with abstract figures in black, moving through a stylized cityscape with a large red sun setting in the background, symbolizing geopolitical change and mourning, news commentary style, no identifiable faces, no text, no violent imagery."
+    }
+  ]
+}
