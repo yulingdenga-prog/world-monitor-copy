@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A powerful abstract image showing a submarine silhouette emerging from dark ocean waves, with a stylized map of the world in the background, conveying geopolitical tension and military power. No text, no real people, no flags. Digital art style, dramatic lighting, blue and grey tones."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A dramatic illustration of a tornado tearing through a small Chinese town, with debris flying and houses damaged. The scene is chaotic but no visible human casualties or gore. Focus on the destructive power of nature. Stormy sky, muted colors, realistic painting style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A stylized illustration of a large oil tanker sailing through a narrow strait, with military drones and missiles in the sky above, creating a tense atmosphere. The scene is abstract, with no visible logos or text on the ship. Focus on the concept of maritime security threat. Dark blue and orange color palette."
+    }
+  ]
+}
