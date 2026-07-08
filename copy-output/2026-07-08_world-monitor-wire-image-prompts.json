@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of a world map with a glowing red hotspot over the Middle East, a dark storm cloud over East Asia, and a faint green tornado over central China. The style is news infographic with a dark blue background, no text, no flags, no real people."
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A stylized illustration of a US Navy warship silhouette on a dark sea under a stormy sky, with oil barrels floating in the foreground and a rising graph line in the background. No real ship names, no flags, no text, abstract and dramatic style."
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration of three stylized aircraft silhouettes (one red, one blue, one yellow) flying in formation over a map outline of the Korean Peninsula. The scene is minimalist, no text, no real people, no flags, with a tense atmosphere."
+    }
+  ]
+}
