@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "filename": "cover.png",
+    "prompt": "A dramatic digital illustration of a shattered ceasefire agreement with a torn paper labeled 'CEASEFIRE' lying on a map of the Middle East, with a burning oil rig in the background and a subtle Chinese flag watermark in the corner, no text, no real people, cinematic lighting, news illustration style"
+  },
+  "illustrations": [
+    {
+      "filename": "illustration-1.png",
+      "prompt": "A dark, somber digital painting of a burning factory building at night with fire trucks and rescue workers silhouetted against the flames, no visible people faces or text, emotional and respectful tone, news illustration style"
+    },
+    {
+      "filename": "illustration-2.png",
+      "prompt": "A conceptual illustration showing a broken chain of rare earth elements connecting a glowing AI data center to a Chinese flag, with a pair of scissors hovering nearby, no text, no real people, clean vector art style, geopolitical commentary illustration"
+    }
+  ]
+}
