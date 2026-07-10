@@ -921,6 +921,16 @@ function Convert-MarkdownToPlainText {
     return (($lines -join "`r`n").Trim() + "`r`n")
 }
 
+function Set-Utf8BomContent {
+    param(
+        [string]$Path,
+        [string]$Value
+    )
+
+    $encoding = New-Object System.Text.UTF8Encoding($true)
+    [System.IO.File]::WriteAllText($Path, $Value, $encoding)
+}
+
 function Split-GeneratedArticleAndImagePrompts {
     param([string]$Text)
 
@@ -1204,7 +1214,7 @@ function Invoke-DeepSeekWireArticle {
 
     $editor = $NewsSource.article.editor
     $baseUrl = if ($editor.baseUrl) { [string]$editor.baseUrl } else { "https://api.deepseek.com" }
-    $model = if ($editor.model) { [string]$editor.model } else { "deepseek-v4-flash" }
+    $model = if ($editor.model) { [string]$editor.model } else { "deepseek-chat" }
     $temperature = if ($null -ne $editor.temperature) { [double]$editor.temperature } else { 0.6 }
     $maxTokens = if ($editor.maxTokens) { [int]$editor.maxTokens } else { 4000 }
     $endpoint = $baseUrl.TrimEnd("/") + "/chat/completions"
@@ -1213,49 +1223,30 @@ function Invoke-DeepSeekWireArticle {
     $generatedLabel = Format-Date $GeneratedAt $TimeZone "yyyy-MM-dd HH:mm"
 
     $systemPrompt = @"
-你是一名中文公众号新闻编辑。你的任务是只根据用户提供的 World Monitor 顶部 THE WIRE 时间线信息，生成可以直接发布的中文文章。
+You are a Chinese-language international news intelligence analyst. Use only the World Monitor top THE WIRE timeline items provided by the user. Produce a practical Chinese briefing for daily reading.
 
-要求：
-1. 不要编造事实，不要添加输入里没有的伤亡数字、表态或结论。
-2. 不要出现“WIRE 信息显示”“本文为自动整理”“下面这篇稿件”等说明性字眼。
-3. 不要写版权免责声明，不要解释你如何写作，只输出正文。
-4. 先写中国、中国周边、亚太安全相关内容，再写中东、俄乌、欧美，热度较低但有价值的国家和地区放在后面。
-5. 保留不确定性，用“相关信息称”“目前可见信号是”等稳妥表达。
-6. 文章要口语化、有冲突感、不无聊，可以犀利一点，但不能违规：不要煽动仇恨、不要污名化群体、不要鼓励暴力、不要人身攻击、不要把未经证实的信息写成定论。
-7. 写成一篇完整的微信公众号文章，不要只是新闻列表。需要有标题、开头、分段小标题和结尾。
-8. 同时生成 1 张封面图和最多 2 张文章插图的图片提示词。提示词要适合新闻评论插画，不要包含真实人物肖像、血腥暴力、国旗羞辱、敏感标语、品牌商标或可读文字。
-9. 必须严格使用以下输出格式：
+Rules:
+1. Do not write a WeChat public-account article. Do not use clickbait, cover-image prompts, illustration prompts, or any image prompt output.
+2. Do not invent facts. Do not add casualty numbers, official positions, attribution, or conclusions that are not present in the input.
+3. Preserve uncertainty. Use cautious Chinese phrasing when the input is uncertain.
+4. Be direct and analytical, but stay grounded in the provided material. Do not encourage hatred, stigmatize groups, encourage violence, or present unverified claims as settled facts.
+5. Prioritize China, China's neighborhood, and Asia-Pacific security. Then cover the Middle East, Russia-Ukraine, Europe, and the United States. Put lower-heat but still useful countries and regions later.
+6. Write an analysis report, not a raw news list. For each important item, explain what happened, why it matters, and what to watch next.
+7. Use these section headings translated naturally into Chinese: title, today's key points, China and surrounding region, major regional updates, low-heat but worth noting, risk assessment, what to watch next.
+8. Do not include process notes such as public-account wording, image prompts, automatic sorting notes, or publishing disclaimers.
+9. Strictly return only this format:
 <ARTICLE>
-这里写最终公众号正文
+Write the final Chinese briefing here.
 </ARTICLE>
-<IMAGE_PROMPTS_JSON>
-{
-  "cover": {
-    "filename": "cover.png",
-    "prompt": "英文图片提示词"
-  },
-  "illustrations": [
-    {
-      "filename": "illustration-1.png",
-      "prompt": "英文图片提示词"
-    },
-    {
-      "filename": "illustration-2.png",
-      "prompt": "英文图片提示词"
-    }
-  ]
-}
-</IMAGE_PROMPTS_JSON>
 "@
 
     $userPrompt = @"
-生成日期：$DateLabel
-生成时间：$generatedLabel
-观察窗口：最近 $DaysBack 天
-纳入事件数：$($Items.Count)
+Date: $DateLabel
+Generated at: $generatedLabel
+Observation window: last $DaysBack day(s)
+Included event count: $($Items.Count)
 
-请根据以下 THE WIRE 时间线信息生成中文公众号稿件：
-
+Generate the Chinese intelligence briefing from the following THE WIRE timeline items:
 $sourceText
 "@
 
@@ -1400,25 +1391,12 @@ $markdown = $generatedParts.Article
 Set-Content -LiteralPath $markdownPath -Value $markdown -Encoding utf8
 
 $textPath = $null
-$imagePromptPath = $null
-$generatedImagePaths = @()
 if ($TextOut -or $settings.textOutputDir) {
     $textOutputDir = Resolve-ProjectPath $(if ($TextOut) { $TextOut } else { $settings.textOutputDir })
     New-Item -ItemType Directory -Force -Path $textOutputDir | Out-Null
     $textPath = Join-Path $textOutputDir "$baseName.txt"
     $plainText = Convert-MarkdownToPlainText $markdown
-    Set-Content -LiteralPath $textPath -Value $plainText -Encoding utf8
-
-    if ($generatedParts.ImagePromptJson) {
-        $imagePromptPath = Join-Path $textOutputDir "$baseName-image-prompts.json"
-        Set-Content -LiteralPath $imagePromptPath -Value $generatedParts.ImagePromptJson -Encoding utf8
-        $generatedImagePaths = @(Invoke-ArticleImageGeneration $generatedParts.ImagePromptJson $textOutputDir $baseName $settings)
-    }
-}
-elseif ($generatedParts.ImagePromptJson) {
-    $imagePromptPath = Join-Path $outputDir "$baseName-image-prompts.json"
-    Set-Content -LiteralPath $imagePromptPath -Value $generatedParts.ImagePromptJson -Encoding utf8
-    $generatedImagePaths = @(Invoke-ArticleImageGeneration $generatedParts.ImagePromptJson $outputDir $baseName $settings)
+    Set-Utf8BomContent $textPath $plainText
 }
 
 $payload = [pscustomobject]@{
@@ -1433,8 +1411,6 @@ $payload = [pscustomobject]@{
     })
     count = $recentItems.Count
     items = $recentItems
-    imagePromptPath = $imagePromptPath
-    generatedImages = $generatedImagePaths
 }
 
 $payload | ConvertTo-Json -Depth 10 | Set-Content -LiteralPath $jsonPath -Encoding utf8
@@ -1444,10 +1420,4 @@ Write-Host "Markdown: $markdownPath"
 Write-Host "JSON: $jsonPath"
 if ($textPath) {
     Write-Host "TXT: $textPath"
-}
-if ($imagePromptPath) {
-    Write-Host "Image prompts: $imagePromptPath"
-}
-foreach ($imagePath in $generatedImagePaths) {
-    Write-Host "Image: $imagePath"
 }

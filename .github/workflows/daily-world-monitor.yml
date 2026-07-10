@@ -54,6 +54,7 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FRIEND_BCC: ${{ secrets.EMAIL_FRIEND_BCC }}
         run: |
           [Console]::InputEncoding = [System.Text.UTF8Encoding]::new($false)
           [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
@@ -84,42 +85,31 @@ jobs:
             throw "No TXT file found in copy-output."
           }
 
-          $attachmentFiles = @($txt)
-
-          $extraFiles = Get-ChildItem -Path copy-output -File | Where-Object {
-            $_.BaseName.StartsWith($txt.BaseName) -and
-            $_.FullName -ne $txt.FullName -and
-            $_.Extension -in @(".json", ".png", ".jpg", ".jpeg", ".webp")
-          } | Sort-Object Name
-
-          $attachmentFiles += @($extraFiles)
-
           $utf8 = [System.Text.Encoding]::UTF8
 
           $message = New-Object System.Net.Mail.MailMessage
           $message.From = $env:EMAIL_FROM
-          $message.To.Add($env:EMAIL_TO)
+
+          foreach ($address in ($env:EMAIL_TO -split '[,;]' | ForEach-Object { $_.Trim() } | Where-Object { $_ })) {
+            $message.To.Add($address)
+          }
+
+          if (-not [string]::IsNullOrWhiteSpace($env:EMAIL_FRIEND_BCC)) {
+            foreach ($address in ($env:EMAIL_FRIEND_BCC -split '[,;]' | ForEach-Object { $_.Trim() } | Where-Object { $_ })) {
+              $message.Bcc.Add($address)
+            }
+          }
+
           $message.Subject = "Daily World Monitor Copy - " + (Get-Date -Format "yyyy-MM-dd")
           $message.SubjectEncoding = $utf8
           $message.BodyEncoding = $utf8
           $message.HeadersEncoding = $utf8
-          $message.Body = "The daily TXT copy has been generated. Attachments include the TXT copy and image prompts when available."
+          $message.Body = "The daily World Monitor briefing has been generated. See the attached TXT file."
 
-          foreach ($file in $attachmentFiles) {
-            if ($file.Extension -eq ".txt") {
-              $contentType = New-Object System.Net.Mime.ContentType("text/plain")
-              $contentType.CharSet = "utf-8"
-              $attachment = New-Object System.Net.Mail.Attachment($file.FullName, $contentType)
-            } elseif ($file.Extension -eq ".json") {
-              $contentType = New-Object System.Net.Mime.ContentType("application/json")
-              $contentType.CharSet = "utf-8"
-              $attachment = New-Object System.Net.Mail.Attachment($file.FullName, $contentType)
-            } else {
-              $attachment = New-Object System.Net.Mail.Attachment($file.FullName)
-            }
-
-            $message.Attachments.Add($attachment) | Out-Null
-          }
+          $contentType = New-Object System.Net.Mime.ContentType("text/plain")
+          $contentType.CharSet = "utf-8"
+          $attachment = New-Object System.Net.Mail.Attachment($txt.FullName, $contentType)
+          $message.Attachments.Add($attachment) | Out-Null
 
           $client = New-Object System.Net.Mail.SmtpClient($env:SMTP_SERVER, [int]$env:SMTP_PORT)
           $client.EnableSsl = $true
