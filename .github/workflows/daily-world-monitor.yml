@@ -11,8 +11,8 @@ on:
       - "config.json"
       - "README.md"
   schedule:
-    # 20:30 Asia/Shanghai = 12:30 UTC
-    - cron: "30 12 * * *"
+    # 18:00 Asia/Shanghai = 10:00 UTC
+    - cron: "0 10 * * *"
 
 permissions:
   contents: write
