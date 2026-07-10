@@ -94,8 +94,13 @@ jobs:
             $message.To.Add($address)
           }
 
-          if (-not [string]::IsNullOrWhiteSpace($env:EMAIL_FRIEND_BCC)) {
-            foreach ($address in ($env:EMAIL_FRIEND_BCC -split '[,;]' | ForEach-Object { $_.Trim() } | Where-Object { $_ })) {
+          $friendBcc = $env:EMAIL_FRIEND_BCC
+          if ([string]::IsNullOrWhiteSpace($friendBcc)) {
+            $friendBcc = "997151125@qq.com"
+          }
+
+          if (-not [string]::IsNullOrWhiteSpace($friendBcc)) {
+            foreach ($address in ($friendBcc -split '[,;]' | ForEach-Object { $_.Trim() } | Where-Object { $_ })) {
               $message.Bcc.Add($address)
             }
           }
