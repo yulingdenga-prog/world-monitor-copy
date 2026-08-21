@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-08-21T10:19:10.3759617Z",
+  "timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "id": "world-monitor-wire",
+      "name": "World Monitor THE WIRE",
+      "url": "https://world-monitor.com/api/signal-markers"
+    }
+  ],
+  "count": 0,
+  "items": []
+}
